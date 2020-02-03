@@ -43,10 +43,10 @@ theme = "hyde-hyde"
 
 ## Social Accounts
 [params.social]
-    github = "https://github.com/808sandbr"
+    github = "808sandbr"
     # instagram = "<username>"
-    linkedin = "https://linkedin.com/in/scottbrenstuhl"
-    twitter = "https://twitter.com/scottbrenstuhl"
+    linkedin = "scottbrenstuhl"
+    twitter = "scottbrenstuhl"
     # stackoverflow = "<username>"
     email = "scott.brenstuhl@gmail.com"
     # gravatar = "your-email@example.com"

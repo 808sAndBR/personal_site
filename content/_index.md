@@ -1,8 +1,7 @@
 ---
 date: "2014-04-09"
-title: All About Me
+title: A Little About Me
 ---
-
 
 __Location:__  
 &ensp; San Francisco  
@@ -21,7 +20,7 @@ __Hobbies:__
 &ensp; Skincare  
 __Languages:__ R, Python, SQL  
 __Favorite Tools:__ Airflow, Shiny, pgcli, Astronomer, RStudio, ptpython
-
+__Pronouns:__ He/Him  
 __Previous Work:__  
 &ensp; Data Analyst @ MasterClass  
 &ensp; Data Science Consulting  
