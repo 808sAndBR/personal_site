@@ -1,0 +1,70 @@
+## Basic Configuration
+baseurl = "/"
+languageCode = "en"
+
+title = "Scott \b Brenstuhl"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Scott Brenstuhl"
+    title = "Scott Brenstuhl"
+    # description = "..."
+    authorimage = "/img/scott.jpg"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "Scott Brenstuhl"
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "https://github.com/808sandbr"
+    # instagram = "<username>"
+    linkedin = "https://linkedin.com/in/scottbrenstuhl"
+    twitter = "https://twitter.com/scottbrenstuhl"
+    # stackoverflow = "<username>"
+    email = "scott.brenstuhl@gmail.com"
+    # gravatar = "your-email@example.com"
+
+## Main Menu
+#  [[menu.main]]
+#      name = "Posts"
+#      weight = 100
+#      identifier = "posts"
+#      url = "/post/"
+# [[menu.main]]
+#     name = "Portfolio"
+#     identifier = "portfolio"
+#     weight = 200
+#     url = "/portfolio/"
+# [[menu.main]]
+#     name = "About"
+#     identifier = "about"
+#     weight = 300
+#     url = "/about/"
+ 
