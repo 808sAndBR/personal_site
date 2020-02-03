@@ -5,11 +5,11 @@ title: All About Me
 
 
 __Location:__  
-&ensp; San Fransisco  
+&ensp; San Francisco  
 __Work:__  
 &ensp; Data Scientist @ Brandless  
 __Learning:__  
-&ensp; c++ @ City College San Fransisco  
+&ensp; c++ @ City College San Francisco  
 __Hobbies:__  
 &ensp; Cooking (especially sourdough)  
 &ensp; Crossfit  
@@ -17,12 +17,12 @@ __Hobbies:__
 &ensp; Reading (mostly fantasy)  
 &ensp; Open Source projects  
 &ensp; Boardgames  
-&ensp; Expoloring San Fransisco  
+&ensp; Exploring San Francisco  
 &ensp; Skincare  
 __Languages:__ R, Python, SQL  
 __Favorite Tools:__ Airflow, Shiny, pgcli, Astronomer, RStudio, ptpython
 
 __Previous Work:__  
-&ensp; Data Analist @ MasterClass  
+&ensp; Data Analyst @ MasterClass  
 &ensp; Data Science Consulting  
 &ensp; Director of Operations @ Piazza
