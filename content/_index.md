@@ -10,7 +10,7 @@ __Work:__
 __Currently Learning:__  
 &ensp; c++ @ City College San Francisco  
 __Hobbies:__  
-&ensp; Cooking (especially sourdough and breakfast)  
+&ensp; Cooking (especially sourdough and breakfast )  
 &ensp; Crossfit  
 &ensp; Cocktails  
 &ensp; Reading (mostly fantasy)  
@@ -19,7 +19,7 @@ __Hobbies:__
 &ensp; Exploring San Francisco  
 &ensp; Skincare  
 __Tech Favs:__  
-&ensp; __R:__  tidyverse (especially purrr, knitr, ggplot, and testthat)  
+&ensp; __R:__  tidyverse(especially purrr and ggplot), knitr, testthat,  
 &ensp;&ensp;&ensp; Rstudio, Shiny  
 &ensp; __Python:__ Databricks, ptpython, sklearn  
 &ensp; __Data Engineering:__ Redshift, Airflow, Astronomer, pgcli  
