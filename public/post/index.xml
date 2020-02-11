@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Scott  Brenstuhl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rstudio::Conf 2020</title>
+      <link>/post/rstudio-conf-2020/</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rstudio-conf-2020/</guid>
+      <description>General Concepts Work on as small of a part of the problem as you can at a time
+In Jenny Bryan&amp;rsquo;s (https://twitter.com/JennyBryan) keynote she had a realyl insightful point that all the great programmers she has worked with have taken big scary problems and broke them down to as small of a working example as they can. They then make sure they undetstand that part and add then begin adding complexity or moving on to the next piece.</description>
+    </item>
     
     <item>
       <title>test post</title>
@@ -63,6 +73,15 @@ Heading 2 Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum 
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2020-02-04-rstudio-conf-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-02-04-rstudio-conf-2020/</guid>
+      <description></description>
     </item>
     
   </channel>
