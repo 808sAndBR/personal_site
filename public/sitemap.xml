@@ -23,12 +23,12 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2020-02-04T14:09:30-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2020-02-04T14:09:30-08:00</lastmod>
   </url>
   
@@ -118,17 +118,12 @@
   </url>
   
   <url>
-    <loc>/categories/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/hugo/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>/categories/hugo/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -198,7 +193,7 @@
   </url>
   
   <url>
-    <loc>/post/2020-02-04-rstudio-conf-2020/</loc>
+    <loc>/resume/</loc>
     <priority>0</priority>
   </url>
   
