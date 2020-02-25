@@ -2,7 +2,7 @@
 baseurl = "/"
 languageCode = "en"
 
-title = "Scott \b Brenstuhl"
+title = "Scott Brenstuhl"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
