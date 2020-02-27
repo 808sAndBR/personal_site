@@ -52,11 +52,11 @@ theme = "hyde-hyde"
     # gravatar = "your-email@example.com"
 
 ## Main Menu
-#  [[menu.main]]
-#      name = "Posts"
-#      weight = 100
-#      identifier = "posts"
-#      url = "/post/"
+[[menu.main]]
+    name = "Resume"
+    weight = 100
+    identifier = "resume"
+    url = "/resume/"
 # [[menu.main]]
 #     name = "Portfolio"
 #     identifier = "portfolio"
