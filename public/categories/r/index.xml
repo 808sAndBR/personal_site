@@ -6,11 +6,7 @@
     <description>Recent content in R on Scott Brenstuhl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rstudio::Conf 2020</title>
       <link>/post/rstudio-conf-2020/</link>

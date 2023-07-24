@@ -6,12 +6,14 @@
 
     <head>
     <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="/posts/goisforlovers/">
+    
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.65.3" />
+<meta name="generator" content="Hugo 0.115.3">
 
     
     
@@ -29,7 +31,7 @@ This document is a brief primer on using go templates."/>
 <meta property="og:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/goisforlovers/" />
+<meta property="og:url" content="/posts/goisforlovers/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" /><meta property="og:site_name" content="Scott Brenstuhl" />
 
@@ -37,7 +39,7 @@ This document is a brief primer on using go templates." />
     
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github.min.css">
 
 
 
@@ -46,7 +48,7 @@ This document is a brief primer on using go templates." />
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.b6cfeeb4b9d79adf6eb99eadfe9739e8bfc33b37124ba4360c9ec9a315b77531.css" integrity="sha256-ts/utLnXmt9uuZ6t/pc56L/DOzcSS6Q2DJ7JoxW3dTE=">
+<link rel="stylesheet" href="/scss/hyde-hyde.3081c4981fb69a2783dd36ecfdd0e6ba7a158d4cbfdd290ebce8f78ba0469fc6.css" integrity="sha256-MIHEmB&#43;2mieD3Tbs/dDmunoVjUy/3SkOvOj3i6BGn8Y=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -73,7 +75,11 @@ This document is a brief primer on using go templates." />
   <div class="container ">
     <div class="sidebar-about">
       <span class="site__title">
-        <a href="/">Scott Brenstuhl</a>
+        <a href="/">
+        
+          Scott Brenstuhl
+        
+        </a>
       </span>
       
         
@@ -114,6 +120,7 @@ This document is a brief primer on using go templates." />
 	
 	
 	
+	
 	<a href="https://github.com/808sandbr" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
 	
 	
@@ -131,7 +138,12 @@ This document is a brief primer on using go templates." />
 	
 	
 	
+	
+	
 	<a href="mailto:scott.brenstuhl@gmail.com" rel="me"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
 	
 </section>
 
@@ -139,7 +151,7 @@ This document is a brief primer on using go templates." />
     </div>
     
 <div class="copyright">
-  &copy; 2020 Scott Brenstuhl
+  &copy; 2023 Scott Brenstuhl
   
     <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
   
@@ -400,12 +412,12 @@ benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
 of some pages to turn off the TOC from being displayed.</p>
 <p>Here is the example front matter:</p>
-<pre><code>---
-title: &quot;Permalinks&quot;
-date: &quot;2013-11-18&quot;
+<pre tabindex="0"><code>---
+title: &#34;Permalinks&#34;
+date: &#34;2013-11-18&#34;
 aliases:
-  - &quot;/doc/permalinks/&quot;
-groups: [&quot;extras&quot;]
+  - &#34;/doc/permalinks/&#34;
+groups: [&#34;extras&#34;]
 groups_weight: 30
 notoc: true
 ---
@@ -420,32 +432,32 @@ notoc: true
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
 <p>For instance, you might declare:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">params</span>:
-  <span style="color:#66d9ef">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
-  <span style="color:#66d9ef">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
-  <span style="color:#66d9ef">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
-</code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
+</span></span></code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
 provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
 you would declare it to be HTML-safe, so that the HTML entity is not escaped
 again.  This would let you easily update just your top-level config file each
 January 1st, instead of hunting through your templates.</p>
-<pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
-&lt;div class=&quot;text-center&quot;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
+<pre tabindex="0"><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+&lt;div class=&#34;text-center&#34;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
 &lt;/footer&gt;{{end}}
 </code></pre><p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
 is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
 and skips the block if the variable is absent:</p>
-<pre><code>{{with .Site.Params.TwitterUser}}&lt;span class=&quot;twitter&quot;&gt;
-&lt;a href=&quot;https://twitter.com/{{.}}&quot; rel=&quot;author&quot;&gt;
-&lt;img src=&quot;/images/twitter.png&quot; width=&quot;48&quot; height=&quot;48&quot; title=&quot;Twitter: {{.}}&quot;
- alt=&quot;Twitter&quot;&gt;&lt;/a&gt;
+<pre tabindex="0"><code>{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
+&lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
+&lt;img src=&#34;/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
+ alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
 &lt;/span&gt;{{end}}
 </code></pre><p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
 so, such as in this example:</p>
-<pre><code>&lt;nav class=&quot;recent&quot;&gt;
+<pre tabindex="0"><code>&lt;nav class=&#34;recent&#34;&gt;
   &lt;h1&gt;Recent Posts&lt;/h1&gt;
   &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
-    &lt;li&gt;&lt;a href=&quot;{{.RelPermalink}}&quot;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
   {{end}}&lt;/ul&gt;
 &lt;/nav&gt;
 </code></pre>
@@ -460,8 +472,8 @@ so, such as in this example:</p>
     </a>
     
     
-    <a href="/post/2015-07-23-r-rmarkdown/" class="navigation-next">
-      <span class="navigation-tittle">Hello R Markdown</span>
+    <a href="/posts/migrate-from-jekyll/" class="navigation-next">
+      <span class="navigation-tittle">Migrate to Hugo from Jekyll</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     
@@ -481,20 +493,17 @@ so, such as in this example:</p>
         
     
 
-<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
 
 
     
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
         
-    
     <script type="text/javascript">
         
         hljs.initHighlightingOnLoad();
     </script>
     
-
 
 
 
