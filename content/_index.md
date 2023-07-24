@@ -17,11 +17,6 @@ __Hobbies:__
 &ensp; Boardgames  
 &ensp; Exploring San Francisco  
 &ensp; Skincare  
-# __Tech Faves:__  
-# &ensp; __R:__  tidyverse(especially purrr and ggplot), knitr, testthat,  
-# &ensp;&ensp;&ensp; Rstudio, Shiny  
-# &ensp; __Python:__ Databricks, ptpython, sklearn  
-# &ensp; __Data Engineering:__ Redshift, Airflow, Astronomer, pgcli  
 __Pronouns:__ He/Him  
 __Previous Work:__  
 &ensp; Senior Data Engineer @ Extend (Their first data hire)  
