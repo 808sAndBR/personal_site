@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Soundboard
+ed_soundboard/node_modules
+ed_soundboard/dist
+.DS_Store
