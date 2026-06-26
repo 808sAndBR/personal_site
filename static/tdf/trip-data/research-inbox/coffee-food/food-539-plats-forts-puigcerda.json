@@ -1,0 +1,57 @@
+{
+  "type": "food",
+  "name": "539 Plats Forts",
+  "stageId": "trip-jul-06",
+  "tripArea": "Puigcerda / Cerdanya",
+  "coordinates": {
+    "lat": 42.4316,
+    "lng": 1.9276
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=539%20Plats%20Forts%20Puigcerda",
+  "summary": "A tiny eight-seat Puigcerda destination counter for a serious Cerdanya meal if the itinerary allows a reservation.",
+  "whyItMatters": "Stage 3 brings the trip through Puigcerda, and this is the most distinctive local food lead found: small, product-driven, and tied to mountain/Catalan sourcing rather than generic tourist dining.",
+  "pros": [
+    "Reported as an eight-seat counter, making it highly memorable",
+    "Press coverage emphasizes weekly changing market-driven menus and local/small producers",
+    "Good fit for a special Puigcerda evening rather than quick race food"
+  ],
+  "cons": [
+    "Very limited seating means reservations may be difficult",
+    "Official hours and booking channel were not confirmed from a primary source",
+    "Coordinates are approximate from map search context and need verification"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown; verify directly before planning around it.",
+    "reservation_needed": "Yes, very likely essential due to tiny capacity.",
+    "takeaway_options": "No.",
+    "distance_from_base": "Unknown until lodging is confirmed; in Puigcerda.",
+    "distance_from_viewing_point": "Useful only if staying/eating in Puigcerda around Stage 3; exact viewing point TBD.",
+    "transit": "Central Puigcerda access likely walkable if staying in town; verify exact address.",
+    "parking": "Unknown.",
+    "road_closure_notes": "No specific closure information found; Stage 3 race traffic around Puigcerda may affect access."
+  },
+  "timing": {
+    "best_visit_window": "Dinner in Puigcerda around the Stage 3 stay, if confirmed open.",
+    "race_day_risk": "Medium-high until exact Stage 3 logistics and restaurant hours are confirmed."
+  },
+  "tags": ["puigcerda", "cerdanya", "destination-meal", "tiny-capacity", "needs-verification"],
+  "status": "candidate",
+  "confidence": "low",
+  "sources": [
+    {
+      "title": "El Pais Gastro: 539 Plats Forts",
+      "url": "https://elpais.com/gastronomia/restaurantes/2025-01-23/539-plats-forts-el-restaurante-para-ocho-comensales-de-un-cocinero-que-confia-en-lo-salvaje.html",
+      "note": "Supports the eight-seat format, Puigcerda location, chef Martin Comamala, product-driven cooking, and specific reputation details."
+    },
+    {
+      "title": "El Pais Quadern: Cerdanya restaurants beyond trinxat",
+      "url": "https://elpais.com/quadern/gastronomia/2025-02-28/dos-restaurants-de-la-cerdanya-mes-enlla-del-trinxat-539-plats-forts-i-ca-la-nuria.html",
+      "note": "Supports 539 Plats Forts as a distinctive Puigcerda/Cerdanya restaurant and describes the tasting-menu/counter format."
+    }
+  ],
+  "open_questions": [
+    "Find and verify the official booking/contact channel.",
+    "Confirm exact coordinates, current hours, and July 2026 availability.",
+    "Check whether Stage 3 closures make a same-day dinner practical."
+  ]
+}

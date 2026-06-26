@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-3-n260-puigcerda-junction",
+  "name": "N-260 Puigcerda Junction",
+  "stageId": "trip-jul-06",
+  "tripArea": "Puigcerda",
+  "coordinates": {
+    "lat": 42.4312,
+    "lng": 1.9282
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.4312,1.9282",
+  "roadSegment": "N-260 Puigcerda / N-260-N-152-N-154 route landmark",
+  "estimatedPassageTime": "15:52 / 16:02 / 16:14 local",
+  "elevationMeters": 1200,
+  "summary": "Most directly supported Puigcerda candidate because the official time schedule names N-260 Puigcerda at the route junction.",
+  "whyItMatters": "This matches the itinerary's Puigcerda plan and uses an official schedule point before the race crosses into France.",
+  "access": {
+    "estimated_route_from_base": "From Puigcerda base, walk to the N-260 route area before closures; exact hotel/base location not assumed.",
+    "parking_transit_possibilities": "If already based in Puigcerda, walking is preferable. Parking near the route is unknown and may be prohibited.",
+    "walk_bike_approach_notes": "Walking from town is the safest assumption; do not assume vehicles can cross or use the N-260 after closure.",
+    "road_closure_notes": "Unknown; needs Ajuntament/Servei Catala de Transit or Tour local closure notice."
+  },
+  "pros": [
+    "Official Tour time schedule explicitly names N-260 Puigcerda.",
+    "Likely easier logistics if lodging is in Puigcerda compared with driving to an isolated mountain point.",
+    "Town setting improves food/toilet fallback compared with rural roadside."
+  ],
+  "cons": [
+    "Junction areas can be barrier-heavy and may offer poor public standing angles.",
+    "Traffic closures on the N-260 could isolate one side of town.",
+    "Riders may be moving quickly compared with later climbs."
+  ],
+  "logistics": {
+    "parking": "Unknown; do not rely on N-260 roadside or junction parking.",
+    "transit": "Puigcerda has a rail station on the R3 line, but its usefulness for this trip/base and race-day changes are unknown.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 3,
+    "road_closure_notes": "Needs official Spanish/Catalan municipal traffic restrictions for Stage 3."
+  },
+  "crowdRisk": "medium: official town route point and convenient base, but less iconic than a summit finish.",
+  "bathroomFoodProximity": "Likely better than isolated mountain roads because it is in Puigcerda, but specific accessible toilets/food after closures are unknown.",
+  "escapeRoute": "Walk back into Puigcerda after the race convoy clears, staying on the same side of the route unless an official crossing is open.",
+  "safetyAssessment": "Avoid roundabout islands and junction medians. Use only sidewalks or official spectator zones away from turning vehicles and race convoy lines.",
+  "timing": {
+    "best_arrival_window": "At least 3 hours before passage, earlier if official closures begin before the caravan.",
+    "race_day_risk": "Medium; route point is well-supported but local access is not yet sourced."
+  },
+  "tags": ["stage-3", "puigcerda", "n-260", "town-viewing", "needs-closure-verification"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 3 official page",
+      "url": "https://www.letour.fr/en/stage-3",
+      "note": "Supports Stage 3 route, mountain classification, official N-260 Puigcerda schedule point, and passage-time estimates."
+    },
+    {
+      "title": "TDF trip data official route note",
+      "url": "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/2",
+      "note": "Official ASO ArcGIS layer referenced by the app for Stage 3 route geometry; coordinate matches the app's Puigcerda route point."
+    },
+    {
+      "title": "Puigcerda railway station background",
+      "url": "https://en.wikipedia.org/wiki/Puigcerd%C3%A0_railway_station",
+      "note": "Supports the existence/location context of Puigcerda rail access; does not prove race-day rail plans."
+    }
+  ],
+  "open_questions": [
+    "Which exact sidewalks or plazas near the N-260/N-152/N-154 junction are public spectator areas?",
+    "What roads close in Puigcerda, and when do pedestrian crossings stop?",
+    "Are any official spectator toilets, water points, or fan zones planned in Puigcerda?"
+  ]
+}

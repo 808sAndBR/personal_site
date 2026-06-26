@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-6-la-mongie-climb-sector",
+  "name": "La Mongie Climb Sector",
+  "stageId": "trip-jul-09",
+  "tripArea": "Col du Tourmalet / Arreau access",
+  "coordinates": {
+    "lat": 42.9107,
+    "lng": 0.178
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.9107,0.1780",
+  "roadSegment": "D918 La Mongie, about 4.6 km before Col du Tourmalet summit on Stage 6",
+  "estimatedPassageTime": "16:19 / 16:32 / 16:46 local at La Mongie",
+  "elevationMeters": 1800,
+  "summary": "Potentially more serviceable Tourmalet-side option than the summit, with riders still climbing hard and La Mongie nearby.",
+  "whyItMatters": "La Mongie is an official schedule point before the Tourmalet summit, and town/resort infrastructure may make a long mountain wait more manageable if access is allowed.",
+  "access": {
+    "estimated_route_from_base": "From Arreau in normal conditions, road access would involve the Col d'Aspin/Sainte-Marie-de-Campan side before climbing to La Mongie; race-day feasibility unknown.",
+    "parking_transit_possibilities": "Unknown. La Mongie has resort infrastructure in normal conditions, but no official Tour parking/shuttle plan found.",
+    "walk_bike_approach_notes": "Could be a walk/bike target from lower closures if permitted; exact distances and permissions unknown.",
+    "road_closure_notes": "Unknown; requires department/prefecture race-day order."
+  },
+  "pros": [
+    "Official time-schedule point with riders still on the HC Tourmalet climb.",
+    "May have more food/toilet/shelter options than the bare summit if businesses are open and accessible.",
+    "Could reduce summit crowd crush while preserving mountain-stage atmosphere."
+  ],
+  "cons": [
+    "Still dependent on mountain-road closure and parking rules.",
+    "Resort roads can become bottlenecks and may be reserved for race/official vehicles.",
+    "Less symbolic than the summit and likely still crowded."
+  ],
+  "logistics": {
+    "parking": "Unknown; verify official La Mongie parking or shuttle before selecting.",
+    "transit": "Unknown for race day.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 7,
+    "road_closure_notes": "Needs official closure order for D918 and La Mongie access."
+  },
+  "crowdRisk": "high: major climb and official route point, but possibly less compressed than the summit.",
+  "bathroomFoodProximity": "Potentially better than summit because La Mongie is a resort area; actual open/reachable facilities on race day are unknown.",
+  "escapeRoute": "Expect controlled, slow descent after the race; likely back down toward Sainte-Marie-de-Campan/Payolle only when authorities reopen roads.",
+  "safetyAssessment": "Choose a broad, off-road/resort-side area behind barriers; avoid avalanche-gallery edges, blind bends, and convoy pinch points.",
+  "timing": {
+    "best_arrival_window": "Morning or earlier, adjusted to official closure time.",
+    "race_day_risk": "High until access, parking, and facility availability are confirmed."
+  },
+  "tags": ["stage-6", "tourmalet", "la-mongie", "mountain", "services-possible"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 6 official page",
+      "url": "https://www.letour.fr/en/stage-6",
+      "note": "Supports La Mongie as an official schedule point before Col du Tourmalet and provides rider/caravan timing estimates."
+    },
+    {
+      "title": "La Mongie background",
+      "url": "https://en.wikipedia.org/wiki/La_Mongie",
+      "note": "Supports La Mongie resort context, altitude, Tourmalet proximity, and normal access background; not a race-day logistics source."
+    },
+    {
+      "title": "Col du Tourmalet background",
+      "url": "https://en.wikipedia.org/wiki/Col_du_Tourmalet",
+      "note": "Supports the D918 climb/pass context and mountain-road access caveats."
+    }
+  ],
+  "open_questions": [
+    "Will La Mongie be open to general spectators, and from which side?",
+    "Are resort toilets/restaurants open and outside the race perimeter?",
+    "What is the official parking/shuttle/bike-up policy for the Tourmalet stage?"
+  ]
+}

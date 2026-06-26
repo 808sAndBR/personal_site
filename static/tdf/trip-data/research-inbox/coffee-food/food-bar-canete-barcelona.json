@@ -1,0 +1,50 @@
+{
+  "type": "food",
+  "name": "Bar Canete",
+  "stageId": "trip-jul-05",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3796,
+    "lng": 2.1734
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Canete%20Carrer%20de%20la%20Unio%2017%20Barcelona",
+  "summary": "A central Barcelona tapas dinner candidate with a reservation link and polished local-product focus.",
+  "whyItMatters": "After the Montjuic/Barcelona race days, this is a strong destination-meal option that stays in the traditional Spanish/Catalan lane without becoming a tasting-menu project.",
+  "pros": [
+    "Official site has a reservation link",
+    "Central address near La Rambla/Raval makes it useful after sightseeing",
+    "Official site emphasizes fresh Catalan fish, seafood, seasonal vegetables, and local suppliers"
+  ],
+  "cons": [
+    "Official page did not expose current opening hours in browsable text",
+    "Likely crowded and reservation-sensitive during a major event weekend"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown from official page text; verify on reservation platform.",
+    "reservation_needed": "Yes, recommended; official site links to reservations.",
+    "takeaway_options": "No obvious takeaway role.",
+    "distance_from_base": "Unknown until lodging is confirmed; central Barcelona.",
+    "distance_from_viewing_point": "Approximately 2-3 km from Montjuic depending on exact viewing point.",
+    "transit": "Central city transit/walking; verify race-day disruptions.",
+    "parking": "Not recommended.",
+    "road_closure_notes": "No specific closure information found for this business."
+  },
+  "timing": {
+    "best_visit_window": "Barcelona dinner after Stage 1 or Stage 2, if access and reservation timing work.",
+    "race_day_risk": "Medium-high due to event crowds and unknown Sunday hours."
+  },
+  "tags": ["barcelona", "destination-meal", "tapas", "reservation-needed"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Bar Canete official website",
+      "url": "https://barcanete.com/",
+      "note": "Supports address, phone, reservation link, restaurant story, and local seafood/produce positioning."
+    }
+  ],
+  "open_questions": [
+    "Verify July 2026 hours, especially Sunday July 5.",
+    "Check access from Montjuic after Stage 2 once official city race operations are published."
+  ]
+}

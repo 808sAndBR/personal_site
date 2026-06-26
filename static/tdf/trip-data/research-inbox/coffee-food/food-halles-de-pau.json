@@ -1,0 +1,55 @@
+{
+  "type": "food",
+  "name": "Les Halles de Pau",
+  "stageId": "trip-jul-09",
+  "tripArea": "Pau / Pyrenees approach",
+  "coordinates": {
+    "lat": 43.2974,
+    "lng": -0.3694
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Les%20Halles%20de%20Pau%208%20Rue%20Carnot%20Pau",
+  "summary": "A practical pre-Pyrenees provisioning stop for bread, cheese, charcuterie, fruit, pastries, and quick hall dining before the Tourmalet/Gavarnie day.",
+  "whyItMatters": "Stage 6 is logistically fragile; a market run in Pau can solve lunch/snack uncertainty before roads, mountain access, and crowds take over.",
+  "pros": [
+    "Official page lists broad food categories and many traders",
+    "Morning hours are aligned with a race-day supply run",
+    "Parking and bus access information is published"
+  ],
+  "cons": [
+    "Halles are closed Mondays and individual merchants vary between 13:00 and 15:00 closing",
+    "If the group is not actually passing through Pau in the morning, it may be a detour"
+  ],
+  "logistics": {
+    "opening_hours": "Halles des etaliers Tuesday-Saturday 7:00-13:00 or 15:00 depending on merchants; Sunday 9:00-13:00 or 15:00; closed Monday. Carreau des producteurs Tuesday, Wednesday, Friday, Saturday 7:00-13:00.",
+    "reservation_needed": "No for market shopping.",
+    "takeaway_options": "Strong; official trader list includes bakery-pastry, cheese, charcuterie, fruit/vegetables, traiteurs, and more.",
+    "distance_from_base": "Unknown until Pyrenees base is confirmed; central Pau.",
+    "distance_from_viewing_point": "Not near Tourmalet/Gavarnie viewing itself; use before driving south.",
+    "transit": "Official page lists bus stops Les Halles Mediatheques, Les Halles Plante, and Les Halles Republique.",
+    "parking": "Official page lists underground Halles Republique parking open 24/7 with first half-hour free.",
+    "road_closure_notes": "No specific Tour de France closure note on the Halles page; verify Pau stage-start traffic plans."
+  },
+  "timing": {
+    "best_visit_window": "Early morning on the Stage 6 approach, or previous day if staying near Pau.",
+    "race_day_risk": "Medium because stage-start traffic in Pau may affect access despite normal market hours."
+  },
+  "tags": ["pau", "pyrenees", "race-day", "takeaway", "market", "stage-6"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Les Halles de Pau official home page",
+      "url": "https://www.hallesdepau.fr/",
+      "note": "Supports market concept, food/dining role, address, broad product mix, and trader context."
+    },
+    {
+      "title": "Les Halles de Pau practical information",
+      "url": "https://www.hallesdepau.fr/informations-pratiques/",
+      "note": "Supports exact hours, bus access, parking, and trader categories."
+    }
+  ],
+  "open_questions": [
+    "Confirm official Stage 6 Pau road-closure and parking plan.",
+    "Decide whether provisioning should happen in Pau or closer to the Pyrenees base."
+  ]
+}

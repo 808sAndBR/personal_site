@@ -1,0 +1,61 @@
+{
+  "type": "tdf_event",
+  "name": "Tour de France Fan Park and Ateliers du Tour - Bordeaux",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8448,
+    "lng": -0.5738
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Place%20des%20Quinconces%2C%20Bordeaux",
+  "summary": "Official free Tour de France Fan Park at Place des Quinconces on July 9 and July 10.",
+  "whyItMatters": "This gives the Bordeaux stage a confirmed official fan-zone option with live race feed on the finish day.",
+  "pros": [
+    "Official ASO/Tour event with free admission",
+    "Central Bordeaux location near tram hub Quinconces",
+    "Open on both the Pyrenees viewing day evening and the Bordeaux finish day",
+    "Includes giant-screen race feed, partner activities, learn-to-ride track, DJ set, and Thursday concert"
+  ],
+  "cons": [
+    "Finish-day access may be affected by Stage 7 city-center security and road closures",
+    "Official Fan Park page does not give Bordeaux-specific transit disruption details",
+    "Potentially high crowds at Place des Quinconces"
+  ],
+  "logistics": {
+    "opening_hours": "Thu Jul 9 12:00-20:00; Fri Jul 10 10:00-18:00",
+    "reservation_needed": "No; official source says free admission",
+    "distance_from_base": "Unknown",
+    "distance_from_viewing_point": "Depends on final selected Bordeaux finish viewing point; Place des Quinconces is central",
+    "transit": "Check TBM service notices close to July 10; Quinconces is a major tram/bus hub under normal operations",
+    "parking": "Unknown; avoid assuming car access near the finish and Fan Park",
+    "road_closure_notes": "Stage 7 enters Bordeaux via Pont Simone Veil and finishes in Bordeaux per the official Tour timetable; city access plans need official Bordeaux/TBM follow-up."
+  },
+  "timing": {
+    "best_visit_window": "Thu Jul 9 afternoon/evening if arriving from the Pyrenees, or Fri Jul 10 before the finish if transit is confirmed",
+    "race_day_risk": "medium"
+  },
+  "tags": ["official", "fan-zone", "bordeaux", "free", "stage-7", "needs-transit-notice"],
+  "status": "promising",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Tour de France - Fan Parks and Les Ateliers du Tour",
+      "url": "https://www.letour.fr/en/fan-parks",
+      "note": "Official ASO page confirming Bordeaux Fan Park location, free admission, opening dates/hours, and programme."
+    },
+    {
+      "title": "Tour de France Stage 7 - Hagetmau > Bordeaux",
+      "url": "https://www.letour.fr/en/stage-7",
+      "note": "Official stage page showing the Bordeaux approach, Pont Simone Veil, Bordeaux entry, and expected finish timing."
+    },
+    {
+      "title": "TBM - Bordeaux public transport official website",
+      "url": "https://www.infotbm.com/en",
+      "note": "Official Bordeaux transit operator to monitor for tram/bus disruptions around Place des Quinconces and the finish."
+    }
+  ],
+  "open_questions": [
+    "Will TBM publish a Tour-specific tram/bus notice for July 10?",
+    "Where exactly is the Stage 7 finish line relative to Place des Quinconces and which pedestrian routes will remain open?"
+  ]
+}

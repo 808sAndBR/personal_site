@@ -1,0 +1,40 @@
+{
+  "type": "coffee",
+  "name": "Sample Market Coffee",
+  "stageId": "trip-jul-05",
+  "coordinates": {
+    "lat": 44.8378,
+    "lng": 4.3601
+  },
+  "elevationMeters": 190,
+  "summary": "Sample candidate for testing cafe/food intake before researchers add real places.",
+  "pros": [
+    "Could anchor a relaxed morning plan",
+    "Useful if this stage becomes the low-friction day"
+  ],
+  "cons": [
+    "Opening hours are unknown",
+    "Race-day crowding could change normal service"
+  ],
+  "logistics": {
+    "parking": "Unknown",
+    "transit": "Unknown",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 1,
+    "road_closure_notes": "Needs local road check"
+  },
+  "tags": ["sample", "coffee", "verify-hours"],
+  "status": "candidate",
+  "confidence": "low",
+  "sources": [
+    {
+      "title": "Placeholder source",
+      "url": "https://example.com",
+      "note": "Replace with a real source during research"
+    }
+  ],
+  "open_questions": [
+    "Is it open early enough?",
+    "Is it walkable from a viable parking/transit point?"
+  ]
+}

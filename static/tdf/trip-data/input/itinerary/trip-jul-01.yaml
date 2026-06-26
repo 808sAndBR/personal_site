@@ -1,0 +1,26 @@
+id: "trip-jul-01"
+dateLabel: "Wed Jul 1"
+title: "BCN Arrival to Girona"
+routeLabel: "Barcelona airport > Girona"
+base: "Girona"
+summary: "Land in Barcelona, take the train to Girona, and assemble bikes at Casa Cacao."
+dayPlan: |
+  Arrive at BCN, transfer by train to Girona, check into Hotel Boutique Casa Cacao,
+  Assemble bikes
+
+ourRoute:
+  - [41.2974,2.0833]
+  - [41.9823,2.8232]
+resources:
+  -
+    label: "Planning PDF"
+    url: "context/2026 Tour de France.pdf"
+    note: "Source for July 1 Girona lodging and bike-assembly plan"
+  -
+    label: "Girona coffee research summary"
+    url: "trip-data/research-inbox/coffee-food/coffee-summary.md"
+    note: "Static research notes for Girona coffee ideas"
+  -
+    label: "Girona food research summary"
+    url: "trip-data/research-inbox/coffee-food/food-summary.md"
+    note: "Static research notes for Girona food ideas"

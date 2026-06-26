@@ -1,0 +1,58 @@
+{
+  "type": "coffee",
+  "name": "Syra Coffee Santa Clara",
+  "stageId": null,
+  "tripArea": "Girona",
+  "coordinates": {
+    "lat": 41.9835641,
+    "lng": 2.8231441
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.9835641,2.8231441",
+  "summary": "Reliable specialty-coffee chain stop in central Girona with published hours and an easy Old Town/river position.",
+  "whyItMatters": "Good low-friction Girona coffee option when the group wants dependable hours rather than a purely vibes-based cafe hunt.",
+  "pros": [
+    "Official Syra page lists the Santa Clara address and weekend hours",
+    "European Coffee Trip lists Girona as a specialty coffee city and Syra is a Barcelona/Girona specialty roaster",
+    "Central river location should work well before walking the Barri Vell"
+  ],
+  "cons": [
+    "Chain feel, less cycling-cafe personality than Espresso Mafia or La Fabrica",
+    "Hours should still be rechecked close to the trip"
+  ],
+  "logistics": {
+    "opening_hours": "Mon-Fri 08:00-19:00; Sat-Sun 09:00-19:00, per Syra location page accessed 2026-06-22",
+    "reservation_needed": "No",
+    "distance_from_base": "Central Girona; exact lodging distance unknown",
+    "distance_from_viewing_point": "Not tied to a race viewing point",
+    "transit": "Walkable from Girona center; verify from lodging",
+    "parking": "Unknown",
+    "road_closure_notes": "No race-day closure research found for this non-viewing stop"
+  },
+  "timing": {
+    "best_visit_window": "Morning before Girona walking or cycling plans",
+    "race_day_risk": "Low unless city events affect central Girona"
+  },
+  "tags": ["specialty-coffee", "official-hours", "central-girona"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Syra Coffee location page",
+      "url": "https://syra.coffee/pages/location",
+      "note": "Supports Santa Clara address and listed opening hours."
+    },
+    {
+      "title": "European Coffee Trip Girona guide",
+      "url": "https://europeancoffeetrip.com/girona/",
+      "note": "Supports Girona's specialty-coffee context and candidate benchmarking."
+    },
+    {
+      "title": "OpenStreetMap geocode for Carrer de Santa Clara 26",
+      "url": "https://www.openstreetmap.org/search?query=Carrer%20de%20Santa%20Clara%2026%20Girona",
+      "note": "Supports the coordinates used for the address."
+    }
+  ],
+  "open_questions": [
+    "Confirm July 2026 holiday or event hours shortly before travel."
+  ]
+}

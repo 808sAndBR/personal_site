@@ -1,0 +1,56 @@
+{
+  "type": "risk_note",
+  "name": "Puigcerda Stage 3 Local Access and Closure Watch",
+  "stageId": "trip-jul-06",
+  "tripArea": "Puigcerda",
+  "coordinates": {
+    "lat": 42.4312,
+    "lng": 1.9282
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Puigcerda",
+  "summary": "Official Tour timetable places Stage 3 through Puigcerda, but local access/parking notices still need verification.",
+  "whyItMatters": "The itinerary's Stage 3 viewing is Puigcerda, where road closures on N-260 and local access roads will decide how early to arrive and where to park.",
+  "pros": [
+    "Official ASO Stage 3 page confirms race timing through Puigcerda",
+    "Official Grand Depart organizer site confirms Stage 3 runs from Granollers to Les Angles through Catalonia",
+    "Useful placeholder for local closure and parking research"
+  ],
+  "cons": [
+    "No Puigcerda-specific official municipal closure page was found during this pass",
+    "Parking, pedestrian crossings, and local transit are unknown",
+    "The route crosses into France after Puigcerda, so Catalan and French local notices may both matter"
+  ],
+  "logistics": {
+    "opening_hours": "Not applicable",
+    "reservation_needed": "Not applicable",
+    "distance_from_base": "Depends on lodging/base",
+    "distance_from_viewing_point": "Directly relevant to Puigcerda viewing",
+    "transit": "Unknown",
+    "parking": "Unknown; needs municipal or police notice",
+    "road_closure_notes": "Official itinerary lists Puigcerda around 15:52 / 16:02 / 16:14 depending on race pace."
+  },
+  "timing": {
+    "best_visit_window": "Recheck Puigcerda municipal and Grand Depart organizer updates in the final week before Mon Jul 6",
+    "race_day_risk": "high"
+  },
+  "tags": ["official-source-watch", "puigcerda", "stage-3", "road-closures", "parking-needed"],
+  "status": "needs-research",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France Stage 3 - Granollers > Les Angles",
+      "url": "https://www.letour.fr/en/stage-3",
+      "note": "Official ASO stage page with Stage 3 route, timing, and Puigcerda passage context."
+    },
+    {
+      "title": "Ajuntament de Barcelona - Tour de France Barcelona 2026",
+      "url": "https://www.letour.barcelona/en",
+      "note": "Official Grand Depart organizer site confirming Stage 3 and Catalonia Grand Depart context."
+    }
+  ],
+  "open_questions": [
+    "Find Puigcerda municipal road-closure, parking, and pedestrian-crossing notices for July 6.",
+    "Confirm whether N-260 closes hours before the caravan and whether there are official spectator parking lots.",
+    "Check whether French-side access toward Bourg-Madame / Les Angles affects post-race exit."
+  ]
+}

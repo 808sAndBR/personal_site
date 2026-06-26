@@ -1,0 +1,51 @@
+{
+  "type": "food",
+  "name": "Logis de la Cadene",
+  "stageId": null,
+  "tripArea": "Saint-Emilion",
+  "coordinates": {
+    "lat": 44.8946,
+    "lng": -0.1558
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Logis%20de%20la%20Cadene%203%20place%20du%20marche%20au%20bois%20Saint-Emilion",
+  "summary": "A Michelin-starred Saint-Emilion destination meal on a small medieval square, best for a planned wine-country lunch or dinner.",
+  "whyItMatters": "If Saint-Emilion gets one high-memory meal, this has the strongest official case: oldest restaurant in town, Angelus-family ownership context, and a serious wine-country setting.",
+  "pros": [
+    "Official site has a table reservation link",
+    "Official site states it was founded in 1848 and is the oldest restaurant in Saint-Emilion",
+    "Michelin-starred chef and substantial wine focus are documented by the restaurant"
+  ],
+  "cons": [
+    "Likely expensive and reservation-dependent",
+    "Not useful for quick food or race-day logistics",
+    "Official page did not expose current opening hours in browsable text"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown from official page text; verify on booking page.",
+    "reservation_needed": "Yes, essential for a destination meal.",
+    "takeaway_options": "No.",
+    "distance_from_base": "Unknown until Saint-Emilion/Bordeaux lodging and day plan are confirmed.",
+    "distance_from_viewing_point": "Not a race-day viewing food option.",
+    "transit": "Saint-Emilion village access; verify train/taxi or parking plan from Bordeaux.",
+    "parking": "Unknown; medieval village parking/walking constraints likely.",
+    "road_closure_notes": "No Tour de France closure relevance found for this non-viewing day candidate."
+  },
+  "timing": {
+    "best_visit_window": "Saint-Emilion lunch or dinner on a wine-country day, booked well ahead.",
+    "race_day_risk": "Low if scheduled away from race-day transfers; high if squeezed after Stage 7."
+  },
+  "tags": ["saint-emilion", "destination-meal", "michelin", "reservation-needed", "wine-country"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Logis de la Cadene official website",
+      "url": "https://www.logisdelacadene.fr/",
+      "note": "Supports address, reservation link, restaurant history, Saint-Emilion setting, Michelin-starred chef, and wine-country positioning."
+    }
+  ],
+  "open_questions": [
+    "Verify July 2026 opening hours and table availability.",
+    "Confirm whether the group wants a formal starred meal during the Saint-Emilion portion."
+  ]
+}

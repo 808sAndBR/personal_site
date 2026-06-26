@@ -1,0 +1,50 @@
+{
+  "type": "food",
+  "name": "Mercat de la Boqueria",
+  "stageId": "trip-jul-04",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3817,
+    "lng": 2.1717
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mercat%20de%20la%20Boqueria%20Rambla%2091%20Barcelona",
+  "summary": "A reliable Saturday race-day food stop for portable fruit, sandwiches, snacks, and grazing before heading toward Montjuic.",
+  "whyItMatters": "Stage 1 is a Saturday Barcelona day, and the official market hours line up well for a self-catered race-day kit before access gets complicated near the course.",
+  "pros": [
+    "Official hours cover Monday-Saturday 8:00-20:30",
+    "Large market with more than 200 traders according to the official site",
+    "Useful for quick provisions rather than committing to a sit-down meal"
+  ],
+  "cons": [
+    "Very tourist-heavy and can be crowded",
+    "Closed Sundays except special holiday openings, so not useful for Stage 2 Sunday unless a special opening is announced"
+  ],
+  "logistics": {
+    "opening_hours": "Monday-Saturday 8:00-20:30; information point Monday-Saturday 9:00-15:00.",
+    "reservation_needed": "No for market shopping; individual bars/stalls may vary.",
+    "takeaway_options": "Strong; market format supports fruit, bread, charcuterie, prepared bites, and other portable provisions.",
+    "distance_from_base": "Unknown until lodging is confirmed; on La Rambla.",
+    "distance_from_viewing_point": "Approximately 2-3 km from Montjuic Park depending on exact viewing point.",
+    "transit": "Near Liceu metro; walking/taxi access depends on race-day closures.",
+    "parking": "Not recommended for race day.",
+    "road_closure_notes": "No specific market closure found; verify city/TDF access plans before Stage 1."
+  },
+  "timing": {
+    "best_visit_window": "Stage 1 morning or early lunch before moving to Montjuic.",
+    "race_day_risk": "Medium: market should be open Saturday, but crowds and city race access may slow movement."
+  },
+  "tags": ["barcelona", "race-day", "takeaway", "market", "stage-1"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Boqueria Market official website",
+      "url": "https://www.boqueria.barcelona/home",
+      "note": "Supports address, opening hours, market scale, food categories, and online/merchant context."
+    }
+  ],
+  "open_questions": [
+    "Check Barcelona race-day road and metro access once official city notices are available.",
+    "Identify specific stalls for takeaway sandwiches or picnic components if the group wants a more exact shopping plan."
+  ]
+}

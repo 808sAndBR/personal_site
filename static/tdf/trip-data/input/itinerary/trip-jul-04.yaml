@@ -1,0 +1,47 @@
+id: "trip-jul-04"
+dateLabel: "Sat Jul 4"
+title: "Stage 1 - Barcelona TTT"
+routeLabel: "Barcelona > Barcelona, 19.6 km"
+base: "Barcelona"
+raceInfo:
+  startTime: "17:05 first start"
+  endTime: "19:16 last arrival"
+  officialUrl: "https://www.letour.fr/en/stage-1"
+  routeMap:
+    label: "Official stage map"
+    imageUrl: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tdf26-et01-cartepot-v6/71043/0%3A0%2C1169%3A1654-960-0-90/c2e0c"
+    url: "https://www.letour.fr/en/stage-1"
+    note: "Official Tour de France stage page and map"
+  elevationProfile:
+    label: "Official elevation profile"
+    imageUrl: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tdf26-profils-web-fr-e-tape-1/71083/0:0,1004:602-960-0-90/f71aa"
+    url: "https://www.letour.fr/en/stage-1"
+    note: "Official Tour de France stage profile"
+  officialRoute:
+    source: "arcgis"
+    layerUrl: "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/1"
+    where: "Etape=1"
+    note: "Official ASO ArcGIS route geometry from the embedded Tour stage map"
+  route:
+    - [41.4108,2.224]
+    - [41.3926,2.1995]
+    - [41.3916,2.1931]
+    - [41.4041,2.1744]
+    - [41.4027,2.1699]
+    - [41.3924,2.1649]
+    - [41.3789,2.1497]
+    - [41.3711,2.1516]
+    - [41.3678,2.1541]
+    - [41.3642,2.1557]
+    - [41.3649,2.1588]
+summary: "Opening team time trial through Barcelona, passing Sagrada Familia and finishing at Montjuic."
+dayPlan: "Watch from Montjuic Park per the itinerary. Official timing lists first start at 17:05 and last arrival at 19:16."
+resources:
+  -
+    label: "Official Stage 1 page"
+    url: "https://www.letour.fr/en/stage-1"
+    note: "Stage route, timing, map, and profile"
+  -
+    label: "Official Stage 1 map image"
+    url: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tdf26-et01-cartepot-v6/71043/0%3A0%2C1169%3A1654-960-0-90/c2e0c"
+    note: "Official route map image"

@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-1-avinguda-estadi-final-climb",
+  "name": "Avinguda de l'Estadi Final Climb",
+  "stageId": "trip-jul-04",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3642,
+    "lng": 2.1557
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3642,2.1557",
+  "roadSegment": "Avinguda de l'Estadi / final climb toward Cote du Stade Olympique de Montjuic",
+  "estimatedPassageTime": "17:23-19:13 local near Avinguda de l'Estadi; finish 17:26-19:16 local",
+  "elevationMeters": 115,
+  "summary": "Close-to-finish uphill TTT option near the Olympic Stadium sector without committing to the most crowded finish-line barrier.",
+  "whyItMatters": "The official schedule lists Avinguda de l'Estadi just before the final 0.8 km climb at 7%, so teams should be visibly under pressure but still moving slower than flat urban sections.",
+  "access": {
+    "estimated_route_from_base": "Approach on foot from Montjuic/Poble-sec or from higher Montjuic paths; exact route depends on closures.",
+    "parking_transit_possibilities": "Transit/walking is preferable; parking feasibility unknown and likely poor inside Montjuic.",
+    "walk_bike_approach_notes": "Bike/walk approach may work before closures, but spectator bike parking and crossing rules are unknown.",
+    "road_closure_notes": "Unknown; local closure and security-perimeter plan required."
+  },
+  "pros": [
+    "Uphill final-sector viewing should slow the team formations.",
+    "Very close to the official final climb and finish timing.",
+    "Potentially easier to leave than a finish-line barrier if exits toward Poble-sec remain open."
+  ],
+  "cons": [
+    "May fall inside a dense finish/technical/security area.",
+    "Public standing room could be heavily controlled or VIP-only near the Olympic Stadium.",
+    "High crowd density and limited repositioning once the course is active."
+  ],
+  "logistics": {
+    "parking": "Unknown; assume no useful nearby parking unless official race-day parking is announced.",
+    "transit": "Normal Montjuic access includes funicular and buses, but race-day changes are unknown.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 5,
+    "road_closure_notes": "Needs Barcelona municipal/Tour closure map and finish-area perimeter map."
+  },
+  "crowdRisk": "high: opening stage, near final climb and Olympic Stadium finish.",
+  "bathroomFoodProximity": "Unknown on race day; nearby Montjuic venues may have facilities in normal conditions but may be inaccessible behind barriers.",
+  "escapeRoute": "Prefer walking away from the stadium toward Poble-sec or Placa d'Espanya after official reopening; do not rely on crossing the course immediately after last team.",
+  "safetyAssessment": "Use only official spectator areas or broad sidewalks behind barriers; avoid any apex/corner position where team cars or riders track close to the curb.",
+  "timing": {
+    "best_arrival_window": "4-5 hours before first start if targeting a close-in final sector; exact official advice pending.",
+    "race_day_risk": "High because finish-adjacent access is not yet confirmed."
+  },
+  "tags": ["stage-1", "barcelona", "montjuic", "finish-area", "needs-perimeter-map"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 1 official page",
+      "url": "https://www.letour.fr/en/stage-1",
+      "note": "Supports Stage 1 timing, Avinguda de l'Estadi route landmark, Cote du Stade Olympique de Montjuic, and final climb length/gradient."
+    },
+    {
+      "title": "TDF trip data official route note",
+      "url": "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/1",
+      "note": "Official ASO ArcGIS layer referenced by the app for Stage 1 route geometry; coordinate follows the app's Montjuic route sequence."
+    },
+    {
+      "title": "Estadi Olimpic Lluis Companys transport background",
+      "url": "https://es.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_Llu%C3%ADs_Companys",
+      "note": "Supports normal nearby public-transport context around the Olympic Stadium; not an event-day closure source."
+    }
+  ],
+  "open_questions": [
+    "Is Avinguda de l'Estadi public, VIP, technical, or media-restricted on Stage 1?",
+    "Where are the official pedestrian crossings around the Olympic Stadium finish?",
+    "Are nearby toilets or venue facilities open to general spectators?"
+  ]
+}

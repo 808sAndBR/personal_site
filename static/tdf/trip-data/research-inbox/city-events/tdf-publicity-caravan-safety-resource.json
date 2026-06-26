@@ -1,0 +1,54 @@
+{
+  "type": "tdf_event",
+  "name": "Tour de France Publicity Caravan - Safety and Timing Resource",
+  "stageId": "all-viewing-days",
+  "tripArea": "Multiple",
+  "coordinates": {
+    "lat": 0,
+    "lng": 0
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tour%20de%20France%20publicity%20caravan",
+  "summary": "Official Tour resource explaining the publicity caravan and spectator safety rules.",
+  "whyItMatters": "The caravan affects when to be in position before the riders and gives official safety guidance for every roadside viewing day.",
+  "pros": [
+    "Official Tour de France source",
+    "States the caravan precedes riders and describes a long continuous show",
+    "Includes spectator safety rules about staying off the road, not crossing, and watching for vehicles after the caravan"
+  ],
+  "cons": [
+    "Not stage-specific; exact passage times still need the stage timetable or caravan estimator",
+    "Does not list city-specific restrictions or Natura 2000 no-gift zones by stage"
+  ],
+  "logistics": {
+    "opening_hours": "Not applicable",
+    "reservation_needed": "Not applicable",
+    "distance_from_base": "Not applicable",
+    "distance_from_viewing_point": "Relevant to all roadside viewing points",
+    "transit": "Not applicable",
+    "parking": "Not applicable",
+    "road_closure_notes": "Use as safety context; road-closure timing must come from local authorities and stage schedules."
+  },
+  "timing": {
+    "best_visit_window": "Be in position well before the caravan time shown on official stage timetables",
+    "race_day_risk": "medium"
+  },
+  "tags": ["official", "caravan", "safety", "all-stages", "timing-input"],
+  "status": "shortlisted",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Tour de France - Follow the publicity caravan",
+      "url": "https://www.letour.fr/en/follow-the-publicity-caravan",
+      "note": "Official Tour page describing the caravan, its safety cars and vehicles, and spectator safety instructions."
+    },
+    {
+      "title": "Tour de France - Stage pages",
+      "url": "https://www.letour.fr/en/overall-route",
+      "note": "Official route section links to stage timetables that include caravan passage estimates."
+    }
+  ],
+  "open_questions": [
+    "For each selected viewing point, calculate caravan arrival from the official stage timetable.",
+    "Check whether mountain or protected-area sections restrict gift distribution."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "type": "coffee",
+  "name": "Nomad Coffee Bar",
+  "stageId": "trip-jul-05",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3889108,
+    "lng": 2.1771731
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3889108,2.1771731",
+  "summary": "Minimalist specialty espresso bar in El Born from one of Barcelona's best-known roasters.",
+  "whyItMatters": "A top-quality coffee stop for central Barcelona wandering, especially if the itinerary includes the Gothic Quarter, El Born, or old-city walks.",
+  "pros": [
+    "Official Nomad page describes this as its emblematic central coffee bar",
+    "Official page lists weekday hours to 19:00",
+    "European Coffee Trip flags Nomad Coffee Lab as a 2024 winner in Barcelona"
+  ],
+  "cons": [
+    "Official page lists Saturday closed for the Coffee Bar; Sunday hours are not shown",
+    "Not the closest good option for Montjuic race viewing"
+  ],
+  "logistics": {
+    "opening_hours": "Mon-Fri 08:00-19:00; Saturday closed; Sunday not listed on Nomad page accessed 2026-06-22",
+    "reservation_needed": "No",
+    "distance_from_base": "Barcelona base; exact lodging distance unknown",
+    "distance_from_viewing_point": "Not close to Montjuic; use for old-city time rather than race approach",
+    "transit": "Central El Born; walk/metro depending on lodging",
+    "parking": "Not recommended",
+    "road_closure_notes": "No specific closure source checked for this cafe"
+  },
+  "timing": {
+    "best_visit_window": "Weekday morning or afternoon while in El Born/Gothic Quarter",
+    "race_day_risk": "Medium if race weekend timing conflicts with limited Saturday/Sunday hours"
+  },
+  "tags": ["specialty-coffee", "official-hours", "central-barcelona"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Nomad Coffee Barcelona locations page",
+      "url": "https://nomadcoffee.es/pages/locales-nomad-coffee-en-barcelona",
+      "note": "Supports Coffee Bar address, hours, and description as the emblematic Passatge Sert location."
+    },
+    {
+      "title": "European Coffee Trip Barcelona guide",
+      "url": "https://europeancoffeetrip.com/barcelona/",
+      "note": "Supports Nomad's specialty-coffee reputation in Barcelona."
+    },
+    {
+      "title": "OpenStreetMap Nømad Cøffee Passatge Sert",
+      "url": "https://www.openstreetmap.org/search?query=Nomad%20Coffee%20Passatge%20Sert%2012%20Barcelona",
+      "note": "Supports coordinates for the cafe."
+    }
+  ],
+  "open_questions": [
+    "Confirm Sunday status and any special Tour weekend hours."
+  ]
+}

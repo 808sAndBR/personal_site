@@ -1,0 +1,53 @@
+{
+  "type": "cocktails_wine",
+  "name": "La Vinya del Senyor",
+  "stageId": "trip-jul-05",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3835,
+    "lng": 2.1815
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Vinya%20del%20Senyor%20Barcelona",
+  "summary": "Classic Barcelona wine bar by Santa Maria del Mar, useful for a lower-commitment El Born wine stop.",
+  "whyItMatters": "It offers a wine-focused alternative to destination cocktail bars, in an area travelers are likely to visit anyway.",
+  "pros": [
+    "Food & Wine identifies it at Placa de Santa Maria 5 and praises the wine selection and by-the-glass quality.",
+    "El Pais 2025 wine-bar coverage describes it as a long-running Born wine bar with broad Spanish, Catalan, international, and sherry selection."
+  ],
+  "cons": [
+    "Touristy square location can mean crowds.",
+    "Needs official/current-hours verification before final promotion."
+  ],
+  "logistics": {
+    "opening_hours": "Needs current verification.",
+    "reservation_needed": "Unknown; verify for terrace/table planning.",
+    "distance_from_base": "Unknown until Barcelona lodging is fixed.",
+    "distance_from_viewing_point": "Not a Montjuic support stop; use for an evening in El Born.",
+    "transit": "Walkable in El Born/Gothic Quarter; verify from lodging.",
+    "parking": "Not recommended.",
+    "road_closure_notes": "Verify Barcelona race-day mobility before relying on taxis."
+  },
+  "timing": {
+    "best_visit_window": "Early evening before or after dinner in El Born.",
+    "race_day_risk": "Medium on Barcelona race days due to crowding and city movement."
+  },
+  "tags": ["wine-bar", "barcelona", "el-born", "classic"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Food & Wine - Where To Go Next in Barcelona",
+      "url": "https://www.foodandwine.com/news/where-to-go-next-in-barcelona",
+      "note": "Supports address, location by Santa Maria del Mar, and wine-selection reputation."
+    },
+    {
+      "title": "El Pais - Un belga, experto en vinos, elige los mejores bares de España",
+      "url": "https://elpais.com/gastronomia/beber/2025-03-19/un-belga-experto-en-vinos-elige-los-mejores-bares-de-espana.html",
+      "note": "Supports recent wine-bar relevance, founding-era context, broad bottle list, sherry selection, and by-the-glass offering."
+    }
+  ],
+  "open_questions": [
+    "Find an official venue page or current social listing for July 2026 hours.",
+    "Confirm if this overlaps with any food-agent dinner recommendations in El Born."
+  ]
+}

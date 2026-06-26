@@ -1,0 +1,53 @@
+{
+  "type": "coffee",
+  "name": "Black List",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8372278,
+    "lng": -0.5767826
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.8372278,-0.5767826",
+  "summary": "Bordeaux specialty cafe near Place Pey Berland, useful if the group is moving through the city center.",
+  "whyItMatters": "Gives the Bordeaux day a second central specialty option in case L'Alchimiste or SIP is closed or crowded.",
+  "pros": [
+    "European Coffee Trip lists Black List in the Bordeaux specialty guide",
+    "Mapped at Place Pey Berland, a central landmark area",
+    "Good backup density with other central Bordeaux coffee options"
+  ],
+  "cons": [
+    "Current official opening hours were not found in crawlable sources",
+    "Central location may be more crowded or affected by Stage 7 movements"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown; verify current hours",
+    "reservation_needed": "No",
+    "distance_from_base": "Central Bordeaux; exact lodging distance unknown",
+    "distance_from_viewing_point": "Potentially close to central finish-area activity, depending on final viewing point",
+    "transit": "Central Bordeaux; verify race-day tram/bus service",
+    "parking": "Not recommended on Stage 7 finish day",
+    "road_closure_notes": "Bordeaux finish-area closures need separate verification"
+  },
+  "timing": {
+    "best_visit_window": "Morning central Bordeaux backup",
+    "race_day_risk": "Medium"
+  },
+  "tags": ["specialty-coffee", "bordeaux", "backup-option", "needs-hours-verification"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "European Coffee Trip Bordeaux guide",
+      "url": "https://europeancoffeetrip.com/bordeaux/",
+      "note": "Lists Black List among Bordeaux specialty coffee candidates."
+    },
+    {
+      "title": "OpenStreetMap Black List",
+      "url": "https://www.openstreetmap.org/search?query=Black%20List%2027%20Place%20Pey%20Berland%20Bordeaux",
+      "note": "Supports mapped existence and coordinates."
+    }
+  ],
+  "open_questions": [
+    "Confirm current hours and race-day accessibility near Place Pey Berland."
+  ]
+}

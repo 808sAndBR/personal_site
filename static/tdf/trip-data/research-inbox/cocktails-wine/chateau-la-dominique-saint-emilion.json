@@ -1,0 +1,54 @@
+{
+  "type": "cocktails_wine",
+  "name": "Chateau La Dominique",
+  "stageId": null,
+  "tripArea": "Saint-Emilion",
+  "coordinates": {
+    "lat": 44.9267,
+    "lng": -0.1921
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chateau%20La%20Dominique%20Saint-Emilion",
+  "summary": "Bookable Saint-Emilion château visit with modern architecture and strong visitor-facing infrastructure.",
+  "whyItMatters": "A château visit adds vineyard context beyond village tastings, and La Dominique has an obvious official booking path.",
+  "pros": [
+    "Official site describes exceptional wines, sustainable viticulture, and wine experiences in Saint-Emilion.",
+    "Official site exposes a clear 'Book a tour' link.",
+    "Food & Wine highlights La Dominique among Bordeaux wineries to visit."
+  ],
+  "cons": [
+    "Requires transport from the village/Bordeaux.",
+    "Official page did not expose clean hours in fetched HTML; booking system must be checked."
+  ],
+  "logistics": {
+    "opening_hours": "Needs verification in the official reservation system.",
+    "reservation_needed": "Yes; official site links to reservation.chateau-ladominique.com.",
+    "distance_from_base": "Unknown until lodging/activity plan is fixed.",
+    "distance_from_viewing_point": "Not race-day specific.",
+    "transit": "Likely requires taxi/car from Saint-Emilion or Bordeaux; verify.",
+    "parking": "Unknown; likely on-site but verify with booking.",
+    "road_closure_notes": "No race-specific closure assumed; verify if visiting from Bordeaux around Stage 7."
+  },
+  "timing": {
+    "best_visit_window": "Dedicated Saint-Emilion wine day with pre-booked tour slot.",
+    "race_day_risk": "Low to medium depending on whether travel crosses Bordeaux race operations."
+  },
+  "tags": ["chateau", "wine-tour", "saint-emilion", "bookable"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Chateau La Dominique official website",
+      "url": "https://www.chateau-ladominique.com/en/accueil/",
+      "note": "Supports venue identity, Saint-Emilion wine-experience positioning, sustainable viticulture claim, and official tour booking path."
+    },
+    {
+      "title": "Food & Wine - The Best Bordeaux Wineries to Visit",
+      "url": "https://www.foodandwine.com/travel/best-bordeaux-wineries-visit",
+      "note": "Supports destination value for Bordeaux winery visiting and mentions Chateau La Dominique as a visitor-worthy property."
+    }
+  ],
+  "open_questions": [
+    "Open the official booking system for the exact travel date and confirm tour language/times.",
+    "Confirm taxi or driver logistics from Saint-Emilion village."
+  ]
+}

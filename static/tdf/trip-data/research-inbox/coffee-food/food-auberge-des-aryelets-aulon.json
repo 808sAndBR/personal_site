@@ -1,0 +1,51 @@
+{
+  "type": "food",
+  "name": "Auberge des Aryelets",
+  "stageId": "trip-jul-09",
+  "tripArea": "Arreau / Vallee d'Aure / Pyrenees",
+  "coordinates": {
+    "lat": 42.8449,
+    "lng": 0.2964
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Auberge%20des%20Aryelets%2085%20place%20du%20Village%2065240%20Aulon",
+  "summary": "A small valley restaurant in Aulon focused on local Pyrenees products, better suited to a non-race evening than a tight race-day lunch.",
+  "whyItMatters": "It gives the Pyrenees segment a real local dinner candidate built around valley products like Noir de Bigorre pork, Pyrenees lamb, trout, and cheeses.",
+  "pros": [
+    "Official site emphasizes local and seasonal valley cooking",
+    "Reservation link and phone are published",
+    "Good thematic fit for the Tourmalet/Arreau mountain stay"
+  ],
+  "cons": [
+    "Official page did not expose current opening hours in browsable text",
+    "Aulon village access may be inconvenient if roads are busy or closed for race traffic",
+    "Not a quick takeaway solution"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown from official page text; verify directly.",
+    "reservation_needed": "Yes, recommended; official site links to reservations.",
+    "takeaway_options": "No obvious takeaway role.",
+    "distance_from_base": "Unknown until Arreau/Pyrenees lodging is confirmed; Aulon is near Saint-Lary/Vallee d'Aure.",
+    "distance_from_viewing_point": "Not suitable for same-day Tourmalet viewing unless access is independently confirmed.",
+    "transit": "Likely car/taxi only; verify mountain-road access.",
+    "parking": "Unknown.",
+    "road_closure_notes": "No specific Tour de France closure information found for Aulon; mountain-stage access risk is material."
+  },
+  "timing": {
+    "best_visit_window": "Dinner before or after the mountain race day, not during the critical viewing window.",
+    "race_day_risk": "High for Stage 6 itself; medium on adjacent nights if road access remains busy."
+  },
+  "tags": ["pyrenees", "arrea-area", "destination-meal", "local-products", "reservation-needed"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Auberge des Aryelets official website",
+      "url": "https://www.aubergedesaryelets.com/",
+      "note": "Supports address, phone, reservation link, seasonal/local cooking concept, and examples of Pyrenees products used."
+    }
+  ],
+  "open_questions": [
+    "Verify current opening days/hours and July 2026 reservation availability.",
+    "Confirm drive time and road access from the chosen Pyrenees lodging."
+  ]
+}

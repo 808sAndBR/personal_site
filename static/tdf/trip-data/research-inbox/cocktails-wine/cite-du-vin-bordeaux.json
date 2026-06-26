@@ -1,0 +1,49 @@
+{
+  "type": "cocktails_wine",
+  "name": "La Cite du Vin",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8625,
+    "lng": -0.5507
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Cite%20du%20Vin%20Bordeaux",
+  "summary": "Major wine culture museum with tasting at the Belvedere included in the permanent exhibition ticket.",
+  "whyItMatters": "A reliable daytime Bordeaux wine anchor if bars are crowded or race-day city-center logistics get messy.",
+  "pros": [
+    "Official page lists daily 10:00-19:00 opening from Apr 3 to Oct 31, 2026.",
+    "Permanent exhibition ticket includes a tasting in the Belvedere.",
+    "Official access notes identify tram line B stop La Cite du Vin as a two-minute walk."
+  ],
+  "cons": [
+    "Museum visit can take more time than a casual bar stop.",
+    "Not in the historic center; needs tram planning."
+  ],
+  "logistics": {
+    "opening_hours": "Apr 3-Oct 31, 2026: open every day 10:00-19:00 per official page.",
+    "reservation_needed": "Date-stamped e-ticket recommended; official page links to ticketing.",
+    "distance_from_base": "Unknown until lodging is fixed.",
+    "distance_from_viewing_point": "Likely away from central finish crowds, but verify against final viewing point.",
+    "transit": "Official page says tram line B, stop La Cite du Vin, is a two-minute walk.",
+    "parking": "Official page notes nearby paid parking, but tram is the safer default.",
+    "road_closure_notes": "Verify TBM and city notices for Stage 7 before relying on tram timings."
+  },
+  "timing": {
+    "best_visit_window": "Late morning or afternoon on a non-race day; on race day only if transit is confirmed.",
+    "race_day_risk": "Medium for Fri Jul 10, 2026 because tram/city access may change."
+  },
+  "tags": ["wine-museum", "bordeaux", "tasting", "official-source"],
+  "status": "promising",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "La Cite du Vin - Opening hours, access and prices",
+      "url": "https://www.laciteduvin.com/en/info",
+      "note": "Supports 2026 opening hours, address/access details, tram line B stop, tickets, and the Belvedere tasting included with the permanent exhibition ticket."
+    }
+  ],
+  "open_questions": [
+    "Check whether special Tour de France programming or closures are announced for the Bordeaux race week.",
+    "Confirm whether the group wants a full museum visit or only a wine-bar style stop."
+  ]
+}

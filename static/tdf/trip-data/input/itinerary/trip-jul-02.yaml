@@ -1,0 +1,21 @@
+id: "trip-jul-02"
+dateLabel: "Thu Jul 2"
+title: "Girona Ride Day"
+routeLabel: "Girona local cycling day"
+base: "Girona"
+summary: "Girona cycling day from Casa Cacao, with Rocacorba or the Hincapie Loop as the planning PDF ideas."
+dayPlan: >
+  Use Girona as the base for either Rocacorba or the Hincapie Loop.
+resources:
+  -
+    label: "Planning PDF"
+    url: "context/2026 Tour de France.pdf"
+    note: "Source for July 2 Casa Cacao lodging and Girona ride ideas"
+  -
+    label: "Barcelona team presentation context"
+    url: "trip-data/research-inbox/city-events/barcelona-team-presentation-context-sagrada-familia.json"
+    note: "Static research note if the group decides to go into Barcelona for the presentation"
+  -
+    label: "Girona culture candidate"
+    url: "trip-data/research-inbox/culture/girona-cathedral-arab-baths-walk.json"
+    note: "Static research candidate for a Girona old-town walk"

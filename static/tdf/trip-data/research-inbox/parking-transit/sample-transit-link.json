@@ -1,0 +1,40 @@
+{
+  "type": "train_station",
+  "name": "Sample Transit Link",
+  "stageId": "trip-jul-06",
+  "coordinates": {
+    "lat": 45.9187,
+    "lng": 6.8641
+  },
+  "elevationMeters": 1030,
+  "summary": "Sample candidate for testing non-driving logistics research.",
+  "pros": [
+    "Could avoid road-closure complexity",
+    "Useful comparison point against parking plans"
+  ],
+  "cons": [
+    "Service frequency is unknown",
+    "May still require a long walk to the route"
+  ],
+  "logistics": {
+    "parking": "Unknown",
+    "transit": "Unknown",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 2,
+    "road_closure_notes": "Needs race-day transit and road checks"
+  },
+  "tags": ["sample", "transit", "verify-service"],
+  "status": "needs-research",
+  "confidence": "low",
+  "sources": [
+    {
+      "title": "Placeholder source",
+      "url": "https://example.com",
+      "note": "Replace with a real source during research"
+    }
+  ],
+  "open_questions": [
+    "Does service run early enough?",
+    "What is the walk time from stop to route?"
+  ]
+}

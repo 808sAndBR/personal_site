@@ -1,0 +1,23 @@
+id: "stage-7-riverside-quays-final-approach"
+stageId: "trip-jul-10"
+name: "Riverside final 3-5 km approach / quays"
+status: "selected"
+priority: "Good compromise"
+overview: ""
+lat: 44.835
+lng: -0.563
+distanceFromBase: "~1.5 mi from Hotel Burdigala"
+access: "Walk/transit from Burdigala; choose exact block after local route map/closures publish."
+bikeUsefulness: "Bike unnecessary; could be more trouble than walking."
+publicityCaravan: "Yes - if positioned on official final approach"
+caravanTime: "≈15:45-15:52 depending exact spot"
+raceTime: "Riders ≈17:08-17:35 depending exact spot"
+viewingQuality: "Very good: high-speed lead-out, Garonne backdrop, easier than finish line."
+crowding: "High but spread along quays; likely more choice than the final 500 m."
+amenities: "Good urban amenities nearby, but queues; shade limited in open quay sections."
+roadClosureRisk: "Medium-high: route-side closures but many walking escape routes."
+exitStrategy: "Walk back through side streets once crowds thin; easier than finish-line crush."
+luggage: "Best if tired after drive but still want live race rather than TV."
+notes: "Strong balanced choice if the finish area is too crowded or the group arrives late."
+sources:
+  - "https://www.bordeaux-tourism.co.uk/agenda/tour-de-france-bordeaux-2026"

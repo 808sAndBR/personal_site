@@ -1,0 +1,54 @@
+{
+  "type": "cocktails_wine",
+  "name": "Latitude20 Wine Cellar and Wine Bar",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.863,
+    "lng": -0.551
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Latitude20%20Wine%20Cellar%20Bordeaux",
+  "summary": "Wine cellar and wine bar at La Cite du Vin with a broad global bottle selection and easier logistics than a formal tasting.",
+  "whyItMatters": "A flexible Bordeaux stop: it can be a casual glass, bottle shopping, or a backup if the museum ticket timing does not work.",
+  "pros": [
+    "Official page describes more than 14,000 bottles and 500 wines from more than 35 countries.",
+    "Official page says access to the wine bar, snack bar, and wine cellar is free and open to all.",
+    "Official page lists the wine cellar address and contact details."
+  ],
+  "cons": [
+    "More global wine selection than Bordeaux-only focus.",
+    "Located by La Cite du Vin, not in the historic center."
+  ],
+  "logistics": {
+    "opening_hours": "Wine cellar: Mon-Fri 10:00-18:30, Sat-Sun 10:00-19:30 per official page; La Cite info page lists related wine bar 15:00-19:00 on opening days.",
+    "reservation_needed": "Not clearly required for the cellar; verify if planning a personalized tasting.",
+    "distance_from_base": "Unknown until lodging is fixed.",
+    "distance_from_viewing_point": "Unknown until Bordeaux viewing point is selected.",
+    "transit": "Use La Cite du Vin tram access; official La Cite page says tram line B stop La Cite du Vin.",
+    "parking": "Paid parking nearby per La Cite du Vin access page, but transit preferred.",
+    "road_closure_notes": "Verify Stage 7 Bordeaux access before using this on Fri Jul 10, 2026."
+  },
+  "timing": {
+    "best_visit_window": "Afternoon, especially as a lighter alternative to a full museum visit.",
+    "race_day_risk": "Medium on Bordeaux finish day due to transit and road closure uncertainty."
+  },
+  "tags": ["wine-bar", "wine-cellar", "bordeaux", "official-source"],
+  "status": "promising",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "La Cite du Vin - Latitude20 wine cellar",
+      "url": "https://www.laciteduvin.com/en/restaurants-shops/latitude20-wine-cellar",
+      "note": "Supports concept, bottle count, countries represented, address, access-to-all statement, and cellar opening hours."
+    },
+    {
+      "title": "La Cite du Vin - Opening hours, access and prices",
+      "url": "https://www.laciteduvin.com/en/info",
+      "note": "Supports La Cite access details and related Latitude20 wine bar hours."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether the planner wants Latitude20 as a separate candidate from La Cite du Vin or merged as an add-on.",
+    "Verify July 2026 race-week opening if Bordeaux publishes special notices."
+  ]
+}

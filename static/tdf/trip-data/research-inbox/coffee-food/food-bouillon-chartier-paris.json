@@ -1,0 +1,54 @@
+{
+  "type": "food",
+  "name": "Bouillon Chartier Grands Boulevards",
+  "stageId": null,
+  "tripArea": "Paris",
+  "coordinates": {
+    "lat": 48.8719,
+    "lng": 2.3426
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bouillon%20Chartier%207%20rue%20du%20Faubourg%20Montmartre%20Paris",
+  "summary": "A no-reservation Paris classic for inexpensive traditional French food in a historic Belle Epoque room.",
+  "whyItMatters": "For the Paris portion, this is a practical fallback that still feels memorable: open daily, continuous service, modest prices, and no booking dependency.",
+  "pros": [
+    "Official site says open 365 days, 7/7, 11:30-midnight",
+    "No reservations and continuous service make it flexible",
+    "Good value for a Paris group meal"
+  ],
+  "cons": [
+    "No reservations means lines are part of the experience",
+    "Shared tables and quick service may not fit a leisurely final dinner"
+  ],
+  "logistics": {
+    "opening_hours": "Open 365 days/year, 7 days/week, 11:30-midnight, continuous service.",
+    "reservation_needed": "No; official site says service continu sans reservation.",
+    "takeaway_options": "No obvious takeaway role.",
+    "distance_from_base": "Unknown until Paris lodging is confirmed.",
+    "distance_from_viewing_point": "Not a race-day viewing food option.",
+    "transit": "Official site lists Metro Grands Boulevards lines 8/9 and buses 74/48.",
+    "parking": "Unknown; transit preferred.",
+    "road_closure_notes": "No Tour de France closure relevance found for this non-viewing candidate."
+  },
+  "timing": {
+    "best_visit_window": "Paris lunch or dinner when flexibility matters more than reservations.",
+    "race_day_risk": "Low unless it conflicts with Paris arrival/departure timing."
+  },
+  "tags": ["paris", "classic", "no-reservations", "budget", "flexible-hours"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Bouillon Chartier official website",
+      "url": "https://www.bouillon-chartier.com/",
+      "note": "Supports concept, hours, no-reservation policy, addresses, transit notes, and value positioning."
+    },
+    {
+      "title": "Bouillon Chartier Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bouillon_Chartier",
+      "note": "Supports historical context including 1896 founding and historic restaurant background; secondary source only."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether the Grands Boulevards branch is closest to the final Paris hotel; Montparnasse or Gare de l'Est may be more practical depending on lodging."
+  ]
+}

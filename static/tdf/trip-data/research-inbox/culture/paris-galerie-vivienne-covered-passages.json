@@ -1,0 +1,68 @@
+{
+  "type": "culture",
+  "name": "Galerie Vivienne and nearby covered passages",
+  "stageId": null,
+  "tripArea": "Paris",
+  "coordinates": {
+    "lat": 48.8667,
+    "lng": 2.3397
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=48.8667,2.3397",
+  "summary": "A beautiful, low-commitment Paris culture walk through 19th-century covered passages near Palais-Royal and the old Bourse.",
+  "whyItMatters": "Paris hotel/walk areas are not defined yet, so this is a flexible short stop that does not depend on timed museum tickets.",
+  "timeRequired": "20-60 minutes depending on whether it is a single passage or a small loop.",
+  "ticketOrReservationNeed": "No ticket for a basic walk; passage hours vary.",
+  "pros": [
+    "No museum ticket commitment",
+    "Works in poor weather because of the covered arcade setting",
+    "Easy to pair with cafes, bookshops, Palais-Royal, or Louvre/Opera-area walking"
+  ],
+  "cons": [
+    "Only useful if Paris lodging or plans are reasonably central/right-bank",
+    "Private passage hours can change and some shops may close earlier than expected"
+  ],
+  "logistics": {
+    "opening_hours": "Galerie Vivienne is commonly listed as daytime public access; verify current passage hours before relying on it.",
+    "reservation_needed": "No",
+    "distance_from_base": "Paris lodging not yet known.",
+    "distance_from_viewing_point": "Not tied to a Tour stage viewing point.",
+    "transit": "Metro Bourse or Palais Royal - Musee du Louvre area, depending on route.",
+    "parking": "Not relevant; walk/transit recommended.",
+    "road_closure_notes": "No TDF-specific closure assumed; verify Paris event disruptions if dates are known."
+  },
+  "timing": {
+    "best_visit_window": "Paris arrival/departure margin, rainy window, or pre-dinner walk.",
+    "race_day_risk": "Low"
+  },
+  "nearbyFoodDrinkPairing": "Pair with coffee or wine near Palais-Royal, Rue Vivienne, or the wider covered-passage loop toward Passage des Panoramas.",
+  "tags": [
+    "paris",
+    "covered-passages",
+    "architecture",
+    "free",
+    "rainy-day"
+  ],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Galerie Vivienne - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galerie_Vivienne",
+      "note": "Secondary support for location, history, 1823/1826 opening context, and architectural description."
+    },
+    {
+      "title": "Covered passages of Paris - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Covered_passages_of_Paris",
+      "note": "Secondary support for the broader covered-passage concept, public-access list, and typical hours for Galerie Vivienne."
+    },
+    {
+      "title": "Paris official tourism - covered passages",
+      "url": "https://parisjetaime.com/eng/article/the-covered-passages-a207",
+      "note": "Official tourism source to verify current passage recommendations and walking context."
+    }
+  ],
+  "open_questions": [
+    "Where is the Paris hotel?",
+    "Would the group prefer a free architectural walk or a ticketed Paris museum stop?"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-7-pont-simone-veil",
+  "name": "Pont Simone-Veil Approach",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.822285,
+    "lng": -0.536935
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.822285,-0.536935",
+  "roadSegment": "Pont Simone Veil / Bordeaux entry, about 4.5 km from finish",
+  "estimatedPassageTime": "17:07 / 17:18 / 17:29 local at Pont Simone Veil",
+  "elevationMeters": 10,
+  "summary": "Bordeaux approach option on the new wide bridge, trading finish-line ceremony for easier viewing before the sprint finish compression.",
+  "whyItMatters": "The official schedule names Pont Simone Veil 4.5 km from the finish; a pre-finish point may be more practical than the finish barrier if public access is confirmed.",
+  "access": {
+    "estimated_route_from_base": "Approach from Bordeaux/Begles/Floirac side on foot or by transit before closures; exact hotel/base not assumed.",
+    "parking_transit_possibilities": "Urban transit/walking preferred. Parking near the bridge or final route is unknown during closures.",
+    "walk_bike_approach_notes": "The bridge normally includes pedestrian/cycling public space, but race-day spectator zones and crossing rules are unknown.",
+    "road_closure_notes": "Unknown; Bordeaux/Gironde traffic plan needed."
+  },
+  "pros": [
+    "Official schedule point before Bordeaux finish, with clear timing.",
+    "Wide bridge/public-space design may offer more breathing room than narrow final-kilometer barriers if public areas remain open.",
+    "Good escape potential toward either bank compared with the finish line, pending closures."
+  ],
+  "cons": [
+    "Bridge access could be closed or restricted for race security.",
+    "Riders may be very fast on a flat finish approach.",
+    "Standing on a bridge can create pinch points and may have police restrictions."
+  ],
+  "logistics": {
+    "parking": "Unknown; do not plan on nearby bridge parking.",
+    "transit": "TBM urban network nearby in normal conditions, but race-day reroutes are unknown.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 4,
+    "road_closure_notes": "Needs Bordeaux/Gironde closure map and bridge pedestrian-access rules."
+  },
+  "crowdRisk": "medium-high: official Bordeaux entry landmark close to the finish, but likely less intense than finish-line barriers.",
+  "bathroomFoodProximity": "Unknown on race day; nearby urban facilities may be accessible on either bank but must be checked against barriers.",
+  "escapeRoute": "After the convoy, walk away from the bridge toward the same bank's transit/open streets; avoid depending on an immediate cross-course crossing.",
+  "safetyAssessment": "Use only authorized pedestrian/spectator zones. Do not stand on the roadway, median, bridge edge pinch points, or cycle lane if it is part of event control.",
+  "timing": {
+    "best_arrival_window": "4 hours before expected passage if targeting front-row bridge/approach viewing.",
+    "race_day_risk": "Medium-high until bridge access and transit changes are published."
+  },
+  "tags": ["stage-7", "bordeaux", "pont-simone-veil", "pre-finish", "urban"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 7 official page",
+      "url": "https://www.letour.fr/en/stage-7",
+      "note": "Supports Stage 7 route, Pont Simone Veil schedule point, and expected Bordeaux arrival timing."
+    },
+    {
+      "title": "Pont Simone-Veil background",
+      "url": "https://fr.wikipedia.org/wiki/Pont_Simone-Veil",
+      "note": "Supports bridge coordinates, Bordeaux/Begles/Floirac location, width, pedestrian/cycling public-space context, and opening background; not a race-day closure source."
+    },
+    {
+      "title": "Bordeaux tramway background",
+      "url": "https://en.wikipedia.org/wiki/Bordeaux_tramway",
+      "note": "Supports general TBM/tram urban-transit context in Bordeaux; specific race-day service changes still need official verification."
+    }
+  ],
+  "open_questions": [
+    "Will spectators be allowed on Pont Simone-Veil or only on approach sidewalks?",
+    "Which TBM lines/stops are operating or rerouted near the bridge on Stage 7?",
+    "Where are official toilets, water points, or fan zones near the bridge?"
+  ]
+}

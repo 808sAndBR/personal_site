@@ -1,0 +1,182 @@
+# Editable transit plans grouped by itinerary day.
+# Each entry becomes one transit activity in the app.
+
+trip-jul-01:
+  - id: transit-2026-07-01-sfo-barcelona
+    name: SFO to Barcelona flight Lands
+    overview: UA 672
+    time: "14:20"
+    start: SFO
+    end: Barcelona
+    method: flight
+    confirmed: true
+  - id: transit-2026-07-01-bcn-girona
+    name: Barcelona to Girona
+    overview: Ticket not booked in advance will get day of.
+    time: 16:00 (est)
+    start: Barcelona
+    end: Girona
+    method: train
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Barcelona%20Airport&destination=Hotel%20Boutique%20Casa%20Cacao%20Girona&travelmode=transit"
+    confirmed: false
+
+trip-jul-03:
+  - id: transit-2026-07-03-girona-perpignan
+    name: "Girona to Perpignan: TGV INOUI 9708"
+    overview: |
+      Take the train to Perpignan and pick up the rental car.
+      Refrence Number XRHX3Y / HP5288434863
+    time: 10:10-10:52
+    start: Girona
+    end: Perpignan rental car pickup
+    method: train
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Girona&destination=Perpignan&travelmode=transit"
+      Scott ticket: https://drive.google.com/file/d/1IKL8KnIJo1RIKXG0jATe4bBJUgrIoaao/view
+      Holly ticket: https://drive.google.com/file/d/1xGiujOHHaY_or9PVoOi5hAhoU7aJC2KT/view
+    confirmed: true
+  - id: transit-2026-07-03-perpignan-girona
+    name: Perpignan to Girona / El Celler de Can Roca
+    overview: |
+      After picking up the car and exploring Perpignan
+      Drive back to Girona for the 7:15pm dinner at El Celler de Can Roca.
+      Est drive time 1hr 15min
+    time: 18:00 (absolute latest)
+    start: Perpignan rental car pickup
+    end: "El Celler de Can Roca, Girona"
+    method: drive
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Perpignan&destination=El%20Celler%20de%20Can%20Roca%20Girona&travelmode=driving"
+    confirmed: false
+  - id: transit-2026-07-03-girona-barcelona
+    name: "Girona to Barcelona "
+    overview: After dinner, drive to Barcelona for the Yurbban Passage stay.
+    time: 21:00 (est)
+    start: "El Celler de Can Roca, Girona"
+    end: "Yurbban Passage Hotel, Barcelona"
+    method: drive
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=El%20Celler%20de%20Can%20Roca%20Girona&destination=Yurbban%20Passage%20Hotel%20Barcelona&travelmode=driving"
+    confirmed: true
+
+trip-jul-06:
+  - id: transit-2026-07-06-barcelona-puigcerda
+    name: Barcelona to Puigcerdà
+    overview: Drive very early from Barcelona to Puigcerdà to spectate Stage 3, then stay at Hotel Villa Paulita.
+    time: Very early
+    start: "Yurbban Passage Hotel, Barcelona"
+    end: "Hotel Villa Paulita, Puigcerdà"
+    method: drive
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Yurbban%20Passage%20Hotel%20Barcelona&destination=Hotel%20Villa%20Paulita%20Puigcerda&travelmode=driving"
+    confirmed: true
+
+trip-jul-07:
+  - id: transit-2026-07-07-puigcerda-arreau
+    name: Puigcerdà to Arreau
+    overview: |
+      Scenic  route out N-260
+      Stops around Val d'Aran, Bagnères-de-Luchon, and Col de Peyresourde traverse
+      Estimated drive time of 5 hours so add a bit for stops.
+      Be on the lookout for tour de france road sign on Col de Peyresourde!
+    time: 12:00
+    start: "Hotel Villa Paulita, Puigcerdà"
+    end: Arreau Airbnb
+    method: drive
+    link:
+      Full scenic route: "https://www.google.com/maps/place/Val+d'Aran,+Lleida,+Spain/@42.6025966,0.266923,10.23z/data=!4m44!1m37!4m36!1m6!1m2!1s0x12a57bc1b72b91cb:0xfb1529b7bcd05935!2sHotel+Villa+Paulita,+Av.+Pons+i+Gasch,+15,+17520+Puigcerd%C3%A0,+Girona,+Spain!2m2!1d1.9270293!2d42.4353618!1m6!1m2!1s0x12a89737f2c0d7e5:0xa654f082284aec1e!2sVal+d'Aran,+Lleida,+Spain!2m2!1d0.7913227!2d42.7439754!1m6!1m2!1s0x12a861f104f68b5b:0x387ece5e3eeee589!2sBagn%C3%A8res-de-Luchon,+31110,+France!2m2!1d0.5915425!2d42.7902866!1m6!1m2!1s0x12a86616e61f9621:0x7528386b0e924250!2sCol+de+Peyresourde,+65240+Loudervielle,+France!2m2!1d0.462615!2d42.80092!1m6!1m2!1s0x12a840e367af6267:0x406f69c2f3d8be0!2sArreau,+65240,+France!2m2!1d0.35926!2d42.904958!3e0!3m5!1s0x12a89737f2c0d7e5:0xa654f082284aec1e!8m2!3d42.7439754!4d0.7913227!16zL20vMGt5X3Y?entry=ttu&g_ep=EgoyMDI2MDYyMi4wIKXMDSoASAFQAw%3D%3D"
+    confirmed: true
+
+trip-jul-10:
+  - id: transit-2026-07-10-arreau-bordeaux
+    name: Arreau to Bordeaux
+    overview: |
+      Drive very early to Bordeaux for the flat Tour stage finish in Bordeaux and Hôtel Burdigala stay.
+      Estimated drive time of 3-4 hours ignoring any tdf road closures
+    time: 6:00
+    start: Arreau Airbnb
+    end: "Hôtel Burdigala, Bordeaux"
+    method: drive
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Arreau%20France&destination=H%C3%B4tel%20Burdigala%20Bordeaux&travelmode=driving"
+    confirmed: true
+
+trip-jul-11:
+  - id: transit-2026-07-11-bordeaux-pape-clement
+    name: Bordeaux to Château Pape Clément
+    overview: Travel from Bordeaux hotel area to the 2pm Château Pape Clément tasting. PDF note says to save about 45 minutes to get there.
+    time: 13:15 departure for 14:00 tasting
+    start: "Hôtel Burdigala, Bordeaux"
+    end: "Château Pape Clément, Pessac"
+    method: taxi/tram
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=H%C3%B4tel%20Burdigala%20Bordeaux&destination=Ch%C3%A2teau%20Pape%20Cl%C3%A9ment%20Pessac&travelmode=transit"
+    confirmed: true
+
+trip-jul-12:
+  - id: transit-2026-07-12-bordeaux-saint-emilion
+    name: Bordeaux to Saint-Émilion day trip
+    overview: "Day trip by train to Saint-Émilion for 1pm lunch at L'Envers du Décor. PDF note says trains run about every 2 hours; morning options mentioned are 9:41 and 11:41, taking about 30 minutes, plus about a 30-minute walk from train to restaurant."
+    time: 09:41 or 11:41 candidate departures
+    start: Bordeaux train station
+    end: Saint-Émilion
+    method: train
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Bordeaux%20Saint-Jean&destination=Saint-%C3%89milion&travelmode=transit"
+    confirmed: false
+  - id: transit-2026-07-12-saint-emilion-bordeaux
+    name: Saint-Émilion return to Bordeaux
+    overview: Return from the Saint-Émilion day trip to the Bordeaux hotel.
+    time: TBD after lunch
+    start: Saint-Émilion
+    end: "Hôtel Burdigala, Bordeaux"
+    method: train
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Saint-%C3%89milion&destination=H%C3%B4tel%20Burdigala%20Bordeaux&travelmode=transit"
+    confirmed: false
+
+trip-jul-13:
+  - id: transit-2026-07-13-bordeaux-paris
+    name: Bordeaux to Paris
+    overview: Train from Bordeaux to Paris. PDF says leave Bordeaux train station at 10:47am and arrive in Paris at 12:55; tickets are referenced in Tickets.pdf.
+    time: 10:47-12:55
+    start: Bordeaux train station
+    end: Paris / Grand Hôtel Malher
+    method: train
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Bordeaux%20Saint-Jean&destination=Grand%20H%C3%B4tel%20Malher%20Paris&travelmode=transit"
+      Tickets: https://drive.google.com/file/d/1rpCkpSVqoNXHndyyJrygrtydi3Pp2-9P/view?usp=sharing
+    confirmed: true
+
+trip-jul-16:
+  - id: transit-2026-07-16-paris-versailles
+    name: Paris to Versailles
+    overview: Travel from Paris to Versailles for 11:30am Versailles tickets. PDF says it is about a 1-hour train ride.
+    time: 10:15 departure for 11:30 tickets
+    start: "Grand Hôtel Malher, Paris"
+    end: Versailles
+    method: train
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Grand%20H%C3%B4tel%20Malher%20Paris&destination=Palace%20of%20Versailles&travelmode=transit"
+    confirmed: true
+  - id: transit-2026-07-16-versailles-paris
+    name: Versailles return to Paris
+    overview: Return from Versailles to the Paris hotel after the visit.
+    time: TBD after Versailles
+    start: Versailles
+    end: "Grand Hôtel Malher, Paris"
+    method: train
+    link:
+      map: "https://www.google.com/maps/dir/?api=1&origin=Palace%20of%20Versailles&destination=Grand%20H%C3%B4tel%20Malher%20Paris&travelmode=transit"
+    confirmed: false
+
+trip-jul-19:
+  - id: transit-2026-07-19-paris-sfo
+    name: Paris to SFO flight takeoff
+    overview: UA 984
+    time: "9:15"
+    start: Paris
+    end: SFO
+    method: flight
+    confirmed: true

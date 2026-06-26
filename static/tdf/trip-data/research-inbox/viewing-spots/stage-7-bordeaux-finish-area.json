@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-7-bordeaux-finish-area",
+  "name": "Bordeaux Finish Area",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8378,
+    "lng": -0.5792
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.8378,-0.5792",
+  "roadSegment": "Official Bordeaux finish coordinate from app data; exact finish-line street/perimeter needs verification against final map",
+  "estimatedPassageTime": "17:13 / 17:24 / 17:35 local",
+  "elevationMeters": 13,
+  "summary": "Maximum atmosphere and ceremony option for the Bordeaux sprint finish, but with the highest urban crowd and perimeter uncertainty.",
+  "whyItMatters": "The finish gives podium, announcers, and sprint-stage spectacle; the viewing guide warns that finish barriers require very early arrival and have low flexibility.",
+  "access": {
+    "estimated_route_from_base": "Approach by walking/transit from Bordeaux base before the finish perimeter fills; exact lodging not assumed.",
+    "parking_transit_possibilities": "Urban transit/walking preferred. Parking near the finish is unknown and likely restricted.",
+    "walk_bike_approach_notes": "Plan to stay on one side of the course once barriers are active; do not assume course crossing after the caravan.",
+    "road_closure_notes": "Unknown; official Bordeaux/Gironde finish-area security and traffic plans required."
+  },
+  "pros": [
+    "Full finish-line Tour atmosphere: sprint, announcers, podium, media, and sponsor activity.",
+    "Official Tour schedule gives Bordeaux finish timing.",
+    "Easy to combine with Bordeaux lodging/food after the race if exits are planned."
+  ],
+  "cons": [
+    "Likely densest Stage 7 crowd and most controlled public space.",
+    "Good barrier views may require arriving many hours early.",
+    "Final-kilometer areas may be VIP/media/team/technical rather than public."
+  ],
+  "logistics": {
+    "parking": "Unknown; assume no close parking until official plan says otherwise.",
+    "transit": "Bordeaux tram/bus access likely useful in normal conditions, but event-day reroutes and station crowd controls must be verified.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 6,
+    "road_closure_notes": "Needs official finish map, fan-zone map, and traffic order."
+  },
+  "crowdRisk": "very high: flat-stage city finish in a major city.",
+  "bathroomFoodProximity": "Potentially good in central Bordeaux, but finish barriers may make facilities unreachable; official fan-zone/toilet map needed.",
+  "escapeRoute": "After the finish, walk away from the finish compound toward pre-selected transit/open streets. Do not depend on crossing the course immediately after the sprint.",
+  "safetyAssessment": "Use only official spectator barriers. Sprint finishes involve high speed plus race vehicles; avoid leaning, signs, phones, or bags over the barrier.",
+  "timing": {
+    "best_arrival_window": "4-6+ hours before finish; earlier if the group wants front barrier or podium proximity.",
+    "race_day_risk": "High until exact finish-line, fan-zone, and security-perimeter details are published."
+  },
+  "tags": ["stage-7", "bordeaux", "finish", "sprint", "high-crowd"],
+  "status": "candidate",
+  "confidence": "low",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 7 official page",
+      "url": "https://www.letour.fr/en/stage-7",
+      "note": "Supports Stage 7 route, flat finish type, official Bordeaux finish timing, and final approach via Pont Simone Veil/Bordeaux entry."
+    },
+    {
+      "title": "TDF trip data official route note",
+      "url": "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/2",
+      "note": "Official ASO ArcGIS layer referenced by the app for Stage 7 route geometry; candidate coordinate comes from current app data and should be checked against final ASO map."
+    },
+    {
+      "title": "Bordeaux tramway background",
+      "url": "https://en.wikipedia.org/wiki/Bordeaux_tramway",
+      "note": "Supports general tram/bus network context in Bordeaux; event-day reroutes are unknown."
+    }
+  ],
+  "open_questions": [
+    "What is the exact Bordeaux finish-line street and final-kilometer public perimeter?",
+    "Where are official public fan zones, screens, toilets, and water points?",
+    "Which tram/bus stops remain open after finish-area closures begin?"
+  ]
+}

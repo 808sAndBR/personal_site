@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-1-passeig-santa-madrona",
+  "name": "Passeig de Santa Madrona Chrono Point",
+  "stageId": "trip-jul-04",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3678,
+    "lng": 2.1541
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3678,2.1541",
+  "roadSegment": "Passeig de Santa Madrona / Point chrono n. 3 area on the Stage 1 Montjuic approach",
+  "estimatedPassageTime": "17:22-19:12 local from official time schedule area",
+  "elevationMeters": 105,
+  "summary": "Technical Montjuic approach option near the official third chrono point before the Olympic Stadium finish.",
+  "whyItMatters": "For a team time trial, this should give repeated, disciplined team formations late in the course, with riders already working uphill toward the final Montjuic sector.",
+  "access": {
+    "estimated_route_from_base": "Use Barcelona urban transit/walk approach to Montjuic; exact race-day transit changes are not published yet.",
+    "parking_transit_possibilities": "Transit is preferable in principle. The Montjuic funicular reaches Parc de Montjuic from Paral-lel, but event-day service and course-crossing access must be verified.",
+    "walk_bike_approach_notes": "Likely walk-in from Poble-sec/Paral-lel or from higher Montjuic paths; do not assume crossing the course after closures begin.",
+    "road_closure_notes": "Unknown; no Barcelona 2026 race-day closure order found for this exact point."
+  },
+  "pros": [
+    "Official schedule identifies Passeig de Santa Madrona as a late-course chrono point.",
+    "Less finish-line-specific than the Olympic Stadium barrier, so it may have more flexible viewing angles.",
+    "Urban setting improves fallback options compared with isolated roadside points."
+  ],
+  "cons": [
+    "Course-crossing and barrier layout may make the exact standing side unusable.",
+    "A city-circuit/time-trial area should be treated as high closure complexity until Barcelona publishes the traffic plan.",
+    "Food/toilet access nearby on maps does not prove reachability after barriers are installed."
+  ],
+  "logistics": {
+    "parking": "Unknown; do not plan to park inside Montjuic closure areas unless official parking is published.",
+    "transit": "Montjuic funicular/metro approach is plausible but unverified for race day.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 4,
+    "road_closure_notes": "Needs official Barcelona municipal/Tour traffic order."
+  },
+  "crowdRisk": "medium-high: late-course Montjuic point on opening day, but probably less compressed than the finish line.",
+  "bathroomFoodProximity": "Unknown on race day. Montjuic has museums/venues/cafes in normal conditions, but reachability after barriers is unverified.",
+  "escapeRoute": "Walk downhill toward Poble-sec or Paral-lel after convoy clearance; exact exits depend on barriers and police directions.",
+  "safetyAssessment": "Choose only a barriered or clearly off-road standing area; avoid corners, islands, and any position requiring spectators to lean into the race lane.",
+  "timing": {
+    "best_arrival_window": "Before the publicity caravan and before Montjuic access controls harden; exact closure time unknown.",
+    "race_day_risk": "High until local closures, pedestrian crossings, and transit changes are published."
+  },
+  "tags": ["stage-1", "barcelona", "montjuic", "time-trial", "needs-closure-verification"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 1 official page",
+      "url": "https://www.letour.fr/en/stage-1",
+      "note": "Supports the Stage 1 date, Barcelona-Barcelona TTT, first start/last arrival, and time-schedule entries for Passeig de Santa Madrona and the Montjuic finish approach."
+    },
+    {
+      "title": "TDF trip data official route note",
+      "url": "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/1",
+      "note": "Official ASO ArcGIS layer referenced by the app for Stage 1 route geometry; coordinate is aligned with the app's Montjuic route points."
+    },
+    {
+      "title": "Montjuic Funicular background",
+      "url": "https://en.wikipedia.org/wiki/Montju%C3%AFc_Funicular",
+      "note": "Supports normal, non-event access concept between Paral-lel and Parc de Montjuic; does not prove race-day operation."
+    }
+  ],
+  "open_questions": [
+    "Which side of Passeig de Santa Madrona remains publicly accessible after barriers are installed?",
+    "What are the official Barcelona road-closure and pedestrian-crossing times for Stage 1?",
+    "Will Montjuic funicular, buses, or nearby metro exits operate normally during the TTT?"
+  ]
+}

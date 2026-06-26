@@ -1,0 +1,58 @@
+id: "trip-jul-05"
+dateLabel: "Sun Jul 5"
+title: "Stage 2 - Tarragona to Barcelona"
+routeLabel: "Tarragona > Barcelona, 168.5 km"
+base: "Barcelona"
+raceInfo:
+  startTime: "13:45 neutralised start"
+  endTime: "17:26 expected arrival"
+  officialUrl: "https://www.letour.fr/en/stage-2"
+  routeMap:
+    label: "Official stage map"
+    imageUrl: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tdf26-et02-cartepot-v7/71044/0%3A0%2C1654%3A1169-960-0-90/0f2af"
+    url: "https://www.letour.fr/en/stage-2"
+    note: "Official Tour de France stage page and map"
+  elevationProfile:
+    label: "Official elevation profile"
+    imageUrl: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/2-tdf26-profils-web-fr/70964/0:0,1004:602-960-0-90/cf268"
+    url: "https://www.letour.fr/en/stage-2"
+    note: "Official Tour de France stage profile"
+  officialRoute:
+    source: "arcgis"
+    layerUrl: "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/2"
+    where: "Etape=2"
+    note: "Official ASO ArcGIS route geometry from the embedded Tour stage map"
+  route:
+    - [41.1189,1.2445]
+    - [41.1456,1.3988]
+    - [41.2202,1.5341]
+    - [41.2654,1.635]
+    - [41.223,1.7256]
+    - [41.2372,1.8059]
+    - [41.2593,1.9289]
+    - [41.2648,1.9727]
+    - [41.2818,2.0087]
+    - [41.3034,2.0312]
+    - [41.3263,2.096]
+    - [41.3312,1.9222]
+    - [41.3527,1.8491]
+    - [41.386,1.9329]
+    - [41.3954,2.0064]
+    - [41.3804,2.0452]
+    - [41.3833,2.0717]
+    - [41.3851,2.0759]
+    - [41.3678,2.1541]
+    - [41.3649,2.1588]
+    - [41.3678,2.1541]
+    - [41.3649,2.1588]
+summary: "Hilly stage from Tarragona to Barcelona, with final laps over the Chateau de Montjuic climb."
+dayPlan: "Watch from Montjuic Castle per the itinerary. The official schedule shows repeated Montjuic passages before the Olympic Stadium finish."
+resources:
+  -
+    label: "Official Stage 2 page"
+    url: "https://www.letour.fr/en/stage-2"
+    note: "Stage route, timing, map, and profile"
+  -
+    label: "Official Stage 2 map image"
+    url: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tdf26-et02-cartepot-v7/71044/0%3A0%2C1654%3A1169-960-0-90/0f2af"
+    note: "Official route map image"

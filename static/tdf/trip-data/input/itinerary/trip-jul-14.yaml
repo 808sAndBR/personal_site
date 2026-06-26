@@ -1,0 +1,16 @@
+id: "trip-jul-14"
+dateLabel: "Tue Jul 14"
+title: "Paris Day"
+routeLabel: "Paris local day"
+base: "Paris"
+summary: "Open Paris day; exact neighborhood and activity plan still need to be assigned."
+dayPlan: "Use this as the first full Paris planning slot. The current app only has placeholder Paris food, coffee, and covered-passage research until lodging and priorities are confirmed."
+resources:
+  -
+    label: "Paris culture candidate"
+    url: "trip-data/research-inbox/culture/paris-galerie-vivienne-covered-passages.json"
+    note: "Static research candidate for a flexible Paris walk"
+  -
+    label: "Paris food research summary"
+    url: "trip-data/research-inbox/coffee-food/food-summary.md"
+    note: "Static research notes for placeholder Paris meals"

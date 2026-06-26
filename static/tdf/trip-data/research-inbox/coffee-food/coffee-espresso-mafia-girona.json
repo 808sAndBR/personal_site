@@ -1,0 +1,58 @@
+{
+  "type": "coffee",
+  "name": "Espresso Mafia",
+  "stageId": null,
+  "tripArea": "Girona",
+  "coordinates": {
+    "lat": 41.9835559,
+    "lng": 2.8241124
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.9835559,2.8241124",
+  "summary": "Girona specialty coffee choice with strong cycling-culture fit near the Rambla.",
+  "whyItMatters": "This is the most on-theme Girona coffee stop for a Tour de France trip because it sits at the overlap of specialty coffee and the city cycling scene.",
+  "pros": [
+    "European Coffee Trip lists Espresso Mafia among Girona's best specialty cafes",
+    "Financial Times cyclist guide highlights Espresso Mafia alongside La Fabrica as second-to-none Girona coffee",
+    "Central Rambla location is useful before or after Old Town wandering"
+  ],
+  "cons": [
+    "Current official opening hours were not found in crawlable sources",
+    "Likely popular with cyclists and visitors, so seating may be tight"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown; verify on the business's current social/map listing before relying on it",
+    "reservation_needed": "No",
+    "distance_from_base": "Central Girona; exact lodging distance unknown",
+    "distance_from_viewing_point": "Not tied to a race viewing point",
+    "transit": "Walkable from Girona center; verify from lodging",
+    "parking": "Unknown",
+    "road_closure_notes": "No race-day closure research found for this non-viewing stop"
+  },
+  "timing": {
+    "best_visit_window": "Morning or early afternoon Girona wander",
+    "race_day_risk": "Low unless central Girona events affect access"
+  },
+  "tags": ["specialty-coffee", "cycling-culture", "needs-hours-verification"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "European Coffee Trip Girona guide",
+      "url": "https://europeancoffeetrip.com/girona/",
+      "note": "Lists Espresso Mafia among Girona specialty coffee candidates."
+    },
+    {
+      "title": "Financial Times: Cyclist David Millar's guide to Girona",
+      "url": "https://www.ft.com/content/7a87f711-4a52-497b-b069-bf9a7e717b72",
+      "note": "Supports cycling-trip relevance and strong reputation for Espresso Mafia and La Fabrica coffee."
+    },
+    {
+      "title": "OpenStreetMap geocode for Rambla de la Llibertat 24",
+      "url": "https://www.openstreetmap.org/search?query=Rambla%20de%20la%20Llibertat%2024%20Girona",
+      "note": "Supports approximate coordinates for the Rambla address."
+    }
+  ],
+  "open_questions": [
+    "Confirm current hours and whether there is a better official source than social media."
+  ]
+}

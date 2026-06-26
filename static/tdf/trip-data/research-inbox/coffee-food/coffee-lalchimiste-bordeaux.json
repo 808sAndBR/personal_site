@@ -1,0 +1,54 @@
+{
+  "type": "coffee",
+  "name": "L'Alchimiste Cafe Boutique",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8412201,
+    "lng": -0.5794961
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.8412201,-0.5794961",
+  "summary": "Central Bordeaux specialty roaster/cafe candidate near the historic core.",
+  "whyItMatters": "A strong Bordeaux coffee target for the Stage 7 city day, especially if the group wants better coffee before moving toward the finish crowds.",
+  "pros": [
+    "European Coffee Trip lists L'Alchimiste in its Bordeaux specialty guide",
+    "OpenStreetMap identifies the cafe-boutique at Rue de la Vieille Tour",
+    "Central location should pair well with a Bordeaux walking morning"
+  ],
+  "cons": [
+    "Current opening hours were not found in crawlable official sources",
+    "Stage 7 finish crowds may make central movement slower"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown; verify current hours before assigning to Stage 7 morning",
+    "reservation_needed": "No",
+    "distance_from_base": "Central Bordeaux; exact lodging distance unknown",
+    "distance_from_viewing_point": "Potentially walkable to central finish-area activity, but final viewing point unknown",
+    "transit": "Central Bordeaux; verify tram operations and race-day changes",
+    "parking": "Not recommended on Stage 7 finish day",
+    "road_closure_notes": "Bordeaux finish-area closures need separate city/TDF event verification"
+  },
+  "timing": {
+    "best_visit_window": "Morning before committing to the Stage 7 finish area",
+    "race_day_risk": "Medium because central Bordeaux will likely be busy on finish day"
+  },
+  "tags": ["specialty-coffee", "bordeaux", "needs-hours-verification"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "European Coffee Trip Bordeaux guide",
+      "url": "https://europeancoffeetrip.com/bordeaux/",
+      "note": "Lists L'Alchimiste among Bordeaux specialty coffee candidates."
+    },
+    {
+      "title": "OpenStreetMap L'Alchimiste Cafe Boutique",
+      "url": "https://www.openstreetmap.org/search?query=L%27Alchimiste%20Cafe%20Boutique%2012%20Rue%20de%20la%20Vieille%20Tour%20Bordeaux",
+      "note": "Supports mapped existence and coordinates at Rue de la Vieille Tour."
+    }
+  ],
+  "open_questions": [
+    "Confirm official/current hours and whether takeaway is efficient on Stage 7 morning.",
+    "Compare walking route against official Bordeaux finish closures."
+  ]
+}

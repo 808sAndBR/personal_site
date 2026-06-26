@@ -1,0 +1,55 @@
+{
+  "type": "coffee",
+  "name": "Cafè de la Plaça",
+  "stageId": "trip-jul-06",
+  "tripArea": "Puigcerda",
+  "coordinates": {
+    "lat": 42.432562,
+    "lng": 1.9270142
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.432562,1.9270142",
+  "summary": "Central Puigcerda cafe fallback near Plaça de Santa Maria; treat as practical caffeine, not verified specialty coffee.",
+  "whyItMatters": "Puigcerda is a viewing-day base/route point with limited source-backed specialty coffee, so a central fallback may still be useful.",
+  "pros": [
+    "Mapped cafe in the central square area",
+    "Likely convenient for meeting, bathrooms, and quick caffeine before the Stage 3 viewing window",
+    "Better to have a fallback pinned than to search cold on race day"
+  ],
+  "cons": [
+    "No strong source found proving specialty-coffee quality",
+    "Opening hours not verified",
+    "Central Puigcerda may be affected by Stage 3 access/crowding"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown",
+    "reservation_needed": "Unknown",
+    "distance_from_base": "Central Puigcerda; exact lodging distance unknown",
+    "distance_from_viewing_point": "Potentially close to the Puigcerda viewing area, depending on final spot",
+    "transit": "Walkable once in central Puigcerda",
+    "parking": "Unknown; race-day parking needs separate viewing logistics research",
+    "road_closure_notes": "Stage 3 passes Puigcerda; verify closures and pedestrian access before relying on this"
+  },
+  "timing": {
+    "best_visit_window": "Morning before settling into the Stage 3 viewing position",
+    "race_day_risk": "High because Puigcerda is on/near the Stage 3 route"
+  },
+  "tags": ["fallback-caffeine", "needs-quality-verification", "race-day-risk"],
+  "status": "candidate",
+  "confidence": "low",
+  "sources": [
+    {
+      "title": "OpenStreetMap Cafè de la Plaça",
+      "url": "https://www.openstreetmap.org/search?query=Caf%C3%A8%20de%20la%20Pla%C3%A7a%20Puigcerd%C3%A0",
+      "note": "Supports mapped existence and coordinates; does not establish coffee quality or hours."
+    },
+    {
+      "title": "Research agent launch packet current viewing days",
+      "url": "../../../docs/research-agents/README.md",
+      "note": "Supports Puigcerda as the Stage 3 viewing area in the itinerary."
+    }
+  ],
+  "open_questions": [
+    "Find a better Puigcerda source for quality and hours, or replace with a bakery/cafe verified by local tourism or current map listings.",
+    "Confirm whether the cafe is inside any Stage 3 closure zone."
+  ]
+}

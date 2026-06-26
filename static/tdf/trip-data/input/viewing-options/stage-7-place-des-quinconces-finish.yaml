@@ -1,0 +1,23 @@
+id: "stage-7-place-des-quinconces-finish"
+stageId: "trip-jul-10"
+name: "Finish / Place des Quinconces area"
+status: "fallback"
+priority: "Best race payoff / crowded"
+overview: ""
+lat: 44.846
+lng: -0.573
+distanceFromBase: "~1.0 mi from Hotel Burdigala"
+access: "Walk/tram from hotel if service runs; walking may be simplest due to closures."
+bikeUsefulness: "Bike unnecessary; mother joins, and final-crowd logistics make bikes a hassle."
+publicityCaravan: "Yes - official finish route"
+caravanTime: "≈15:52 at Bordeaux finish"
+raceTime: "Riders ≈17:13-17:35"
+viewingQuality: "Best for sprint finish and podium atmosphere."
+crowding: "Very high; arrive early for barriers."
+amenities: "City-center amenities but huge queues; bring water; shade limited along open spaces."
+roadClosureRisk: "High: finish and quays will have security/traffic controls."
+exitStrategy: "Walk back west/north after crowd dispersal; avoid trying to cross route immediately."
+luggage: "Potentially can drop luggage/check in first if arrival from Pyrenees is early enough; otherwise hotel should hold bags."
+notes: "Worth doing if the group still has energy after the long drive; make this the high-reward option."
+sources:
+  - "https://www.bordeaux-tourism.co.uk/agenda/tour-de-france-bordeaux-2026"

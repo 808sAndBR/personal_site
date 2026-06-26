@@ -1,0 +1,23 @@
+id: "stage-7-pont-simone-veil"
+stageId: "trip-jul-10"
+name: "Pont Simone Veil / approach into Bordeaux"
+status: "candidate"
+priority: "Balanced approach option"
+overview: ""
+lat: 44.8213
+lng: -0.5438
+distanceFromBase: "~3.0 mi from Hotel Burdigala"
+access: "Transit/walk/taxi as close as allowed, then walk; less convenient than center from Burdigala."
+bikeUsefulness: "Bike unnecessary, especially with mother joining."
+publicityCaravan: "Yes - official route"
+caravanTime: "≈15:44"
+raceTime: "Riders ≈17:07-17:29"
+viewingQuality: "Very good: bridge crossing and final 4.5 km approach, likely lead-out tension."
+crowding: "High but probably less dense than the finish barriers."
+amenities: "Limited on the bridge; use nearby right/left-bank amenities before staking out; exposed sun/wind."
+roadClosureRisk: "Medium-high: bridge access may be tightly controlled."
+exitStrategy: "Exit by walking away from route toward tram/bus options after roads reopen."
+luggage: "Drop luggage first only if schedule allows; otherwise hotel bag hold."
+notes: "Bordeaux Tourism highlights the new Simone-Veil bridge as part of the city approach."
+sources:
+  - "https://www.bordeaux-tourism.co.uk/agenda/tour-de-france-bordeaux-2026"

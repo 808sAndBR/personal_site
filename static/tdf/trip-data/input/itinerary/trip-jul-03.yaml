@@ -1,0 +1,23 @@
+id: "trip-jul-03"
+dateLabel: "Fri Jul 3"
+title: "Girona to Barcelona Evening Transfer"
+routeLabel: "Girona > Barcelona"
+base: "Girona"
+summary: "El Celler de Can Roca dinner, transfer to Barcelona."
+dayPlan: >
+  Train to Perpignan
+  Possibly have a morning ride
+  Dinner is at El Celler de Can Roca at 7:15pm.
+  Drive to Barcelona and check into Yurbban Passage.
+ourRoute:
+  - [41.9823,2.8232]
+  - [41.3897,2.1762]
+resources:
+  -
+    label: "Planning PDF"
+    url: "context/2026 Tour de France.pdf"
+    note: "Source for El Celler dinner, dressy packing note, and evening transfer to Barcelona"
+  -
+    label: "Girona food research summary"
+    url: "trip-data/research-inbox/coffee-food/food-summary.md"
+    note: "Static research notes for Girona food context"

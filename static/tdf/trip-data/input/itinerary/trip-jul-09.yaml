@@ -1,0 +1,53 @@
+id: "trip-jul-09"
+dateLabel: "Thu Jul 9"
+title: "Stage 6 - Pau to Gavarnie-Gedre"
+routeLabel: "Pau > Gavarnie-Gedre, 186.2 km"
+base: "Arreau"
+raceInfo:
+  startTime: "12:25 neutralised start"
+  endTime: "17:29 expected arrival"
+  officialUrl: "https://www.letour.fr/en/stage-6"
+  routeMap:
+    label: "Official stage map"
+    imageUrl: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tdf26-et06-cartepot-v3/71048/0%3A0%2C1654%3A1169-960-0-90/bb1ae"
+    url: "https://www.letour.fr/en/stage-6"
+    note: "Official Tour de France stage page and map"
+  elevationProfile:
+    label: "Official elevation profile"
+    imageUrl: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/6-tdf26-profils-web-fr/70968/0:0,1004:602-960-0-90/c69fa"
+    url: "https://www.letour.fr/en/stage-6"
+    note: "Official Tour de France stage profile"
+  officialRoute:
+    source: "arcgis"
+    layerUrl: "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/2"
+    where: "Etape=6"
+    note: "Official ASO ArcGIS route geometry from the embedded Tour stage map"
+  route:
+    - [43.2951,-0.3708]
+    - [43.2716,-0.3459]
+    - [43.1295,-0.201]
+    - [43.0942,-0.0463]
+    - [43.0645,0.1499]
+    - [43.1177,0.2762]
+    - [43.102,0.316]
+    - [43.016,0.374]
+    - [42.905,0.36]
+    - [42.9429,0.329]
+    - [42.999,0.228]
+    - [42.91,0.178]
+    - [42.9083,0.1456]
+    - [42.896,0.064]
+    - [42.873,-0.004]
+    - [42.787,-0.019]
+    - [42.735,-0.01]
+summary: "Mountain stage from Pau through Col d'Aspin and Col du Tourmalet before finishing at Gavarnie-Gedre."
+dayPlan: "Watch from Col du Tourmalet per the itinerary. Official schedule lists Col du Tourmalet at 16:30 / 16:43 / 16:58 for the three pace estimates."
+resources:
+  -
+    label: "Official Stage 6 page"
+    url: "https://www.letour.fr/en/stage-6"
+    note: "Stage route, timing, map, and profile"
+  -
+    label: "Official Stage 6 map image"
+    url: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tdf26-et06-cartepot-v3/71048/0%3A0%2C1654%3A1169-960-0-90/bb1ae"
+    note: "Official route map image"

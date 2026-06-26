@@ -1,0 +1,55 @@
+{
+  "type": "food",
+  "name": "Can Roca",
+  "stageId": null,
+  "tripArea": "Girona",
+  "coordinates": {
+    "lat": 41.9993,
+    "lng": 2.8077
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Can%20Roca%20Ctra.%20Taiala%2042%20Girona",
+  "summary": "The Roca family's original neighborhood restaurant is a practical weekday Girona lunch or breakfast-of-the-fork option with real local pedigree.",
+  "whyItMatters": "It gives the trip a grounded Girona food experience connected to the Can Roca family without the near-impossible reservation burden of El Celler.",
+  "pros": [
+    "Official site lists weekday bar, breakfast, and menu-del-dia service",
+    "Reservation phone is published",
+    "Strong story value as the Roca family home restaurant opened by their parents in 1967"
+  ],
+  "cons": [
+    "Weekday-only schedule makes it unusable for weekend Girona time",
+    "Not in the old-town core, so it needs a deliberate taxi, bike, or car move"
+  ],
+  "logistics": {
+    "opening_hours": "Restaurant/menu diari Monday-Friday 13:00-15:30; esmorzars de forquilla Monday-Friday 8:30-10:30; bar Monday-Friday 6:30-17:00.",
+    "reservation_needed": "Recommended for lunch; reserve by phone per official site.",
+    "takeaway_options": "Unknown.",
+    "distance_from_base": "Unknown until lodging is confirmed; on Ctra. Taiala north-west of central Girona.",
+    "distance_from_viewing_point": "Not a race-day viewing food option.",
+    "transit": "Unknown; likely easiest by taxi, bike, or car from central Girona.",
+    "parking": "Unknown.",
+    "road_closure_notes": "No race-day closure information found for this specific restaurant."
+  },
+  "timing": {
+    "best_visit_window": "Weekday breakfast or lunch while based in Girona.",
+    "race_day_risk": "Low for non-race Girona days; closed weekends."
+  },
+  "tags": ["girona", "local-institution", "weekday", "reservation-recommended"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Can Roca official website",
+      "url": "https://canrocarestaurant.com/",
+      "note": "Supports address, reservation phone, weekday hours, breakfast/lunch/bar service, and the family-history positioning."
+    },
+    {
+      "title": "El Celler de Can Roca official universe page",
+      "url": "https://cellercanroca.com/",
+      "note": "Supports Can Roca as part of the Roca family restaurant group in Girona."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether July holiday/event schedules alter weekday hours.",
+    "Check distance from actual Girona lodging once lodging is pinned."
+  ]
+}

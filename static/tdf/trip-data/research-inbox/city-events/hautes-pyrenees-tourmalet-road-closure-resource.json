@@ -1,0 +1,62 @@
+{
+  "type": "risk_note",
+  "name": "Hautes-Pyrenees Road Info - Stage 6 Tourmalet and Gavarnie-Gedre",
+  "stageId": "trip-jul-09",
+  "tripArea": "Arreau / Pyrenees",
+  "coordinates": {
+    "lat": 42.9083,
+    "lng": 0.1456
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Col%20du%20Tourmalet",
+  "summary": "Official Hautes-Pyrenees road-info site already has a Tour de France 2026 flash item for July 8-9.",
+  "whyItMatters": "This is the key official road-closure and pass-status source for the Tourmalet viewing day.",
+  "pros": [
+    "Official departmental road-information site",
+    "Explicit Tour de France 2026 flash item for July 8 and 9",
+    "Site covers road restrictions, conditions, webcams, mountain passes, and special events",
+    "Departmental article confirms Stage 6 crosses Col d'Aspin and Col du Tourmalet before Gavarnie-Gedre"
+  ],
+  "cons": [
+    "The linked departmental order currently appears to be a 2025 PDF, so the 2026 order still needs follow-up",
+    "Road-closure timing by direction/vehicle type is not yet captured in this JSON",
+    "Mountain access rules may change close to race day"
+  ],
+  "logistics": {
+    "opening_hours": "Road information updates continuously; verify on July 8 evening and July 9 morning",
+    "reservation_needed": "Not applicable",
+    "distance_from_base": "Arreau to Tourmalet access depends on selected side and closures",
+    "distance_from_viewing_point": "Directly relevant to Col du Tourmalet viewing",
+    "transit": "Unknown; check local shuttles or restrictions if announced",
+    "parking": "Unknown; wait for 2026 departmental order and local commune notices",
+    "road_closure_notes": "Official Stage 6 timetable lists Col du Tourmalet at 16:30 / 16:43 / 16:58 for race pace estimates; road closures will likely start much earlier."
+  },
+  "timing": {
+    "best_visit_window": "Decide Tourmalet access plan only after the 2026 departmental order is published",
+    "race_day_risk": "high"
+  },
+  "tags": ["official", "road-closures", "tourmalet", "hautes-pyrenees", "mountain-access", "needs-2026-order"],
+  "status": "shortlisted",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "InfoRoute65 - Departement des Hautes-Pyrenees",
+      "url": "https://inforoute.ha-py.fr/",
+      "note": "Official road-info site with a 'Tour de France 2026 - 8 et 9 juillet 2026' flash item and road-restriction resources."
+    },
+    {
+      "title": "Departement des Hautes-Pyrenees - Tour de France 2026: deux etapes spectaculaires",
+      "url": "https://www.hautespyrenees.fr/actualite/focus/tour-de-france-2026-deux-etapes-spectaculaires-dans-les-hautes-pyrenees/",
+      "note": "Official departmental article confirming Stage 6 crosses Col d'Aspin and Col du Tourmalet before Gavarnie-Gedre."
+    },
+    {
+      "title": "Tour de France Stage 6 - Pau > Gavarnie-Gedre",
+      "url": "https://www.letour.fr/en/stage-6",
+      "note": "Official ASO stage page with Tourmalet passage timing and route context."
+    }
+  ],
+  "open_questions": [
+    "When will the 2026 Hautes-Pyrenees departmental road order PDF be published?",
+    "Will access from the Arreau / Sainte-Marie-de-Campan side be closed earlier than access from the Bareges side?",
+    "Are any official spectator parking, shuttle, or bike-up rules planned for Tourmalet?"
+  ]
+}

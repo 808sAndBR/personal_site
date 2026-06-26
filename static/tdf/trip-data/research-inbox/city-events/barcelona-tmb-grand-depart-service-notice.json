@@ -1,0 +1,61 @@
+{
+  "type": "risk_note",
+  "name": "TMB Grand Depart Transport Disruptions - Barcelona",
+  "stageId": "trip-jul-04",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3874,
+    "lng": 2.1686
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Barcelona",
+  "summary": "Official TMB notice confirms metro reinforcement and specific bus/metro disruptions on July 2, 4, and 5.",
+  "whyItMatters": "This is the strongest current source for public transport planning during the two Barcelona viewing days and the non-viewing team presentation context.",
+  "pros": [
+    "Official transit operator notice",
+    "Confirms up to 40% more metro trains at key hours, especially lines 1 and 5",
+    "Lists Sagrada Familia L2 closure timing for July 2 and affected bus routes for July 4 and July 5",
+    "Recommends metro over surface travel"
+  ],
+  "cons": [
+    "Notice says it is still being prepared and may be updated",
+    "Bus route impacts are extensive and could change",
+    "Does not replace official city road-closure maps"
+  ],
+  "logistics": {
+    "opening_hours": "Notice active for July 2, July 4, and July 5 event impacts",
+    "reservation_needed": "Not applicable",
+    "distance_from_base": "Unknown",
+    "distance_from_viewing_point": "Relevant to all Barcelona movement, especially Montjuic and Sagrada Familia areas",
+    "transit": "Metro is the recommended mode. L2 Sagrada Familia will not stop from 13:00 on July 2 until the end of the team presentation event. Stage 1 and Stage 2 cause all-day bus impacts on many lines.",
+    "parking": "Not covered by TMB; assume surface mobility is constrained and verify city parking/closure maps",
+    "road_closure_notes": "Use this with the Ajuntament Grand Depart site route maps and official stage maps."
+  },
+  "timing": {
+    "best_visit_window": "Check the notice the night before and morning of July 2, July 4, and July 5",
+    "race_day_risk": "high"
+  },
+  "tags": ["official", "transport", "tmb", "barcelona", "metro", "bus-disruptions", "road-closure-adjacent"],
+  "status": "shortlisted",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "TMB - Tour de France",
+      "url": "https://www.tmb.cat/en/tour-de-france",
+      "note": "Official TMB Grand Depart page confirming metro reinforcement, recommendation to use metro, and link to detailed service notice."
+    },
+    {
+      "title": "TMB - Avis Tour 2026",
+      "url": "https://www.tmb.cat/en/-/avis-tour-2026",
+      "note": "Official service notice with disruptions for July 2 team presentation, July 4 Stage 1, and July 5 Stage 2."
+    },
+    {
+      "title": "Ajuntament de Barcelona - Tour de France Barcelona 2026",
+      "url": "https://www.letour.barcelona/en",
+      "note": "Official Grand Depart organizer site linked from TMB for schedules, cities, and route context."
+    }
+  ],
+  "open_questions": [
+    "Will TMB add exact metro crowd-control measures for Espanya, Paral-lel, Poble Sec, or other Montjuic-access stations?",
+    "Which bus route modifications matter most for the lodging location once lodging is known?"
+  ]
+}

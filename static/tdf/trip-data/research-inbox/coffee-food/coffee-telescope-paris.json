@@ -1,0 +1,54 @@
+{
+  "type": "coffee",
+  "name": "Telescope",
+  "stageId": null,
+  "tripArea": "Paris",
+  "coordinates": {
+    "lat": 48.866146,
+    "lng": 2.3363625
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=48.866146,2.3363625",
+  "summary": "Longstanding central Paris specialty coffee candidate near Palais Royal.",
+  "whyItMatters": "A very obvious Paris specialty-coffee placeholder for central sightseeing if the group is near the Louvre/Palais Royal area.",
+  "pros": [
+    "European Coffee Trip lists Telescope in its Paris specialty guide",
+    "European Coffee Trip has a dedicated barista-story article for Nicolas Clerc of Telescope",
+    "Central location works for short Paris walking windows"
+  ],
+  "cons": [
+    "Paris lodging is unknown, so this may be the wrong neighborhood",
+    "Current official opening hours were not found in crawlable sources"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown; verify current hours",
+    "reservation_needed": "No",
+    "distance_from_base": "Paris lodging unknown",
+    "distance_from_viewing_point": "Not tied to a race viewing point",
+    "transit": "Central Paris; use metro/walk depending on hotel",
+    "parking": "Not recommended",
+    "road_closure_notes": "No Tour road-closure relevance identified"
+  },
+  "timing": {
+    "best_visit_window": "Morning or mid-day central Paris walk",
+    "race_day_risk": "Low"
+  },
+  "tags": ["specialty-coffee", "paris", "hotel-location-needed"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "European Coffee Trip Paris guide",
+      "url": "https://europeancoffeetrip.com/paris/",
+      "note": "Lists Telescope among Paris specialty coffee candidates."
+    },
+    {
+      "title": "OpenStreetMap Telescope",
+      "url": "https://www.openstreetmap.org/search?query=T%C3%A9lescope%20Rue%20Villedo%20Paris",
+      "note": "Supports mapped central Paris coordinates."
+    }
+  ],
+  "open_questions": [
+    "Replace or confirm after Paris hotel/neighborhood is known.",
+    "Verify current hours."
+  ]
+}

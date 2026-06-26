@@ -1,0 +1,22 @@
+id: "stage-6-arreau-d918-valley"
+stageId: "trip-jul-09"
+name: "Arreau / D918 valley fallback"
+status: "fallback"
+priority: "Low-stress fallback from lodging"
+overview: ""
+lat: 42.910842
+lng: 0.359760
+distanceFromBase: "~0.0 mi from Arreau town center / Airbnb area"
+access: "Walk from Arreau base if your Airbnb is near town; otherwise short bike/walk."
+bikeUsefulness: "Bike useful only for local positioning; not necessary to see the race."
+publicityCaravan: "Yes - official route at Arreau"
+caravanTime: "≈13:34"
+raceTime: "Riders ≈15:11-15:27"
+viewingQuality: "Good practical viewing, but before the Aspin/Tourmalet fireworks."
+crowding: "Moderate; town will be busy but less intense than the climbs."
+amenities: "Best amenities: town cafés, bathrooms, water, ability to retreat; shade variable."
+roadClosureRisk: "Low if staying in town; avoid moving cars on race route."
+exitStrategy: "Walk back to Airbnb; easiest exit of the day."
+luggage: "Excellent; can stay based in Arreau."
+notes: "If mother/family comfort matters, this is the control option. Saint-Lary itself is not on the listed route; Campan/Sainte-Marie-de-Campan are on-route alternatives after Aspin."
+sources: []

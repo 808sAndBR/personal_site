@@ -1,0 +1,58 @@
+{
+  "type": "coffee",
+  "name": "Syra Coffee Poble Sec",
+  "stageId": "trip-jul-04",
+  "tripArea": "Barcelona / Montjuic",
+  "coordinates": {
+    "lat": 41.3737594,
+    "lng": 2.1636857
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3737594,2.1636857",
+  "summary": "Published-hours specialty coffee near Poble-sec and the lower Montjuic approach.",
+  "whyItMatters": "Useful for the Montjuic viewing days because it is closer to the hill than most top Barcelona specialty cafes.",
+  "pros": [
+    "Official Syra page lists Poble Sec address and all-week 08:00-20:00 hours",
+    "European Coffee Trip lists Syra Coffee - Poble Sec in the Barcelona specialty guide",
+    "Works as a pre-Montjuic coffee stop before walking uphill"
+  ],
+  "cons": [
+    "Race-day crowding and street closures around Montjuic may change the walking route",
+    "Small-format chain cafe rather than a destination roaster experience"
+  ],
+  "logistics": {
+    "opening_hours": "Mon-Sun 08:00-20:00, per Syra location page accessed 2026-06-22",
+    "reservation_needed": "No",
+    "distance_from_base": "Barcelona base; exact lodging distance unknown",
+    "distance_from_viewing_point": "Approximately 1.5-2 km walking to Montjuic Park areas depending on the viewing point",
+    "transit": "Near Poble-sec; verify race-day metro and walking access",
+    "parking": "Not recommended on race days; verify city restrictions",
+    "road_closure_notes": "Montjuic race-day road closures are not sourced here; verify with the city/TDF events research before relying on this approach"
+  },
+  "timing": {
+    "best_visit_window": "Early morning before heading up Montjuic",
+    "race_day_risk": "Medium because Montjuic access may be constrained on Stage 1 and Stage 2"
+  },
+  "tags": ["specialty-coffee", "official-hours", "montjuic-access"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Syra Coffee location page",
+      "url": "https://syra.coffee/pages/location",
+      "note": "Supports Poble Sec address and listed opening hours."
+    },
+    {
+      "title": "European Coffee Trip Barcelona guide",
+      "url": "https://europeancoffeetrip.com/barcelona/",
+      "note": "Lists Syra Coffee - Poble Sec among Barcelona specialty coffee candidates."
+    },
+    {
+      "title": "OpenStreetMap Syra Coffee Poble Sec",
+      "url": "https://www.openstreetmap.org/search?query=Syra%20Coffee%20Carrer%20de%20Margarit%2017%20Barcelona",
+      "note": "Supports coordinates for the cafe."
+    }
+  ],
+  "open_questions": [
+    "Cross-check Stage 1 and Stage 2 Montjuic pedestrian access before assigning this as a race-morning stop."
+  ]
+}

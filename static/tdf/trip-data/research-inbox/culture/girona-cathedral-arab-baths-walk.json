@@ -1,0 +1,72 @@
+{
+  "type": "culture",
+  "name": "Girona Cathedral and Arab Baths old-town walk",
+  "stageId": "trip-jul-06",
+  "tripArea": "Girona",
+  "coordinates": {
+    "lat": 41.9879,
+    "lng": 2.8267
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.9879,2.8267",
+  "summary": "A dense, memorable old-town loop combining Girona Cathedral's monumental nave with the nearby medieval bath complex.",
+  "whyItMatters": "Girona is listed as a non-viewing trip area, and this pairing gives a strong sense of the city without requiring a full museum day.",
+  "timeRequired": "90-150 minutes for cathedral plus baths; 45-60 minutes if exterior-only.",
+  "ticketOrReservationNeed": "Tickets likely needed for interiors; check each official site.",
+  "pros": [
+    "Very high cultural density in a small walkable area",
+    "Works as a flexible Girona morning or late-afternoon stop",
+    "Cathedral and baths are close enough to combine without complex transit"
+  ],
+  "cons": [
+    "Old-town stairs and July heat may slow the group",
+    "Opening hours vary by monument and religious services"
+  ],
+  "logistics": {
+    "opening_hours": "Verify Cathedral and Banys Arabs hours on official pages for the exact visit date.",
+    "reservation_needed": "Recommended for cathedral interior if timing is tight.",
+    "distance_from_base": "Girona base dependent; both are in the Barri Vell / old town.",
+    "distance_from_viewing_point": "Not a race viewing point; useful before the Stage 3 Pyrenees transfer.",
+    "transit": "Walk from central Girona; taxi useful if lodging is outside the old town.",
+    "parking": "Use perimeter parking; old-town driving is not a good assumption.",
+    "road_closure_notes": "No TDF closure assumed; verify any local events."
+  },
+  "timing": {
+    "best_visit_window": "Girona non-race morning or evening before departing toward Puigcerda.",
+    "race_day_risk": "Low for Girona itself, but transfer timing to Puigcerda matters."
+  },
+  "nearbyFoodDrinkPairing": "Pair with coffee or lunch in the Barri Vell before driving toward the Pyrenees.",
+  "tags": [
+    "girona",
+    "old-town",
+    "cathedral",
+    "short-walk"
+  ],
+  "status": "promising",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Girona Cathedral official site",
+      "url": "https://catedraldegirona.cat/en/",
+      "note": "Official source for cathedral visit information and tickets."
+    },
+    {
+      "title": "Girona Cathedral - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Girona_Cathedral",
+      "note": "Secondary support for the cathedral's Gothic nave, Romanesque cloister, treasury, and location."
+    },
+    {
+      "title": "Girona tourism - Arab Baths",
+      "url": "https://www.girona.cat/turisme/eng/monuments_banys.php",
+      "note": "Official tourism source to verify the Banys Arabs visit details."
+    },
+    {
+      "title": "Arab Baths of Girona - Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Arabische_B%C3%A4der_(Girona)",
+      "note": "Secondary support for the bath complex's medieval/monument context."
+    }
+  ],
+  "open_questions": [
+    "Where is the Girona lodging/base relative to the old town?",
+    "Will the group want interior tickets or only a fast exterior/photo walk?"
+  ]
+}

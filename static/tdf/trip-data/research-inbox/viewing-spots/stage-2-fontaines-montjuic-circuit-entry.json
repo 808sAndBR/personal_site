@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-2-fontaines-montjuic-circuit-entry",
+  "name": "Fontaines de Montjuic Circuit Entry",
+  "stageId": "trip-jul-05",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3711,
+    "lng": 2.1516
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3711,2.1516",
+  "roadSegment": "Fontaines de Montjuic / entry onto final circuit near Placa d'Espanya side",
+  "estimatedPassageTime": "16:51 / 17:02 expected first and later circuit entry references; official schedule also lists 17:10 at Fontaines de Montjuic",
+  "elevationMeters": 45,
+  "summary": "Lower-Montjuic circuit-entry option that may trade less steep racing for better transit and escape possibilities.",
+  "whyItMatters": "The official schedule marks Fontaines de Montjuic as the entry to the final circuit, making it a navigable landmark for seeing the race before the climb chaos.",
+  "access": {
+    "estimated_route_from_base": "Approach from Placa d'Espanya/metro side before closures; exact pedestrian funnels unknown.",
+    "parking_transit_possibilities": "Urban transit is the planning default. Parking near Placa d'Espanya/Montjuic during race closures is unknown and likely constrained.",
+    "walk_bike_approach_notes": "A walk-in from Placa d'Espanya may be more realistic than the castle summit, but course-crossing cannot be assumed.",
+    "road_closure_notes": "Unknown; Barcelona municipal traffic order needed."
+  },
+  "pros": [
+    "Official route landmark at the start of the final circuit.",
+    "Likely easier post-race escape than the castle climb if Placa d'Espanya approaches remain open.",
+    "Potential access to larger urban sidewalks and transit nodes compared with the upper climb."
+  ],
+  "cons": [
+    "Riders may be faster and harder to identify than on the climb.",
+    "Lower Montjuic can still be heavily controlled because it feeds the final circuit.",
+    "Barrier layout may prevent good sightlines or force spectators far from the road."
+  ],
+  "logistics": {
+    "parking": "Unknown; avoid relying on nearby parking.",
+    "transit": "Placa d'Espanya metro/FGC area is nearby in normal conditions; race-day station exits and crowd controls must be verified.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 4,
+    "road_closure_notes": "Needs official Barcelona closure and pedestrian-circulation plan."
+  },
+  "crowdRisk": "medium-high: lower than the castle climb, but still a final-circuit gateway in a major city.",
+  "bathroomFoodProximity": "Potentially better than upper Montjuic in normal conditions, but race-day access to cafes/toilets is unknown.",
+  "escapeRoute": "Walk toward Placa d'Espanya or Poble-sec after official reopening, avoiding any need to cross the active course.",
+  "safetyAssessment": "Select a broad pedestrian area behind barriers; avoid traffic islands and median positions at the circuit entry.",
+  "timing": {
+    "best_arrival_window": "At least 3-4 hours before expected rider passage; earlier if seeking front barrier.",
+    "race_day_risk": "Medium-high until transit, barriers, and crossings are published."
+  },
+  "tags": ["stage-2", "barcelona", "montjuic", "circuit-entry", "transit-fallback"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 2 official page",
+      "url": "https://www.letour.fr/en/stage-2",
+      "note": "Supports Fontaines de Montjuic as the final-circuit entry and provides official caravan/rider schedule references for the area."
+    },
+    {
+      "title": "TDF trip data official route note",
+      "url": "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/2",
+      "note": "Official ASO ArcGIS layer referenced by the app for Stage 2 route geometry; coordinate follows the app's lower-Montjuic route point."
+    },
+    {
+      "title": "Placa d'Espanya and Montjuic access background via Montjuic article",
+      "url": "https://en.wikipedia.org/wiki/Montju%C3%AFc",
+      "note": "Supports the relationship between Montjuic, Placa d'Espanya, and the hill's public spaces; not a closure source."
+    }
+  ],
+  "open_questions": [
+    "Will Placa d'Espanya-side pedestrian access remain open after the final circuit closes?",
+    "Where exactly will barriers allow spectators near Fontaines de Montjuic?",
+    "Are nearby metro/FGC exits modified for the Tour crowds?"
+  ]
+}

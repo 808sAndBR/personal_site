@@ -1,0 +1,448 @@
+# Editable planned activities grouped by itinerary day.
+# Each top-level key is a stage id and each entry becomes one activity row in the app.
+
+trip-jul-01:
+  - id: "trip-jul-01-assemble-bikes"
+    type: prep
+    name: Assemble Bikes
+    summary: Assemble bikes after arriving in Girona and checking into Hotel Boutique Casa Cacao.
+    status: planned
+    startTime: 19:00 (est)
+    endTime: 20:00(est)
+
+trip-jul-02:
+  - id: "trip-jul-02-breakfast"
+    type: meal
+    name: Breakfast at La Fabrica
+    summary: |
+      Grab a nice breakfast before rides. Can sleep in a bit if jet lagged
+    status: planned
+    startTime: 9:00 (est)
+    endTime: 10:00 (est)
+  - id: "trip-jul-02-ride"
+    type: ride
+    name: Girona Ride
+    summary: |
+      Rocacorba: https://ridewithgps.com/routes/55803300 45mi 4k elevation
+      Hincapie Loop: https://ridewithgps.com/routes/55815083 41mi 3k elevation
+    status: planned
+    startTime: 10:00 (est)
+    endTime: 13:00 (est)
+  - id: "trip-jul-02-girona-shopping"
+    type: shopping
+    name: Girona Shopping
+    summary: |
+      Toy store
+      Eat sleep cycle
+      Espresso cups from la fabrica and espresso mafia maybe?
+    status: planned
+    startTime: 13:30 (est)
+    endTime: 18:00 (est)
+  - id: "trip-jul-02-team-presentation"
+    type: sightseeing
+    name: Team presentation from a bar?
+    summary: With it being such a cycling town maybe funny vibe for team presentations?
+    status: planned
+    startTime: 18:30 (est)
+    endTime: 20:00 (est)
+
+
+trip-jul-03:
+  - id: "trip-jul-03-el-celler-dinner"
+    type: meal
+    name: El Celler de Can Roca Dinner
+    summary: Dinner reservation at El Celler de Can Roca before the late transfer to Barcelona.
+    status: planned
+    startTime: 19:15
+    endTime: 21:00(est)
+    coordinates:
+      lat: 41.993376
+      lng: 2.807145
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El%20Celler%20de%20Can%20Roca%20Girona"
+  - id: "trip-jul-03-morning-ride"
+    type: ride
+    name: Optional Girona Morning Ride
+    summary: |
+      Would have to be super early since we had to do the 10:10 train.
+      if jet lag and all has us up crazy early though we could do a spin out.
+    status: optional
+    startTime: 8:00
+    endTime: 9:30 (est)
+  - id: "trip-jul-03-rental-car-pickup"
+    type: FYI
+    name: Rental Car Pickup
+    summary: |
+      Scheduled pickup time of rental car but can get whenever after.
+      Pickup details: https://docs.google.com/document/d/1ARiMeY7_M1CVrH0aGSo83YAqP3yF9aOVXCk4KDpMVY8/edit?tab=t.77zi0ybphf3p
+    status: "planned"
+    startTime: "13:00"
+    endTime: 18:00 (absolute latest)
+    coordinates:
+      lat: 42.6966
+      lng: 2.8796
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Perpignan%20train%20station"
+  - id: "trip-jul-03-zbe-turns-off"
+    type: FYI
+    name: ZBE zone cameras turn off
+    summary: |
+      If we will arrive at the ZBE zone before the cameras turn off,
+      we must buy pass: https://zberegistre.ambmobilitat.cat/en
+    status: planned
+    startTime: 20:00
+
+trip-jul-04:
+  - id: "stage-1-race-start"
+    type: FYI
+    name: Race Start
+    summary: "Barcelona > Barcelona TTT begins with the first team start."
+    status: planned
+    startTime: "17:05 first start"
+  - id: "stage-1-expected-finish"
+    type: FYI
+    name: Expected Finish
+    summary: Last team expected to arrive at the Barcelona TTT finish.
+    status: planned
+    startTime: "19:16 last arrival"
+
+trip-jul-05:
+  - id: "stage-2-race-start"
+    type: FYI
+    name: Race Start
+    summary: "Tarragona > Barcelona stage begins with the neutralised start."
+    status: planned
+    startTime: "13:45 neutralised start"
+  - id: "stage-2-expected-finish"
+    type: FYI
+    name: Expected Finish
+    summary: "Expected arrival for the hilly Tarragona > Barcelona stage."
+    status: planned
+    startTime: "17:26 expected arrival"
+
+trip-jul-06:
+  - id: "trip-jul-03-zbe-turns-on"
+    type: FYI
+    name: ZBE zone cameras turn on
+    summary: |
+      If we will not be gone before from the ZBE zone before the cameras turn off,
+      we must buy pass: https://zberegistre.ambmobilitat.cat/en
+    status: planned
+    startTime: 7:00
+
+  - id: "stage-3-race-start"
+    type: FYI
+    name: Race Start
+    summary: "Granollers > Les Angles stage begins with the neutralised start."
+    status: planned
+    startTime: "12:10 neutralised start"
+  - id: "stage-3-expected-finish"
+    type: FYI
+    name: Expected Finish
+    summary: Expected arrival at Les Angles.
+    status: planned
+    startTime: "16:54 expected arrival"
+
+trip-jul-07:
+  - id: "trip-jul-07-morning-ride"
+    type: ride
+    name: Optional Morning Ride Before Pyrenees Transfer
+    summary: |
+      Optional ride in the morning before continuing toward the French Pyrenees and settling in at Arreau.
+      Its probably too insane to stop and ride Col de Peyresourde mid drive...
+    status: "needs-details"
+    startTime: 9:00 (est)
+    endTime: Late morning
+  - id: "trip-jul-07-sunset"
+    type: FYI
+    name: Sunset
+    summary: "Just marking that we will want to arrive so not driving in dark mountians... its so late though lol"
+    status: planned
+    startTime: 21:40
+
+trip-jul-08:
+  - id: "trip-jul-08-col-daspin-ride"
+    type: ride
+    name: Bike Ride
+    overview: |
+      Road closures, leg feels, and weather will play into what makes sense.
+      If we feel wound up can go for Tourmalet.
+      If weather or logistics are fighting us, Col d’Aspin seems great and could jam it in between weather pattens or before it gets too hot.
+      Monster loop that is beyond unhinged: https://ridewithgps.com/routes/49478783 56 mi 9.5k
+
+      Tourmalet Ride:
+        If stars aligning, this is a cool option. Would need to drive to the start of the ride.
+        Potential to start at a few different points depending on conditions.
+        Campan:
+          Seems like most reasonable approach without adding Col d’Aspin to the mix lol
+          40 min drive
+          route: https://ridewithgps.com/routes/51696870
+          28.6 mi 4.8k elevation (route above is climb only so doubled length)
+        Payolle-Campan:
+          possibly parking would be easier if trouble at Campan
+          30 min drive
+          route: https://ridewithgps.com/routes/42191482
+          29.7 mi 5.1k elevation
+        Artigues:
+          Looks like more of a pull off than a real town we should expect parking at.
+          Potentailly worth rolling the dice if only a small weather window or potentially if were too cooked for full climb but want to do super early.
+          1hr 15 min drive
+          6.7 miles 3k elevation
+
+      Col d’Aspin Ride:
+        Can climb from Arreau lodging
+        Doing part of this to watch the riders the next day is a top pick viewing area.
+        15.8 mi 2.7k elevation
+        route: https://ridewithgps.com/routes/44399253
+
+      Hautacam Ride:
+        Likely would want to drive to Argelès-Gazost to start the ride. ~1 hour.
+        18.5 mi 3.8k elevation
+        route: https://ridewithgps.com/routes/6444192
+
+    summary: Potential local climb from the Arreau base if conditions and energy are good.
+    status: "needs-details"
+    startTime: Flexible
+
+trip-jul-09:
+  - id: "stage-6-race-start"
+    type: FYI
+    name: Race Start
+    summary: "Pau > Gavarnie-Gedre mountain stage begins with the neutralised start."
+    status: planned
+    startTime: "12:25 neutralised start"
+  - id: "stage-6-expected-finish"
+    type: FYI
+    name: Expected Finish
+    summary: "Expected arrival at Gavarnie-Gedre."
+    status: planned
+    startTime: "17:29 expected arrival"
+
+trip-jul-10:
+  - id: "stage-7-rental-car-due"
+    type: FYI
+    name: Rental Car Due
+    summary: "Drop rental car off by this time. Scott to take bike to return to make it easier."
+    status: planned
+    startTime: 12:30
+    coordinates:
+      lat: 44.823849
+      lng: -0.554883
+    googleMapsUrl: "https://maps.app.goo.gl/cf8YSCk7D5NPDtX77"
+  - id: "stage-7-race-start"
+    type: FYI
+    name: Race Start
+    summary: "Hagetmau > Bordeaux stage begins with the neutralised start."
+    status: planned
+    startTime: "13:15 neutralised start"
+  - id: "stage-7-expected-finish"
+    type: FYI
+    name: Expected Finish
+    summary: Expected arrival in Bordeaux.
+    status: planned
+    startTime: "17:13 expected arrival"
+  - id: "trip-jul-10-le-bar-a-vin"
+    type: wine
+    name: Le Bar à Vin / Downtown Bordeaux Wine
+    summary: "Downtown Bordeaux wine stop idea at Le Bar à Vin after reaching Bordeaux, separate from race viewing."
+    status: "needs-details"
+    startTime: Evening
+    coordinates:
+      lat: 44.843665
+      lng: -0.574805
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Le%20Bar%20a%20Vin%20Bordeaux"
+
+trip-jul-11:
+  - id: "trip-jul-11-chateau-pape-clement"
+    type: sightseeing
+    name: Château Pape Clément Tasting
+    summary: 2pm tasting at Château Pape Clément; save about 45 minutes to get there.
+    status: planned
+    startTime: "14:00"
+    endTime: Afternoon
+    coordinates:
+      lat: 44.804777
+      lng: -0.630786
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Chateau%20Pape%20Clement%20Pessac"
+  - id: "trip-jul-11-cite-du-vin"
+    type: museum
+    name: Cité du Vin
+    summary: Wine museum after Château Pape Clément if timing works; travel doc notes it is open 10–6 daily.
+    status: planned
+    startTime: "16:00 (est)"
+    endTime: "18:00"
+    coordinates:
+      lat: 44.8625
+      lng: -0.5517
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cite%20du%20Vin%20Bordeaux"
+
+trip-jul-12:
+  - id: "trip-jul-12-saint-emilion-lunch"
+    type: meal
+    name: "L'Envers du Décor Lunch"
+    summary: "Lunch target in Saint-Émilion during the Bordeaux day trip."
+    status: planned
+    startTime: "13:00"
+    endTime: Afternoon
+    coordinates:
+      lat: 44.894285
+      lng: -0.155991
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=L%27Envers%20du%20D%C3%A9cor%20Saint-Emilion"
+  - id: "trip-jul-12-saint-emilion-village"
+    type: "day-trip"
+    name: "Saint-Émilion Village Time"
+    summary: "Village time in Saint-Émilion around lunch; travel doc notes trains roughly every 2 hours and a 30-minute walk from station to restaurant."
+    status: planned
+    startTime: Late morning
+    endTime: Afternoon
+    coordinates:
+      lat: 44.8947
+      lng: -0.1568
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Saint-Emilion%20France"
+
+trip-jul-13:
+  - id: "trip-jul-13-historic-paris-walk"
+    type: walk
+    name: Rick Steves Historic Paris Walk
+    summary: Follow Rick Steves’s Historic Paris Walk after arriving in Paris. (In book holly has)
+    status: planned
+    startTime: Afternoon
+    coordinates:
+      lat: 48.853
+      lng: 2.3499
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Notre%20Dame%20Paris"
+  - id: "trip-jul-13-notre-dame"
+    type: sightseeing
+    name: Notre Dame
+    summary: Visit Notre Dame; travel doc notes it closes at 7pm and tickets may be bookable online a day or two before.
+    status: "needs-details"
+    startTime: Afternoon
+    endTime: "19:00"
+    coordinates:
+      lat: 48.853
+      lng: 2.3499
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Notre%20Dame%20Paris"
+  - id: "trip-jul-13-le-colimacon"
+    type: meal
+    name: Le Colimaçon Dinner
+    summary: Dinner reservation for 3 at Le Colimaçon.
+    status: planned
+    startTime: "19:00"
+    endTime: Evening
+    coordinates:
+      lat: 48.85825
+      lng: 2.35854
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Le%20Colimacon%20Paris"
+
+trip-jul-14:
+  - id: "trip-jul-14-bastille-day"
+    type: FYI
+    name: Bastille Day
+    summary: Bastille Day in Paris.
+    status: planned
+    startTime: All day
+    endTime: Night
+    coordinates:
+      lat: 48.8566
+      lng: 2.3522
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Paris%20France"
+  - id: "trip-jul-14-opera-ballet"
+    type: performance
+    name: Paris Opera Ballet
+    summary: "Paris Opera Ballet booking at 2:30pm; confirmation 20502187."
+    status: planned
+    startTime: "14:30"
+    endTime: Afternoon
+    coordinates:
+      lat: 48.87197
+      lng: 2.3316
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Palais%20Garnier%20Paris"
+  - id: "trip-jul-14-fireworks"
+    type: sightseeing
+    name: Bastille Day Fireworks
+    summary: View Bastille Day fireworks after the ballet / evening plans.
+    status: planned
+    startTime: Night
+    coordinates:
+      lat: 48.85837
+      lng: 2.29448
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Eiffel%20Tower%20Paris"
+
+trip-jul-15:
+  - id: "trip-jul-15-louvre"
+    type: museum
+    name: Louvre Museum
+    summary: Louvre Museum booking at 11am; travel doc notes hours 10–6.
+    status: planned
+    startTime: "11:00"
+    endTime: Afternoon
+    coordinates:
+      lat: 48.8606
+      lng: 2.3376
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Louvre%20Museum%20Paris"
+  - id: "trip-jul-15-cluny"
+    type: museum
+    name: Cluny Museum
+    summary: Cluny Museum after the Louvre if timing/energy works.
+    status: "needs-details"
+    startTime: Afternoon
+    coordinates:
+      lat: 48.8505
+      lng: 2.345
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cluny%20Museum%20Paris"
+  - id: "trip-jul-15-eiffel-tower"
+    type: sightseeing
+    name: Eiffel Tower
+    summary: Eiffel Tower visit idea for the Louvre/Cluny day.
+    status: "needs-details"
+    startTime: Evening
+    coordinates:
+      lat: 48.85837
+      lng: 2.29448
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Eiffel%20Tower%20Paris"
+
+trip-jul-16:
+  - id: "trip-jul-16-versailles"
+    type: "day-trip"
+    name: Versailles Palace
+    summary: "Versailles tickets for 11:30am; travel doc notes about 1 hour by train to Versailles."
+    status: planned
+    startTime: "11:30"
+    endTime: Afternoon
+    coordinates:
+      lat: 48.8049
+      lng: 2.1204
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Palace%20of%20Versailles"
+
+trip-jul-17:
+  - id: "trip-jul-17-montmartre"
+    type: walk
+    name: Montmartre
+    summary: Montmartre idea for the flexible Paris day.
+    status: "needs-details"
+    startTime: Flexible
+    coordinates:
+      lat: 48.8867
+      lng: 2.3431
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Montmartre%20Paris"
+  - id: "trip-jul-17-napoleons-tomb"
+    type: museum
+    name: Napoleon’s Tomb
+    summary: Napoleon’s Tomb idea for the flexible Paris day.
+    status: "needs-details"
+    startTime: Flexible
+    coordinates:
+      lat: 48.855
+      lng: 2.3126
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Napoleon%27s%20Tomb%20Paris"
+
+trip-jul-18:
+  - id: "trip-jul-18-paris-shopping"
+    type: shopping
+    name: Paris Shopping
+    summary: Flexible Paris shopping block with department store and luxury boutique options.
+    status: "needs-details"
+    startTime: Flexible
+    optionIds:
+      - "paris-galeries-lafayette-haussmann"
+      - "paris-le-bon-marche"
+      - "paris-hermes-faubourg-saint-honore"
+      - "paris-louis-vuitton-maison-vendome"

@@ -1,0 +1,62 @@
+{
+  "type": "culture",
+  "name": "Fundacio Joan Miro",
+  "stageId": "trip-jul-04",
+  "tripArea": "Barcelona / Montjuic",
+  "coordinates": {
+    "lat": 41.3686,
+    "lng": 2.1597
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3686,2.1597",
+  "summary": "A high-value art stop directly on Montjuic, pairing Miro's work with views and Sert's museum architecture.",
+  "whyItMatters": "It sits near the selected Montjuic race areas, so it can work as a compact cultural anchor before or after race logistics if access allows.",
+  "timeRequired": "75-120 minutes",
+  "ticketOrReservationNeed": "Timed tickets recommended; buy online if planning around race crowds.",
+  "pros": [
+    "Very close to Montjuic Park and the Stage 1/2 viewing geography",
+    "Official 2026 listings include Joan Miro collection programming and temporary exhibitions",
+    "Good indoor option if July heat or waiting time becomes unpleasant"
+  ],
+  "cons": [
+    "Monday closures or special-event hours can break a race-week plan",
+    "Montjuic access may be affected by Tour de France security or road closures"
+  ],
+  "logistics": {
+    "opening_hours": "Official site publishes current daily status and visit planning; verify the exact July 2026 date before scheduling.",
+    "reservation_needed": "Recommended",
+    "distance_from_base": "Central Barcelona base dependent; generally a Montjuic-side outing.",
+    "distance_from_viewing_point": "About 0.5-1.0 km from the Montjuic Park / Olympic Stadium area.",
+    "transit": "Montjuic funicular, bus, taxi, or walk depending on closures.",
+    "parking": "Unknown; do not assume race-day parking on Montjuic.",
+    "road_closure_notes": "Needs city event and race closure verification for July 4-5, 2026."
+  },
+  "timing": {
+    "best_visit_window": "Non-race morning or early afternoon; only race day if Montjuic access is already confirmed.",
+    "race_day_risk": "Medium-high because Montjuic is central to the first two viewing days."
+  },
+  "nearbyFoodDrinkPairing": "Pair with a Poble-sec tapas/coffee stop after descending from Montjuic if transit is running normally.",
+  "tags": [
+    "art",
+    "montjuic",
+    "indoor",
+    "tickets-recommended"
+  ],
+  "status": "promising",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Fundacio Joan Miro official site",
+      "url": "https://www.fmirobcn.org/en/",
+      "note": "Supports location on Montjuic, ticket link, visit planning pages, current exhibitions, and daily open/closed status."
+    },
+    {
+      "title": "Fundacio Joan Miro - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fundaci%C3%B3_Joan_Mir%C3%B3",
+      "note": "Secondary support for the museum's Montjuic location, Miro focus, and Josep Lluis Sert building context."
+    }
+  ],
+  "open_questions": [
+    "What are the exact July 4-5, 2026 museum hours?",
+    "Will Montjuic security perimeters allow museum access on Stage 1 or Stage 2?"
+  ]
+}
