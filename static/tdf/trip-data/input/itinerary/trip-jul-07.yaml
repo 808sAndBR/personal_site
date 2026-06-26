@@ -1,0 +1,12 @@
+id: "trip-jul-07"
+dateLabel: "Tue Jul 7"
+title: "Puigcerda to Arreau Transfer"
+routeLabel: "Puigcerda > Arreau"
+base: "Arreau"
+summary: "Move from Cerdanya into the Pyrenees base for the Tourmalet stage block."
+dayPlan: "Transfer from Puigcerda to the Arreau base, keeping the day flexible for mountain-road timing, groceries, bike setup, and a low-key evening."
+resources:
+  -
+    label: "Pyrenees culture research summary"
+    url: "trip-data/research-inbox/culture/summary.md"
+    note: "Static research notes for possible transfer-day stops"

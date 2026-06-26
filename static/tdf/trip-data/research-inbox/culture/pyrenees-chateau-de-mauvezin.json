@@ -1,0 +1,62 @@
+{
+  "type": "culture",
+  "name": "Chateau de Mauvezin",
+  "stageId": "trip-jul-09",
+  "tripArea": "Arreau / Hautes-Pyrenees transfer corridor",
+  "coordinates": {
+    "lat": 43.1186,
+    "lng": 0.2764
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=43.1186,0.2764",
+  "summary": "A restored medieval castle and Gaston Febus museum that can break up Pyrenees driving without becoming a full-day commitment.",
+  "whyItMatters": "It is a practical cultural detour in the Hautes-Pyrenees rather than another major-city museum, and it fits the Arreau/Tourmalet geography better than Bordeaux or Barcelona-only ideas.",
+  "timeRequired": "60-90 minutes",
+  "ticketOrReservationNeed": "Ticket likely required; guided visits may vary by season.",
+  "pros": [
+    "Manageable stop near Pyrenees transfer routes",
+    "Medieval architecture and local Bigorre/Beam museum context",
+    "More weather-resilient than a purely scenic mountain stop"
+  ],
+  "cons": [
+    "Requires a car detour and exact route planning",
+    "Hours may be seasonal or affected by private events"
+  ],
+  "logistics": {
+    "opening_hours": "Official castle site should be checked for July 2026 hours.",
+    "reservation_needed": "Probably not for standard self-guided visit, but verify.",
+    "distance_from_base": "About 40-60 minutes from Arreau in normal driving conditions, route dependent.",
+    "distance_from_viewing_point": "Not near the Tourmalet summit itself; better as a transfer-day stop.",
+    "transit": "Car required.",
+    "parking": "Likely on-site/nearby village parking; verify with official site.",
+    "road_closure_notes": "Avoid assuming Stage 6 race-day access until closures are known."
+  },
+  "timing": {
+    "best_visit_window": "Pyrenees arrival/departure day, not the Tourmalet viewing day.",
+    "race_day_risk": "Medium if attempted on Stage 6 day; low on a separate transfer day."
+  },
+  "nearbyFoodDrinkPairing": "Pair with lunch in Mauvezin/Capvern or continue toward Bagneres-de-Bigorre depending on route.",
+  "tags": [
+    "castle",
+    "pyrenees",
+    "transfer-stop",
+    "medieval"
+  ],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Chateau de Mauvezin official site",
+      "url": "https://www.chateaudemauvezin.fr/",
+      "note": "Official visitor source for opening, tickets, and programs."
+    },
+    {
+      "title": "Chateau de Mauvezin - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Mauvezin",
+      "note": "Secondary support for the restored castle, Gaston Febus association, museum role, and monument historique status."
+    }
+  ],
+  "open_questions": [
+    "Does the final driving route naturally pass near Mauvezin?",
+    "Are there July 2026 guided visit times that make this more worthwhile than a self-guided stop?"
+  ]
+}

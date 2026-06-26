@@ -1,0 +1,54 @@
+{
+  "type": "coffee",
+  "name": "Cafe Nuances",
+  "stageId": null,
+  "tripArea": "Paris",
+  "coordinates": {
+    "lat": 48.8679319,
+    "lng": 2.3314675
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=48.8679319,2.3314675",
+  "summary": "Obvious central Paris specialty candidate near Opéra/Vendôme if the itinerary includes classic first-arrondissement walking.",
+  "whyItMatters": "Paris hotel details are not obvious from the current itinerary, so this is a central high-quality placeholder rather than a lodging-specific pick.",
+  "pros": [
+    "European Coffee Trip lists Cafe Nuances in its Paris specialty guide",
+    "Central Right Bank location can pair with Louvre, Palais Royal, Opéra, or shopping walks",
+    "Good candidate if Paris time is short and centrally focused"
+  ],
+  "cons": [
+    "Not tied to a known hotel location",
+    "Current official opening hours were not found in crawlable sources"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown; verify current hours",
+    "reservation_needed": "No",
+    "distance_from_base": "Paris lodging unknown",
+    "distance_from_viewing_point": "Not tied to a race viewing point",
+    "transit": "Central Paris; use metro/walk depending on hotel",
+    "parking": "Not recommended",
+    "road_closure_notes": "No Tour road-closure relevance identified"
+  },
+  "timing": {
+    "best_visit_window": "Morning central Paris walk",
+    "race_day_risk": "Low"
+  },
+  "tags": ["specialty-coffee", "paris", "hotel-location-needed"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "European Coffee Trip Paris guide",
+      "url": "https://europeancoffeetrip.com/paris/",
+      "note": "Lists Cafe Nuances among Paris specialty coffee candidates."
+    },
+    {
+      "title": "OpenStreetMap Cafe Nuances",
+      "url": "https://www.openstreetmap.org/search?query=Caf%C3%A9%20Nuances%20Rue%20Danielle%20Casanova%20Paris",
+      "note": "Supports mapped central Paris coordinates."
+    }
+  ],
+  "open_questions": [
+    "Replace or confirm after Paris hotel/neighborhood is known.",
+    "Verify current hours."
+  ]
+}

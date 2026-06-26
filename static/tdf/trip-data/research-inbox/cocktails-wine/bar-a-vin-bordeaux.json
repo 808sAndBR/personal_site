@@ -1,0 +1,48 @@
+{
+  "type": "cocktails_wine",
+  "name": "Le Bar a Vin de Bordeaux",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8434,
+    "lng": -0.5748
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Bar%20a%20Vin%20de%20Bordeaux",
+  "summary": "CIVB-backed Bordeaux wine bar near the Grand Theatre, useful for an easy city-center tasting flight.",
+  "whyItMatters": "This is the most obvious Bordeaux orientation stop: central, wine-specific, and tied to the official Bordeaux wine trade site.",
+  "pros": [
+    "Official Bordeaux.com page identifies it as a must-visit Bordeaux wine address.",
+    "Central location makes it easy to pair with a walk around the historic core."
+  ],
+  "cons": [
+    "Likely popular with visitors; verify race-week crowding and whether groups need to queue.",
+    "Official page was sourceable but machine extraction of current hours was noisy."
+  ],
+  "logistics": {
+    "opening_hours": "Needs final verification on the official page before promotion.",
+    "reservation_needed": "Unknown; likely walk-in-oriented, but verify for race week.",
+    "distance_from_base": "Unknown until lodging is fixed.",
+    "distance_from_viewing_point": "Central Bordeaux; verify against the selected stage-7 viewing point.",
+    "transit": "Central tram/walkable area; verify nearest stop after lodging is known.",
+    "parking": "Unknown; avoid relying on driving in central Bordeaux on race day.",
+    "road_closure_notes": "Stage 7 finishes in Bordeaux; do not assume normal access on Fri Jul 10, 2026."
+  },
+  "timing": {
+    "best_visit_window": "Non-race evening or after road closures clear on the Bordeaux finish day.",
+    "race_day_risk": "High on Fri Jul 10, 2026 because central Bordeaux access and crowds may be affected."
+  },
+  "tags": ["wine-bar", "bordeaux", "official-source", "race-day-risk"],
+  "status": "promising",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Bordeaux.com - Le Bar a Vin de Bordeaux",
+      "url": "https://www.bordeaux.com/en/bar-a-vin-bordeaux/",
+      "note": "Official Bordeaux wine site source for the venue identity and planning relevance as a Bordeaux wine address."
+    }
+  ],
+  "open_questions": [
+    "Confirm exact July 2026 opening hours and whether reservations or queues apply.",
+    "Check race-day access after Bordeaux publishes local road closure and transit notices."
+  ]
+}

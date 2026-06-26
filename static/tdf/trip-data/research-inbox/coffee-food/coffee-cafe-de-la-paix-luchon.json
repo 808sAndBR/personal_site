@@ -1,0 +1,55 @@
+{
+  "type": "coffee",
+  "name": "Cafe de la Paix",
+  "stageId": "trip-jul-09",
+  "tripArea": "Bagneres-de-Luchon / Tourmalet access corridor",
+  "coordinates": {
+    "lat": 42.7895276,
+    "lng": 0.5921781
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.7895276,0.5921781",
+  "summary": "Mapped Luchon cafe fallback on Allées d'Étigny for the Pyrenees corridor; not verified as specialty coffee.",
+  "whyItMatters": "The Arreau/Tourmalet corridor has sparse specialty-coffee evidence, so Luchon may be a practical stop if driving through or basing nearby.",
+  "pros": [
+    "Mapped cafe in a known Luchon central promenade area",
+    "Potentially useful on a Pyrenees logistics day when options are limited",
+    "Luchon is a notable town in the broader Tourmalet/Pyrenees access region"
+  ],
+  "cons": [
+    "No sourced evidence found that this is excellent or specialty coffee",
+    "Opening hours not verified",
+    "May be irrelevant if final Tourmalet approach does not pass through Luchon"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown",
+    "reservation_needed": "Unknown",
+    "distance_from_base": "Useful only if staying in or transiting through Luchon; Arreau distance is significant",
+    "distance_from_viewing_point": "Not close to Col du Tourmalet; corridor fallback only",
+    "transit": "Driving logistics unknown",
+    "parking": "Unknown",
+    "road_closure_notes": "Tourmalet day access restrictions require separate viewing logistics research"
+  },
+  "timing": {
+    "best_visit_window": "Morning on a Pyrenees transfer or reconnaissance day",
+    "race_day_risk": "Medium to high depending on Stage 6 closure and final access route"
+  },
+  "tags": ["fallback-caffeine", "needs-quality-verification", "pyrenees-corridor"],
+  "status": "candidate",
+  "confidence": "low",
+  "sources": [
+    {
+      "title": "OpenStreetMap Cafe de la Paix, Bagnères-de-Luchon",
+      "url": "https://www.openstreetmap.org/search?query=Caf%C3%A9%20de%20la%20Paix%20Bagn%C3%A8res-de-Luchon",
+      "note": "Supports mapped existence and coordinates; does not establish coffee quality or hours."
+    },
+    {
+      "title": "Bagnères-de-Luchon background",
+      "url": "https://en.wikipedia.org/wiki/Bagn%C3%A8res-de-Luchon",
+      "note": "Supports Luchon's location and relevance as a Pyrenees resort/access town, not coffee quality."
+    }
+  ],
+  "open_questions": [
+    "Verify whether any better specialty coffee exists in Arreau, Bagnères-de-Bigorre, La Mongie, or Luchon.",
+    "Confirm if the final Stage 6 approach makes Luchon relevant at all."
+  ]
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour de France Trip Planner</title>
+    <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">2026 Tour de France</p>
+          <h1>Trip Planning Board</h1>
+        </div>
+        <nav class="view-tabs" aria-label="Planner views">
+          <button class="tab-button" data-view="overview" type="button">Overview</button>
+          <button class="tab-button active" data-view="day" type="button">Day</button>
+          <button class="tab-button" data-view="compare" type="button">Stage Views</button>
+          <button class="tab-button" data-view="lodging" type="button">Lodging</button>
+          <button class="tab-button" data-view="transit" type="button">Transit</button>
+          <button class="tab-button" data-view="activities" type="button">Activities</button>
+          <button class="tab-button" data-view="intake" type="button">Intake</button>
+        </nav>
+      </header>
+
+      <main class="workspace">
+        <section class="map-column" aria-label="Map and planning views">
+          <aside class="sidebar" aria-label="Trip controls">
+            <section class="panel">
+              <div class="panel-heading">
+                <h2>Trip Jump</h2>
+              </div>
+              <label class="field-label" for="stage-select">Selected day</label>
+              <select id="stage-select"></select>
+              <div id="stage-summary" class="stage-summary"></div>
+            </section>
+            <section class="map-controls" aria-label="Map layers">
+              <div class="map-controls-heading">
+                <h2>Layers</h2>
+              </div>
+              <div class="layer-list" id="layer-list"></div>
+            </section>
+          </aside>
+          <div class="map-frame">
+            <div id="map"></div>
+            <button id="reset-map" class="map-reset-button" type="button">Reset Map</button>
+          </div>
+          <div class="detail-band">
+            <section id="overview-view" class="view-panel"></section>
+            <section id="day-view" class="view-panel active"></section>
+            <section id="compare-view" class="view-panel"></section>
+            <section id="lodging-view" class="view-panel"></section>
+            <section id="transit-view" class="view-panel"></section>
+            <section id="activities-view" class="view-panel"></section>
+            <section id="intake-view" class="view-panel"></section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./vendor/leaflet/leaflet.js"></script>
+    <script src="./trip-data/data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

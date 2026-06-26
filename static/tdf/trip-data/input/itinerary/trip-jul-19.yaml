@@ -1,0 +1,12 @@
+id: "trip-jul-19"
+dateLabel: "Sun Jul 19"
+title: "Paris Departure"
+routeLabel: "Departure day"
+base: "Paris"
+summary: "Final day of the July 1-19 trip."
+dayPlan: "Departure day placeholder. Add flight/train timing, checkout logistics, luggage plan, and any short morning activity once known."
+resources:
+  -
+    label: "Paris coffee research summary"
+    url: "trip-data/research-inbox/coffee-food/coffee-summary.md"
+    note: "Static research notes for an easy departure-morning coffee option"

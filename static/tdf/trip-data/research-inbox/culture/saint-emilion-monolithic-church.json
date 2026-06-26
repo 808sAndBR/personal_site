@@ -1,0 +1,69 @@
+{
+  "type": "culture",
+  "name": "Saint-Emilion underground monuments and monolithic church",
+  "stageId": "trip-jul-10",
+  "tripArea": "Saint-Emilion",
+  "coordinates": {
+    "lat": 44.8933,
+    "lng": -0.1564
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.8933,-0.1564",
+  "summary": "The most distinctive cultural stop in Saint-Emilion: guided underground monuments centered on the rock-cut monolithic church.",
+  "whyItMatters": "It gives the Saint-Emilion wine day a medieval/UNESCO anchor and can be paired naturally with lunch, a cellar visit, or a village walk.",
+  "timeRequired": "45-75 minutes for the guided monuments; 2-3 hours with village wandering.",
+  "ticketOrReservationNeed": "Guided-tour ticket required for underground monuments; book ahead in summer.",
+  "pros": [
+    "Highly distinctive, not interchangeable with ordinary church visits",
+    "Pairs naturally with Saint-Emilion wine and food plans",
+    "UNESCO landscape context strengthens the stop"
+  ],
+  "cons": [
+    "Access is tour-controlled, so timing must be reserved",
+    "Village parking and crowds can be difficult in summer",
+    "Not ideal for anyone uncomfortable underground"
+  ],
+  "logistics": {
+    "opening_hours": "Check Saint-Emilion tourism office tour schedule for the exact July 2026 date.",
+    "reservation_needed": "Yes",
+    "distance_from_base": "About 40-60 minutes from Bordeaux by car or train in normal conditions, route dependent.",
+    "distance_from_viewing_point": "Separate from Stage 7 Bordeaux finish; best as a non-race day or post-stage wine-area day.",
+    "transit": "Train to Saint-Emilion plus walk/taxi, or car with perimeter parking.",
+    "parking": "Use official village parking guidance; do not assume close-in parking.",
+    "road_closure_notes": "No specific TDF closure assumed in Saint-Emilion; verify local events and Bordeaux transfer constraints."
+  },
+  "timing": {
+    "best_visit_window": "Dedicated Saint-Emilion half-day, preferably not the Bordeaux finish day.",
+    "race_day_risk": "Low in Saint-Emilion itself, medium if linked to Bordeaux race-day transfers."
+  },
+  "nearbyFoodDrinkPairing": "Pair with a Saint-Emilion wine tasting, lunch terrace, or macaron stop in the village.",
+  "tags": [
+    "saint-emilion",
+    "unesco",
+    "underground",
+    "guided-tour",
+    "wine-day"
+  ],
+  "status": "promising",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Saint-Emilion tourism office",
+      "url": "https://www.saint-emilion-tourisme.com/",
+      "note": "Official source for underground-monument tour schedules, tickets, and village visitor logistics."
+    },
+    {
+      "title": "Saint-Emilion - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saint-%C3%89milion",
+      "note": "Secondary support for UNESCO status, medieval village context, and monolithic church significance."
+    },
+    {
+      "title": "Eglise monolithe de Saint-Emilion - Wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89glise_monolithe_de_Saint-%C3%89milion",
+      "note": "Secondary support for coordinates, rock-cut church description, underground layout, and monument history."
+    }
+  ],
+  "open_questions": [
+    "Which Saint-Emilion tasting/lunch plan should this be paired with?",
+    "Are underground monument tours available in English at useful times?"
+  ]
+}

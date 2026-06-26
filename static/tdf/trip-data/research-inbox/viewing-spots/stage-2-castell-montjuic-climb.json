@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-2-castell-montjuic-climb",
+  "name": "Cote du Chateau de Montjuic Climb",
+  "stageId": "trip-jul-05",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3635,
+    "lng": 2.166
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3635,2.1660",
+  "roadSegment": "Cote du Chateau de Montjuic / Montjuic Castle climb sector",
+  "estimatedPassageTime": "16:52 / 17:07 / 17:23 expected; slow estimates to 17:42 on final passage",
+  "elevationMeters": 163,
+  "summary": "Best race-value Montjuic option for Stage 2 because the official route climbs the Chateau de Montjuic three times.",
+  "whyItMatters": "The climb is listed three times at 1.6 km and 9.3%, so riders should slow substantially and the group can see multiple passages if positioned legally.",
+  "access": {
+    "estimated_route_from_base": "Approach via Montjuic on foot before final-circuit controls; exact route from base depends on lodging and closures.",
+    "parking_transit_possibilities": "Normal access can involve funicular/cable car/bus approaches to Montjuic, but race-day operation and crowd controls are unknown.",
+    "walk_bike_approach_notes": "Walking in early is the safest planning assumption. Cycling access after closures must be verified.",
+    "road_closure_notes": "Unknown; no 2026 Barcelona closure order found for the climb."
+  },
+  "pros": [
+    "Three official race passages on the same climb.",
+    "Steep gradient should make riders easier to see and identify.",
+    "Iconic Barcelona/Montjuic setting with strong Tour atmosphere."
+  ],
+  "cons": [
+    "Likely one of the most crowded public areas on the Barcelona stages.",
+    "Castle-area roads and narrow bends may have restricted or unsafe standing areas.",
+    "Bathroom, food, and shade are not guaranteed once the final circuit is sealed."
+  ],
+  "logistics": {
+    "parking": "Unknown; do not plan on driving to the castle area on race day.",
+    "transit": "Normal Montjuic options exist, but event-day service must be checked with TMB/Barcelona.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 5,
+    "road_closure_notes": "Needs official Barcelona Stage 2 circuit closure map."
+  },
+  "crowdRisk": "high: repeated steep climb, castle landmark, and final circuit make this a marquee spectator location.",
+  "bathroomFoodProximity": "Unknown on race day. Castle/park facilities and nearby kiosks may not remain accessible after barriers.",
+  "escapeRoute": "After the convoy clears, walk away from the summit/castle bottleneck toward Miramar, Poble-sec, or Placa d'Espanya depending on police directions.",
+  "safetyAssessment": "Avoid blind bends, narrow shoulders, and any location where fans would spill into the climbing lane; use outside-barrier standing space only.",
+  "timing": {
+    "best_arrival_window": "Morning to early afternoon; be in place before final-circuit closure and caravan passage.",
+    "race_day_risk": "High due to access, crowding, and climb-road control uncertainty."
+  },
+  "tags": ["stage-2", "barcelona", "montjuic", "climb", "multiple-passages"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 2 official page",
+      "url": "https://www.letour.fr/en/stage-2",
+      "note": "Supports Stage 2 timing, final circuit, three Cote du Chateau de Montjuic passages, climb length, elevation, and gradient."
+    },
+    {
+      "title": "TDF trip data official route note",
+      "url": "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/2",
+      "note": "Official ASO ArcGIS layer referenced by the app for Stage 2 route geometry; coordinate matches the app's selected Montjuic Castle point."
+    },
+    {
+      "title": "Montjuic background",
+      "url": "https://en.wikipedia.org/wiki/Montju%C3%AFc",
+      "note": "Supports Montjuic hill/castle context and normal access background; not a race-day logistics source."
+    }
+  ],
+  "open_questions": [
+    "Which parts of the Chateau de Montjuic climb will be public versus restricted?",
+    "Will spectators be allowed to remain between repeated circuit passages, and on which side?",
+    "Where are confirmed toilets, water, food, and first-aid points near the climb?"
+  ]
+}

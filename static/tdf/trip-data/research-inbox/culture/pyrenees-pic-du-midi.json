@@ -1,0 +1,64 @@
+{
+  "type": "culture",
+  "name": "Pic du Midi",
+  "stageId": "trip-jul-09",
+  "tripArea": "Tourmalet / La Mongie / Arreau corridor",
+  "coordinates": {
+    "lat": 42.9366,
+    "lng": 0.1411
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.9366,0.1411",
+  "summary": "A spectacular astronomy-and-Pyrenees viewpoint above the Tourmalet corridor, best treated as a dedicated non-race excursion.",
+  "whyItMatters": "It connects directly to the Tourmalet setting and gives the mountain days a cultural/scientific anchor beyond roadside race viewing.",
+  "timeRequired": "3-4 hours minimum from La Mongie once cable-car timing, summit visit, and buffers are included.",
+  "ticketOrReservationNeed": "Cable-car ticket required; advance booking strongly recommended.",
+  "pros": [
+    "One of the strongest non-city cultural/natural experiences near the Tourmalet plan",
+    "Observatory and high-altitude panorama make it distinct from generic scenic overlooks",
+    "Good candidate for a clear-weather day before or after Stage 6"
+  ],
+  "cons": [
+    "Not a quick stop from Arreau once driving and cable-car logistics are included",
+    "Weather can make the experience poor or impossible",
+    "Race-day road closures around Tourmalet/La Mongie could make it impractical on July 9"
+  ],
+  "logistics": {
+    "opening_hours": "Verify official cable-car operating calendar and weather status before committing.",
+    "reservation_needed": "Yes",
+    "distance_from_base": "Roughly 1-1.5 hours driving from Arreau to La Mongie in normal conditions; verify current routing.",
+    "distance_from_viewing_point": "Near the Tourmalet corridor but not the selected col roadside point; access starts from La Mongie.",
+    "transit": "Drive to La Mongie, then cable car.",
+    "parking": "La Mongie parking required; race-week restrictions unknown.",
+    "road_closure_notes": "Do not plan for Stage 6 race day unless official road closure research explicitly supports it."
+  },
+  "timing": {
+    "best_visit_window": "Clear-weather non-race day in the Pyrenees.",
+    "race_day_risk": "Very high on Stage 6 day"
+  },
+  "nearbyFoodDrinkPairing": "Pair with La Mongie or Bagneres-de-Bigorre food rather than relying on a tight summit schedule.",
+  "tags": [
+    "pyrenees",
+    "tourmalet",
+    "observatory",
+    "weather-dependent",
+    "advance-ticket"
+  ],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Pic du Midi official site",
+      "url": "https://www.picdumidi.com/en/",
+      "note": "Official visitor, ticket, weather, and cable-car planning source."
+    },
+    {
+      "title": "Tourmalet Pic du Midi - Wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Tourmalet_Pic_du_Midi",
+      "note": "Secondary support for the area's Tourmalet/Pic du Midi tourism context, observatory altitude, and dark-sky/cultural significance."
+    }
+  ],
+  "open_questions": [
+    "Which Pyrenees day is available for a 3-4 hour weather-dependent excursion?",
+    "What are the exact 2026 cable-car hours and refund/change rules?"
+  ]
+}

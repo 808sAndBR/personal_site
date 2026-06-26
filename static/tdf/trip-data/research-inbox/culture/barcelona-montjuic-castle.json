@@ -1,0 +1,67 @@
+{
+  "type": "culture",
+  "name": "Montjuic Castle",
+  "stageId": "trip-jul-05",
+  "tripArea": "Barcelona / Montjuic",
+  "coordinates": {
+    "lat": 41.3635,
+    "lng": 2.166
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3635,2.1660",
+  "summary": "A compact fortress stop with Barcelona views, directly adjacent to the selected Stage 2 Montjuic viewing area.",
+  "whyItMatters": "The castle is already the Stage 2 viewing reference point, so its cultural value can make waiting on Montjuic more worthwhile if access is open.",
+  "timeRequired": "45-90 minutes",
+  "ticketOrReservationNeed": "Ticket usually required for interior areas; exterior viewpoints may be enough for a short stop.",
+  "pros": [
+    "Essentially on top of the Stage 2 viewing location",
+    "Strong city and harbor views",
+    "Adds Catalan and military-history context to a day otherwise dominated by race logistics"
+  ],
+  "cons": [
+    "Most vulnerable to race-day access restrictions",
+    "Cable car/funicular operations and queues may be disrupted or overloaded"
+  ],
+  "logistics": {
+    "opening_hours": "Official city site should be checked for July 2026 hours and special closure notices.",
+    "reservation_needed": "Recommended if entering the castle museum areas.",
+    "distance_from_base": "Central Barcelona base dependent; Montjuic hill location.",
+    "distance_from_viewing_point": "At/near the selected Stage 2 Montjuic Castle viewing point.",
+    "transit": "Montjuic cable car/funicular, bus, taxi, or walk depending on closures.",
+    "parking": "Unknown; avoid assuming private-car access on race day.",
+    "road_closure_notes": "Critical: Stage 2 uses repeated Montjuic passages, so official closure checks are required."
+  },
+  "timing": {
+    "best_visit_window": "Best as a non-race-day or early-race-day add-on only if the viewing plan already places the group here.",
+    "race_day_risk": "High"
+  },
+  "nearbyFoodDrinkPairing": "Pair with Poble-sec before climbing or after descending; avoid relying on hilltop food availability during the race.",
+  "tags": [
+    "fortress",
+    "montjuic",
+    "viewpoint",
+    "race-day-risk"
+  ],
+  "status": "promising",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Montjuic Castle official city site",
+      "url": "https://www.barcelona.cat/castelldemontjuic/en",
+      "note": "Official source for visitor planning, tickets, and special notices."
+    },
+    {
+      "title": "Montjuic Castle - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Montju%C3%AFc_Castle",
+      "note": "Secondary support for fortress history, municipal status, and access context such as cable car/funicular links."
+    },
+    {
+      "title": "Tour de France Stage 2 official page",
+      "url": "https://www.letour.fr/en/stage-2",
+      "note": "Supports the race-day relevance of Montjuic and the selected viewing geography."
+    }
+  ],
+  "open_questions": [
+    "Will the castle itself remain open to visitors on July 5, 2026?",
+    "Where will the Stage 2 security perimeter sit relative to the castle entrance?"
+  ]
+}

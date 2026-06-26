@@ -1,0 +1,49 @@
+{
+  "type": "cocktails_wine",
+  "name": "La Maison du Vin de Saint-Emilion",
+  "stageId": null,
+  "tripArea": "Saint-Emilion",
+  "coordinates": {
+    "lat": 44.893728,
+    "lng": -0.156892
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Maison%20du%20Vin%20de%20Saint-Emilion",
+  "summary": "Central Saint-Emilion wine shop and orientation point with 450-plus local references at property prices.",
+  "whyItMatters": "This is the simplest Saint-Emilion wine stop: central, open year-round, and useful even without a booked château visit.",
+  "pros": [
+    "Official tourism page says it welcomes visitors year-round.",
+    "Official tourism page says it offers more than 450 Saint-Emilion wine references at property prices.",
+    "Central address at 1 Place Pierre Meyrat is easy to combine with village walking."
+  ],
+  "cons": [
+    "More retail/orientation than immersive vineyard experience.",
+    "Can overlap with the Ecole du Vin and Salon Degustation candidates at the same address."
+  ],
+  "logistics": {
+    "opening_hours": "Jul-Oct: 09:30-18:30 continuously; Nov-Jun: 09:30-12:30 and 14:00-18:00 per tourism page.",
+    "reservation_needed": "Not indicated for shop visit.",
+    "distance_from_base": "Unknown until Saint-Emilion lodging/activity plan is fixed.",
+    "distance_from_viewing_point": "Not race-day specific.",
+    "transit": "Central village location; verify train/walk/taxi plan from Bordeaux if not staying nearby.",
+    "parking": "Unknown; Saint-Emilion village parking can be constrained.",
+    "road_closure_notes": "Not tied to a current viewing stage, but check local event traffic."
+  },
+  "timing": {
+    "best_visit_window": "Start of Saint-Emilion visit to orient and choose bottles.",
+    "race_day_risk": "Low unless paired with the Bordeaux finish day transfer."
+  },
+  "tags": ["wine-shop", "saint-emilion", "official-tourism", "easy-stop"],
+  "status": "promising",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Saint-Emilion Tourisme - La Maison du Vin de Saint-Emilion",
+      "url": "https://www.saint-emilion-tourisme.com/fr/fiche/1610",
+      "note": "Supports year-round welcome, 450-plus references, property-price claim, address, coordinates, and seasonal opening hours."
+    }
+  ],
+  "open_questions": [
+    "Decide whether to promote this as a stand-alone stop or as the base for a guided tasting module.",
+    "Verify July 2026 village parking or train connection once the day plan is set."
+  ]
+}

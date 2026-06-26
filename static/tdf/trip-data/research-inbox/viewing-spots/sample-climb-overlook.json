@@ -1,0 +1,41 @@
+{
+  "type": "viewing_spot",
+  "name": "Sample Climb Overlook",
+  "stageId": "trip-jul-06",
+  "coordinates": {
+    "lat": 45.8588,
+    "lng": 6.7903
+  },
+  "estimatedPassageTime": "TBD",
+  "elevationMeters": 1340,
+  "summary": "Sample candidate for testing how climb-side viewing research should be shaped.",
+  "pros": [
+    "Likely more memorable than a flat roadside view",
+    "Could pair with nearby parking if access checks out"
+  ],
+  "cons": [
+    "Road closure timing is unknown",
+    "May require a long walk with limited services"
+  ],
+  "logistics": {
+    "parking": "Unknown",
+    "transit": "Unknown",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 3,
+    "road_closure_notes": "Needs official closure research"
+  },
+  "tags": ["sample", "climb", "needs-verification"],
+  "status": "candidate",
+  "confidence": "low",
+  "sources": [
+    {
+      "title": "Placeholder source",
+      "url": "https://example.com",
+      "note": "Replace with a real source during research"
+    }
+  ],
+  "open_questions": [
+    "Where exactly would we park?",
+    "How early do roads close?"
+  ]
+}

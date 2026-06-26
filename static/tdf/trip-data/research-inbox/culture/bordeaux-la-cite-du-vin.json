@@ -1,0 +1,63 @@
+{
+  "type": "culture",
+  "name": "La Cite du Vin",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8628,
+    "lng": -0.5505
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.8628,-0.5505",
+  "summary": "Bordeaux's signature wine-culture museum, best for a polished indoor stop tied to the region's main identity.",
+  "whyItMatters": "The Bordeaux stage and Saint-Emilion area make wine culture central to this part of the trip; this is the highest-profile city version of that theme.",
+  "timeRequired": "2-3 hours",
+  "ticketOrReservationNeed": "Ticket recommended; timed entry may be useful in July.",
+  "pros": [
+    "Directly relevant to Bordeaux and the wider wine itinerary",
+    "Indoor, structured, and easy to plan around heat or rain",
+    "Accessible by Bordeaux tram in normal conditions"
+  ],
+  "cons": [
+    "Not as short as a 30-minute photo stop",
+    "Can feel less intimate than Saint-Emilion or a winery visit",
+    "Race-day transit or finish-area crowds may affect timing"
+  ],
+  "logistics": {
+    "opening_hours": "Official site should be checked for July 2026 schedule and ticket slots.",
+    "reservation_needed": "Recommended",
+    "distance_from_base": "Bordeaux lodging dependent; north of the historic center.",
+    "distance_from_viewing_point": "Not at the Stage 7 finish; requires tram/taxi/walk planning.",
+    "transit": "Bordeaux tram Line B normally serves Cite du Vin; verify race-day transit notices.",
+    "parking": "Unknown; transit is preferable.",
+    "road_closure_notes": "Stage 7 finish in Bordeaux may affect central transit and roads."
+  },
+  "timing": {
+    "best_visit_window": "Bordeaux non-race day or Stage 7 morning if finish logistics are already secured.",
+    "race_day_risk": "Medium"
+  },
+  "nearbyFoodDrinkPairing": "Pair with Chartrons wine bars or riverfront food before/after, depending on transit.",
+  "tags": [
+    "bordeaux",
+    "wine-culture",
+    "museum",
+    "indoor"
+  ],
+  "status": "promising",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "La Cite du Vin official site",
+      "url": "https://www.laciteduvin.com/en",
+      "note": "Official visitor and ticket source."
+    },
+    {
+      "title": "Cite du Vin - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cit%C3%A9_du_Vin",
+      "note": "Secondary support for the museum's wine-culture purpose, Bordeaux location, opening history, and tram access context."
+    }
+  ],
+  "open_questions": [
+    "Is the group already planning a winery-heavy Saint-Emilion day, making this redundant?",
+    "What does Bordeaux transit look like on Stage 7 finish day?"
+  ]
+}

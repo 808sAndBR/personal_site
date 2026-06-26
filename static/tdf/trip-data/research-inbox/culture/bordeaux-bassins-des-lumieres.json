@@ -1,0 +1,63 @@
+{
+  "type": "culture",
+  "name": "Bassins des Lumieres",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8699,
+    "lng": -0.5592
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.8699,-0.5592",
+  "summary": "A dramatic immersive digital-art venue inside Bordeaux's former submarine base.",
+  "whyItMatters": "It is a strong contrast to wine museums and old-town architecture, and the official 2026 program includes Matisse, Frida Kahlo, The Little Prince, and Ocean programming.",
+  "timeRequired": "75-120 minutes",
+  "ticketOrReservationNeed": "Timed ticket recommended.",
+  "pros": [
+    "Unusual setting in the former submarine base",
+    "Official 2026 programming aligns with the trip dates",
+    "Good indoor evening or hot-afternoon option"
+  ],
+  "cons": [
+    "North of the historic center, so transit planning matters",
+    "Digital immersive format may not appeal to everyone",
+    "Timed tickets reduce flexibility"
+  ],
+  "logistics": {
+    "opening_hours": "Official site publishes opening times/rates; verify exact July 2026 hours.",
+    "reservation_needed": "Recommended",
+    "distance_from_base": "Bordeaux lodging dependent; north of central Bordeaux.",
+    "distance_from_viewing_point": "Away from the Stage 7 finish area; plan separate transit.",
+    "transit": "Use Bordeaux transit/taxi; verify race-day disruptions.",
+    "parking": "Unknown; official site and local parking should be checked.",
+    "road_closure_notes": "Stage 7 finish-day transit disruptions are possible in Bordeaux."
+  },
+  "timing": {
+    "best_visit_window": "Bordeaux evening or non-race afternoon.",
+    "race_day_risk": "Medium"
+  },
+  "nearbyFoodDrinkPairing": "Pair with a Chartrons stop or riverside dinner rather than returning across the entire city twice.",
+  "tags": [
+    "bordeaux",
+    "digital-art",
+    "indoor",
+    "timed-ticket"
+  ],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Bassins des Lumieres official site",
+      "url": "https://www.bassins-lumieres.com/en",
+      "note": "Supports venue identity, former submarine base setting, address, ticket link, and 2026 exhibition programming."
+    },
+    {
+      "title": "Bassins des Lumieres - Wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Bassins_des_Lumi%C3%A8res",
+      "note": "Secondary support for digital art center history, 2020 opening, and former submarine-base context."
+    }
+  ],
+  "open_questions": [
+    "Which show block is best around the Bordeaux schedule?",
+    "Does Stage 7 finish-day transport make the northern Bordeaux location awkward?"
+  ]
+}

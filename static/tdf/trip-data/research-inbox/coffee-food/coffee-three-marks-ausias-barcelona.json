@@ -1,0 +1,58 @@
+{
+  "type": "coffee",
+  "name": "Three Marks Coffee Ausias",
+  "stageId": "trip-jul-04",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3971791,
+    "lng": 2.1832075
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3971791,2.1832075",
+  "summary": "High-quality Barcelona specialty cafe with official daily hours, better for general city days than Montjuic race access.",
+  "whyItMatters": "A dependable destination-quality coffee option when the group is north/east of the center or wants a serious coffee stop away from race crowds.",
+  "pros": [
+    "Official site lists the Ausias address and daily 08:00-19:00 hours",
+    "European Coffee Trip lists Three Marks Coffee in Barcelona's specialty guide",
+    "Roaster/cafe setup makes it stronger as a coffee destination than a generic convenience stop"
+  ],
+  "cons": [
+    "Not especially close to Montjuic compared with Poble-sec/Sants options",
+    "May not be practical immediately before hill viewing"
+  ],
+  "logistics": {
+    "opening_hours": "Mon-Sun 08:00-19:00, per Three Marks contact page accessed 2026-06-22",
+    "reservation_needed": "No",
+    "distance_from_base": "Barcelona base; exact lodging distance unknown",
+    "distance_from_viewing_point": "Roughly 4-5 km from Montjuic Park by direct map distance; not a first-choice race approach stop",
+    "transit": "Near Eixample/Fort Pienc; use metro/taxi/walk depending on lodging",
+    "parking": "Unknown; not recommended before race viewing",
+    "road_closure_notes": "No specific closure source checked for this cafe"
+  },
+  "timing": {
+    "best_visit_window": "Non-race morning, or a city exploration day",
+    "race_day_risk": "Low for cafe operation, medium for using it before Montjuic due to distance/access"
+  },
+  "tags": ["specialty-coffee", "official-hours", "barcelona-destination"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Three Marks Coffee contact page",
+      "url": "https://www.threemarkscoffee.com/pages/contact",
+      "note": "Supports Ausias address and listed daily opening hours."
+    },
+    {
+      "title": "European Coffee Trip Barcelona guide",
+      "url": "https://europeancoffeetrip.com/barcelona/",
+      "note": "Lists Three Marks Coffee among Barcelona specialty coffee candidates."
+    },
+    {
+      "title": "OpenStreetMap Three Marks Coffee",
+      "url": "https://www.openstreetmap.org/search?query=Three%20Marks%20Coffee%20Carrer%20d%27Ausi%C3%A0s%20Marc%20151%20Barcelona",
+      "note": "Supports coordinates for the cafe."
+    }
+  ],
+  "open_questions": [
+    "Check lodging location; this becomes more valuable if staying near Eixample, Sagrada Familia, or Arc de Triomf."
+  ]
+}

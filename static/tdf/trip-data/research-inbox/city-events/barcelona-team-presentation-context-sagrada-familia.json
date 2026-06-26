@@ -1,0 +1,55 @@
+{
+  "type": "city_event",
+  "name": "Grand Depart Team Presentation Area - Sagrada Familia",
+  "stageId": "general-context",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.4036,
+    "lng": 2.1744
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sagrada%20Familia%2C%20Barcelona",
+  "summary": "Non-viewing-day context: TMB identifies July 2 team-presentation impacts in the Sagrada Familia area.",
+  "whyItMatters": "The team presentation is not a viewing day, but it may affect arrival plans, sightseeing, and transit if the trip overlaps July 2.",
+  "pros": [
+    "Official TMB notice confirms event-related disruptions in the Sagrada Familia area",
+    "Useful for avoiding accidental sightseeing plans in a locked-down/high-crowd zone",
+    "Connects to the official Grand Depart site schedule context"
+  ],
+  "cons": [
+    "This is explicitly not one of the selected viewing days",
+    "Exact public viewing setup, security perimeter, and event timing need the Ajuntament schedule/map",
+    "TMB page focuses on transport disruption rather than the cultural programme"
+  ],
+  "logistics": {
+    "opening_hours": "July 2; exact public event hours need official Ajuntament schedule verification",
+    "reservation_needed": "Unknown",
+    "distance_from_base": "Unknown",
+    "distance_from_viewing_point": "Not applicable",
+    "transit": "L2 Sagrada Familia station will not stop from 13:00 until the event ends; L5 Provenca-Marina concourse will close from 13:00 and access may be restricted.",
+    "parking": "Unknown; avoid driving near Sagrada Familia on July 2",
+    "road_closure_notes": "Treat Sagrada Familia and nearby streets as a high-disruption area on July 2."
+  },
+  "timing": {
+    "best_visit_window": "Avoid normal sightseeing transfers through Sagrada Familia on Thu Jul 2 after midday unless attending the event",
+    "race_day_risk": "medium"
+  },
+  "tags": ["official", "non-viewing-day", "team-presentation", "sagrada-familia", "transport-disruption"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "TMB - Avis Tour 2026",
+      "url": "https://www.tmb.cat/en/-/avis-tour-2026",
+      "note": "Official service notice confirming July 2 team-presentation disruptions in the Sagrada Familia area and L2/L5 access impacts."
+    },
+    {
+      "title": "Ajuntament de Barcelona - Tour de France Barcelona 2026",
+      "url": "https://www.letour.barcelona/en",
+      "note": "Official Grand Depart organizer site confirming Barcelona hosts the Grand Depart and listing key official event context."
+    }
+  ],
+  "open_questions": [
+    "Find the official Ajuntament programme page for the exact team presentation public route and timing.",
+    "Confirm whether the trip arrives early enough for July 2 context to matter."
+  ]
+}

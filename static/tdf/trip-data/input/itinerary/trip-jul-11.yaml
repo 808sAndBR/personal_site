@@ -1,0 +1,16 @@
+id: "trip-jul-11"
+dateLabel: "Sat Jul 11"
+title: "Saint-Emilion Wine Day"
+routeLabel: "Bordeaux > Saint-Emilion > Bordeaux"
+base: "Bordeaux"
+summary: "A Bordeaux-base wine-country day focused on Saint-Emilion."
+dayPlan: "Plan Saint-Emilion as the main non-race day: village walk, wine stop, and lunch or dinner depending on reservations and transport."
+resources:
+  -
+    label: "Saint-Emilion wine research summary"
+    url: "trip-data/research-inbox/cocktails-wine/summary.md"
+    note: "Static research notes for Saint-Emilion wine stops"
+  -
+    label: "Saint-Emilion culture candidate"
+    url: "trip-data/research-inbox/culture/saint-emilion-monolithic-church.json"
+    note: "Static research candidate for the monolithic church visit"

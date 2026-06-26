@@ -1,0 +1,12 @@
+id: "trip-jul-17"
+dateLabel: "Fri Jul 17"
+title: "Paris Day"
+routeLabel: "Paris local day"
+base: "Paris"
+summary: "Open Paris day for the last full-trip weekend window."
+dayPlan: "Hold this as a flexible Paris day until restaurant reservations, museum closures, and the group energy level are clearer."
+resources:
+  -
+    label: "Paris food research summary"
+    url: "trip-data/research-inbox/coffee-food/food-summary.md"
+    note: "Static research notes for placeholder Paris meals"

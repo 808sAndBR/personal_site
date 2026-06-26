@@ -1,0 +1,61 @@
+{
+  "type": "city_event",
+  "name": "Official Grand Depart Barcelona 2026 Organizer Site",
+  "stageId": "all-barcelona-catalonia-days",
+  "tripArea": "Barcelona / Catalonia",
+  "coordinates": {
+    "lat": 41.3874,
+    "lng": 2.1686
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Barcelona",
+  "summary": "Ajuntament-linked official Grand Depart site for stages, cities, news, and organizer updates.",
+  "whyItMatters": "This is the official city/organizer landing page to monitor for race programming, route updates, and city links beyond ASO's stage pages.",
+  "pros": [
+    "Official organizer site linked by TMB and branded with Ajuntament/Gencat partners",
+    "Confirms the three Catalonia stages on July 4, 5, and 6",
+    "Includes Barcelona, Tarragona, and Granollers city pages",
+    "Useful for official news and route/programme updates"
+  ],
+  "cons": [
+    "Does not currently surface detailed road-closure tables in the extracted page text",
+    "Some cultural-event programme details may be in news posts or dynamic pages that need follow-up",
+    "Not a substitute for TMB or local police/traffic notices"
+  ],
+  "logistics": {
+    "opening_hours": "Website resource; check periodically before and during Grand Depart week",
+    "reservation_needed": "Not applicable",
+    "distance_from_base": "Not applicable",
+    "distance_from_viewing_point": "Not applicable",
+    "transit": "Links out to official public agencies; use with TMB notice for Barcelona transit specifics",
+    "parking": "Unknown",
+    "road_closure_notes": "Use as primary official organizer index, then verify closure details with TMB/Ajuntament mobility notices."
+  },
+  "timing": {
+    "best_visit_window": "Review again in the final week before July 2-6",
+    "race_day_risk": "medium"
+  },
+  "tags": ["official", "organizer-site", "barcelona", "tarragona", "granollers", "grand-depart"],
+  "status": "shortlisted",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Ajuntament de Barcelona - Tour de France Barcelona 2026",
+      "url": "https://www.letour.barcelona/en",
+      "note": "Official organizer site confirming the Grand Depart, stage dates, start cities, news, and partner links."
+    },
+    {
+      "title": "Ajuntament de Barcelona - Barcelona city page",
+      "url": "https://www.letour.barcelona/en/cities/barcelona",
+      "note": "Official city page with Barcelona context, sustainable mobility and cycling-culture framing, and organizer footer."
+    },
+    {
+      "title": "TMB - Tour de France",
+      "url": "https://www.tmb.cat/en/tour-de-france",
+      "note": "Official transit page links to the Ajuntament Grand Depart site for schedule information."
+    }
+  ],
+  "open_questions": [
+    "Where on the organizer site is the final public programme for the Festa Major / city activities?",
+    "Will the site publish downloadable official route and pedestrian-crossing maps for each Barcelona event day?"
+  ]
+}

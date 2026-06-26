@@ -1,0 +1,62 @@
+{
+  "type": "culture",
+  "name": "Palau Guell",
+  "stageId": "trip-jul-04",
+  "tripArea": "Barcelona / Raval",
+  "coordinates": {
+    "lat": 41.3788,
+    "lng": 2.1742
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.3788,2.1742",
+  "summary": "A short, central Gaudi stop that is easier to fit than the bigger blockbuster sites.",
+  "whyItMatters": "It gives the trip a UNESCO/Gaudi hit without committing half a day, and it is relatively close to central hotels, La Rambla, and Poble-sec/Montjuic approaches.",
+  "timeRequired": "60-90 minutes",
+  "ticketOrReservationNeed": "Timed ticket recommended.",
+  "pros": [
+    "UNESCO-linked Gaudi architecture in a compact format",
+    "Central location can pair with a meal or walk rather than a dedicated museum day",
+    "Potentially easier than Sagrada Familia or Park Guell on a race-heavy schedule"
+  ],
+  "cons": [
+    "Still needs advance ticket planning in summer",
+    "Not directly on the Montjuic route; may be awkward during race closures"
+  ],
+  "logistics": {
+    "opening_hours": "Official site should be checked for July 2026 hours and free/closed days.",
+    "reservation_needed": "Recommended",
+    "distance_from_base": "Central Barcelona base dependent; near La Rambla / El Raval.",
+    "distance_from_viewing_point": "Roughly 2 km from Montjuic Park, depending on exact viewing point.",
+    "transit": "Metro/bus/walk from central Barcelona; verify race-day street closures.",
+    "parking": "Not recommended.",
+    "road_closure_notes": "Potential central Barcelona and Montjuic access impacts on July 4-5, 2026."
+  },
+  "timing": {
+    "best_visit_window": "A Barcelona non-race evening/morning, or Stage 1 morning if central access is calm.",
+    "race_day_risk": "Medium"
+  },
+  "nearbyFoodDrinkPairing": "Pair with El Raval or Poble-sec tapas; nearby La Boqueria works as a quick food stop if crowds are acceptable.",
+  "tags": [
+    "gaudi",
+    "unesco",
+    "architecture",
+    "central-barcelona"
+  ],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Palau Guell official site",
+      "url": "https://www.palauguell.cat/en",
+      "note": "Official visitor and ticket source."
+    },
+    {
+      "title": "Palau Guell - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Palau_G%C3%BCell",
+      "note": "Secondary support for Gaudi authorship, UNESCO World Heritage context, location, and compact-house description."
+    }
+  ],
+  "open_questions": [
+    "Are timed tickets available for the exact Barcelona dates once the trip schedule is fixed?",
+    "Would this duplicate other planned Gaudi stops?"
+  ]
+}

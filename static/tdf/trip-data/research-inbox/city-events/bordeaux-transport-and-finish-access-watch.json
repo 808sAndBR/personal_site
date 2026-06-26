@@ -1,0 +1,66 @@
+{
+  "type": "risk_note",
+  "name": "Bordeaux Finish Access and TBM Transport Watch",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8378,
+    "lng": -0.5792
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bordeaux%20centre",
+  "summary": "Monitor official Bordeaux/TBM notices for Stage 7 finish access, since no Tour-specific TBM disruption page was found yet.",
+  "whyItMatters": "The itinerary watches the Stage 7 Bordeaux finish, and the official Tour timetable shows the route entering the city via Pont Simone Veil before the finish.",
+  "pros": [
+    "Official Tour stage page confirms the Bordeaux approach and finish timing",
+    "TBM is the official public transport operator for Bordeaux Metropole",
+    "Place des Quinconces Fan Park gives a central official fallback gathering point"
+  ],
+  "cons": [
+    "No official Bordeaux/TBM Tour-specific road or transit notice was found during this pass",
+    "Exact finish line, barriers, parking, and pedestrian access need city/metropole publication",
+    "Central tram/bus service may be heavily altered around finish time"
+  ],
+  "logistics": {
+    "opening_hours": "Website/resource watch; recheck close to July 10",
+    "reservation_needed": "Not applicable",
+    "distance_from_base": "Unknown",
+    "distance_from_viewing_point": "Relevant to Bordeaux finish and Place des Quinconces Fan Park",
+    "transit": "Use TBM official site/app and any special-event notices once published",
+    "parking": "Unknown; avoid assuming central Bordeaux vehicle access on race day",
+    "road_closure_notes": "Official Stage 7 timetable lists Pont Simone Veil 17:07 / 17:18 / 17:29, Bordeaux entry 17:08 / 17:18 / 17:30, and finish 17:13 / 17:24 / 17:35."
+  },
+  "timing": {
+    "best_visit_window": "Recheck official Bordeaux and TBM sources daily during race week, then morning of Fri Jul 10",
+    "race_day_risk": "high"
+  },
+  "tags": ["official-source-watch", "bordeaux", "transport", "finish-access", "stage-7", "needs-local-notice"],
+  "status": "needs-research",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France Stage 7 - Hagetmau > Bordeaux",
+      "url": "https://www.letour.fr/en/stage-7",
+      "note": "Official ASO stage page with Bordeaux approach and finish timing."
+    },
+    {
+      "title": "TBM - Bordeaux public transport official website",
+      "url": "https://www.infotbm.com/en",
+      "note": "Official Bordeaux Metropole public transport site to monitor for Tour-related service notices."
+    },
+    {
+      "title": "City of Bordeaux official website",
+      "url": "https://www.bordeaux.fr/",
+      "note": "Official city site to monitor for municipal road closures, parking restrictions, and spectator information."
+    },
+    {
+      "title": "Tour de France - Fan Parks and Les Ateliers du Tour",
+      "url": "https://www.letour.fr/en/fan-parks",
+      "note": "Official ASO page confirming the Bordeaux Fan Park at Place des Quinconces on July 9-10."
+    }
+  ],
+  "open_questions": [
+    "Has Bordeaux or Bordeaux Metropole published a Tour de France 2026 circulation/parking order?",
+    "Will TBM alter tram service at Quinconces, Place de la Bourse, or stations near the finish?",
+    "Where exactly should spectators stand for the finish versus the Fan Park?"
+  ]
+}

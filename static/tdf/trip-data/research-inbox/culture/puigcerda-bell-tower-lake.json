@@ -1,0 +1,67 @@
+{
+  "type": "culture",
+  "name": "Puigcerda Bell Tower and lake walk",
+  "stageId": "trip-jul-06",
+  "tripArea": "Puigcerda",
+  "coordinates": {
+    "lat": 42.4315,
+    "lng": 1.9279
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.4315,1.9279",
+  "summary": "A low-friction Cerdanya stop: the old Santa Maria bell tower plus the lake/park, useful around Stage 3 timing.",
+  "whyItMatters": "Puigcerda is the selected Stage 3 viewing town, and this gives the day a local cultural stop without adding a drive.",
+  "timeRequired": "30-75 minutes",
+  "ticketOrReservationNeed": "Likely none for a basic exterior walk; verify bell-tower access if climbing.",
+  "pros": [
+    "Already in the Stage 3 viewing town",
+    "Flexible, mostly outdoor, and easy to shorten",
+    "Adds local Cerdanya context to a race day"
+  ],
+  "cons": [
+    "Less destination-worthy than Girona or Barcelona museum stops",
+    "Bell tower interior access and hours need verification"
+  ],
+  "logistics": {
+    "opening_hours": "Exterior walk is flexible; verify any official tower access hours locally.",
+    "reservation_needed": "No for exterior-only; unknown for interior climb.",
+    "distance_from_base": "In Puigcerda town center.",
+    "distance_from_viewing_point": "Near the selected Stage 3 Puigcerda viewing geography; exact route-side distance depends on closure plan.",
+    "transit": "Walk if staying/parking in town.",
+    "parking": "Unknown on race day; use the parking-transit agent's later closure research.",
+    "road_closure_notes": "Stage 3 passes through Puigcerda, so central access and parking are high-uncertainty."
+  },
+  "timing": {
+    "best_visit_window": "Before settling into the viewing spot or after race passage if roads and crowds allow.",
+    "race_day_risk": "Medium-high for central parking/access, low for the walk itself once already in town."
+  },
+  "nearbyFoodDrinkPairing": "Pair with a central Puigcerda bakery/cafe or a lakeside pause if open.",
+  "tags": [
+    "puigcerda",
+    "cerdanya",
+    "outdoor",
+    "race-day-flexible"
+  ],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Ajuntament de Puigcerda",
+      "url": "https://www.puigcerda.cat/",
+      "note": "Official municipal source to verify local visitor information, notices, and access."
+    },
+    {
+      "title": "Puigcerda - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Puigcerd%C3%A0",
+      "note": "Secondary support for the town's Cerdanya role and main sights including the lake and Santa Maria bell tower."
+    },
+    {
+      "title": "Tour de France Stage 3 official page",
+      "url": "https://www.letour.fr/en/stage-3",
+      "note": "Supports the Stage 3 relevance of Puigcerda."
+    }
+  ],
+  "open_questions": [
+    "Is the bell tower climb open in July 2026, and on what hours?",
+    "Where will Stage 3 closures place the practical walking route from parking/lodging?"
+  ]
+}

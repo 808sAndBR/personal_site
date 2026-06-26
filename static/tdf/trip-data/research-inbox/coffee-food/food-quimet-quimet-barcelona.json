@@ -1,0 +1,50 @@
+{
+  "type": "food",
+  "name": "Quimet & Quimet",
+  "stageId": "trip-jul-04",
+  "tripArea": "Barcelona / Poble-sec",
+  "coordinates": {
+    "lat": 41.3743,
+    "lng": 2.1646
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Quimet%20%26%20Quimet%20Carrer%20del%20Poeta%20Cabanyes%2025%20Barcelona",
+  "summary": "A classic Poble-sec tapas-and-montaditos stop close to Montjuic, but its weekday-only hours make it more useful before or after race weekend than on the weekend stages.",
+  "whyItMatters": "It is memorable, fast, and geographically relevant to Montjuic, yet the official hours are a planning constraint that should be visible early.",
+  "pros": [
+    "Official site says the family tavern dates to 1914",
+    "Specializes in tapas, montaditos, preserves, vermouth, and wine",
+    "No reservation process means it can work as a spontaneous snack when open"
+  ],
+  "cons": [
+    "Official site says Monday-Friday only, so closed for Saturday Stage 1 and Sunday Stage 2 under normal hours",
+    "First-come-first-served and popular, so waits are likely"
+  ],
+  "logistics": {
+    "opening_hours": "Monday-Friday 12:00-16:00 and 18:00-22:30.",
+    "reservation_needed": "No; official site says no reservations and first-come-first-served service.",
+    "takeaway_options": "Unknown; best treated as a standing/casual tapas stop.",
+    "distance_from_base": "Unknown until lodging is confirmed; in Poble-sec.",
+    "distance_from_viewing_point": "Close to Montjuic/Poble-sec access, exact distance depends on viewing point.",
+    "transit": "Poble-sec area; verify race-week station and walking access.",
+    "parking": "Not recommended.",
+    "road_closure_notes": "No specific closure information found for this business."
+  },
+  "timing": {
+    "best_visit_window": "Friday pre-race lunch or evening, or another weekday Barcelona window.",
+    "race_day_risk": "High for Stage 1/Stage 2 because normal hours do not include weekends."
+  },
+  "tags": ["barcelona", "poble-sec", "montjuic-nearby", "tapas", "weekday-only"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Quimet & Quimet official website",
+      "url": "https://quimetiquimet.com/",
+      "note": "Supports address, hours, no-reservations policy, history since 1914, and tapas/montaditos focus."
+    }
+  ],
+  "open_questions": [
+    "Verify whether any special Tour de France weekend hours are announced closer to July 2026.",
+    "Confirm exact walking route from the selected Montjuic viewing location."
+  ]
+}

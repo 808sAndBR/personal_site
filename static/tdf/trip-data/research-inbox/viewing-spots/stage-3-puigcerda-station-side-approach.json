@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-3-puigcerda-station-side-approach",
+  "name": "Puigcerda Station-Side N-260 Approach",
+  "stageId": "trip-jul-06",
+  "tripArea": "Puigcerda",
+  "coordinates": {
+    "lat": 42.4292,
+    "lng": 1.9276
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.4292,1.9276",
+  "roadSegment": "N-260/N-152 approach near Puigcerda station side; exact race-line side needs verification",
+  "estimatedPassageTime": "Around 15:52 / 16:02 / 16:14 local by proximity to official N-260 Puigcerda point",
+  "elevationMeters": 1185,
+  "summary": "Practical town-edge fallback near rail/station-side access, but the exact race-line and spectator side need local confirmation.",
+  "whyItMatters": "This could be easier for a group based in Puigcerda than fighting for a junction spot, while staying close to the official N-260 schedule point.",
+  "access": {
+    "estimated_route_from_base": "Walk from Puigcerda lodging or station area before closures; exact path depends on course barriers.",
+    "parking_transit_possibilities": "Rail station area exists in normal conditions; parking and station access during closures unknown.",
+    "walk_bike_approach_notes": "Useful only if the group can remain on the correct side of the N-260 without crossing the active course.",
+    "road_closure_notes": "Unknown; requires official local traffic plan."
+  },
+  "pros": [
+    "Close to the official N-260 Puigcerda timing landmark.",
+    "Station-side town access may reduce the need to drive.",
+    "Potential fallback if the main junction is too crowded or restricted."
+  ],
+  "cons": [
+    "Exact race line relative to this coordinate must be verified from official GIS/map before selection.",
+    "May have lower atmosphere and sightline quality than the named N-260 junction.",
+    "Could be blocked by barriers or railway/road fencing."
+  ],
+  "logistics": {
+    "parking": "Unknown; station-area parking may be unavailable or unreachable during closures.",
+    "transit": "Puigcerda station is on the R3/Ripoll-Puigcerda line in normal service, but event-day usefulness is unknown.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 3,
+    "road_closure_notes": "Needs Ajuntament/traffic authority publication."
+  },
+  "crowdRisk": "medium-low: likely less crowded than the main junction, but uncertainty is higher.",
+  "bathroomFoodProximity": "Unknown on race day; station/town facilities may exist in normal conditions but are not confirmed accessible.",
+  "escapeRoute": "Return on foot toward station/town on the same side of the route after convoy clearance.",
+  "safetyAssessment": "Reject if the only viewing space is a shoulder, traffic island, railway edge, or requires crossing the route after closure.",
+  "timing": {
+    "best_arrival_window": "3 hours before passage, adjusted once closure times are published.",
+    "race_day_risk": "Medium-high because exact standing feasibility is not sourced."
+  },
+  "tags": ["stage-3", "puigcerda", "fallback", "station-area", "needs-route-side-verification"],
+  "status": "candidate",
+  "confidence": "low",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 3 official page",
+      "url": "https://www.letour.fr/en/stage-3",
+      "note": "Supports the official N-260 Puigcerda route landmark and passage-time estimates used for this nearby fallback."
+    },
+    {
+      "title": "Puigcerda railway station background",
+      "url": "https://en.wikipedia.org/wiki/Puigcerd%C3%A0_railway_station",
+      "note": "Supports station existence, R3 service context, and address/elevation background; does not prove race-day access."
+    },
+    {
+      "title": "TDF trip data official route note",
+      "url": "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/2",
+      "note": "Official ASO ArcGIS layer referenced by the app for Stage 3 route geometry; exact coordinate should be checked against the layer before selection."
+    }
+  ],
+  "open_questions": [
+    "Does the official Stage 3 GIS line run directly past this station-side coordinate or only near it?",
+    "Will station-area pedestrian access be allowed during the N-260 closure?",
+    "Is there a safer nearby sidewalk/plaza with verified sightlines?"
+  ]
+}

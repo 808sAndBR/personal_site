@@ -1,0 +1,12 @@
+id: "trip-jul-15"
+dateLabel: "Wed Jul 15"
+title: "Paris Day"
+routeLabel: "Paris local day"
+base: "Paris"
+summary: "Open Paris day; exact museum, food, or walking plan still needs to be assigned."
+dayPlan: "Hold this as a second Paris planning slot for a larger museum, neighborhood walk, or recovery day once the Paris hotel and priorities are known."
+resources:
+  -
+    label: "Paris coffee research summary"
+    url: "trip-data/research-inbox/coffee-food/coffee-summary.md"
+    note: "Static research notes for placeholder Paris coffee ideas"

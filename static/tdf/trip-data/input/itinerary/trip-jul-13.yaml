@@ -1,0 +1,20 @@
+id: "trip-jul-13"
+dateLabel: "Mon Jul 13"
+title: "Bordeaux to Paris"
+routeLabel: "Bordeaux > Paris"
+base: "Paris"
+summary: "Transfer from Bordeaux toward the Paris portion of the trip."
+dayPlan: |
+  Transfer to Paris
+ourRoute:
+  - [44.8402,-0.5862]
+  - [48.8566,2.3522]
+resources:
+  -
+    label: "Paris coffee research summary"
+    url: "trip-data/research-inbox/coffee-food/coffee-summary.md"
+    note: "Static research notes for placeholder Paris coffee ideas"
+  -
+    label: "Paris culture candidate"
+    url: "trip-data/research-inbox/culture/paris-galerie-vivienne-covered-passages.json"
+    note: "Static research candidate for a flexible Paris walk"

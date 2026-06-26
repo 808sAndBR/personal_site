@@ -1,0 +1,54 @@
+{
+  "type": "cocktails_wine",
+  "name": "Les Cordeliers",
+  "stageId": null,
+  "tripArea": "Saint-Emilion",
+  "coordinates": {
+    "lat": 44.8936,
+    "lng": -0.1545
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Les%20Cordeliers%20Saint-Emilion",
+  "summary": "Historic cloister in Saint-Emilion with sparkling wine production, visits, shop, bar, and courtyard picnic potential.",
+  "whyItMatters": "This is a visually memorable wine stop inside the village, easier than a château transfer and good for mixed-interest groups.",
+  "pros": [
+    "Official site has ticketing, visits, boutique, bar/catering, and sparkling-wine production sections.",
+    "Official site lists address in the cloister at 2 bis rue de la Porte Brunet.",
+    "Official site lists opening hours for much of the week."
+  ],
+  "cons": [
+    "Not a classic still-red Saint-Emilion château tasting.",
+    "Exact July 2026 visit slots should be confirmed on the ticketing page."
+  ],
+  "logistics": {
+    "opening_hours": "Official site displayed Mon, Tue, Wed, Thu, Sun 10:30-19:00; verify Friday/Saturday and July 2026 details.",
+    "reservation_needed": "Recommended for cellar visits; official site has a ticketing link.",
+    "distance_from_base": "Unknown until lodging/activity plan is fixed.",
+    "distance_from_viewing_point": "Not race-day specific.",
+    "transit": "Central Saint-Emilion village; verify walking route because village streets are steep/cobbled.",
+    "parking": "Unknown; verify village parking if driving.",
+    "road_closure_notes": "No race-specific closure assumed."
+  },
+  "timing": {
+    "best_visit_window": "Late morning or afternoon in the Saint-Emilion village day.",
+    "race_day_risk": "Low unless paired with a Bordeaux race-day transfer."
+  },
+  "tags": ["wine-visit", "sparkling-wine", "saint-emilion", "historic-site"],
+  "status": "promising",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Les Cordeliers official website",
+      "url": "https://www.lescordeliers.com/en/",
+      "note": "Supports venue identity, ticketing/visits/bar/boutique sections, displayed opening hours, and address."
+    },
+    {
+      "title": "Decanter - Bordeaux travel: Where to eat and drink like a local",
+      "url": "https://www.decanter.com/wine-travel/bordeaux-travel-where-to-eat-and-drink-like-a-local-in-this-famous-wine-region",
+      "note": "Supports planning value as an easy Saint-Emilion picnic/wine option within town."
+    }
+  ],
+  "open_questions": [
+    "Confirm Friday/Saturday opening hours and cellar tour availability for the exact travel date.",
+    "Check accessibility for anyone uncomfortable with steep cobblestones."
+  ]
+}

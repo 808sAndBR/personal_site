@@ -1,0 +1,16 @@
+id: "trip-jul-12"
+dateLabel: "Sun Jul 12"
+title: "Bordeaux City Day"
+routeLabel: "Bordeaux local day"
+base: "Bordeaux"
+summary: "A flexible Bordeaux day for wine culture, food, and recovery after the race and Saint-Emilion."
+dayPlan: "Keep this as a lower-pressure Bordeaux day: La Cite du Vin or Bassins des Lumieres, city wandering, and a final Southwest France dinner."
+resources:
+  -
+    label: "Bordeaux culture research summary"
+    url: "trip-data/research-inbox/culture/summary.md"
+    note: "Static research notes for La Cite du Vin and Bassins des Lumieres"
+  -
+    label: "Bordeaux food research summary"
+    url: "trip-data/research-inbox/coffee-food/food-summary.md"
+    note: "Static research notes for Bordeaux meals"

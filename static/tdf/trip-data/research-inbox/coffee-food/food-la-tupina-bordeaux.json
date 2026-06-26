@@ -1,0 +1,55 @@
+{
+  "type": "food",
+  "name": "La Tupina",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8347,
+    "lng": -0.5636
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Tupina%206%20Rue%20Porte%20de%20la%20Monnaie%20Bordeaux",
+  "summary": "A classic Bordeaux/Southwest France destination meal for after the Bordeaux stage, with official reservations and hours.",
+  "whyItMatters": "This is the Bordeaux meal with the clearest sense of place: fire, Southwest products, old-city atmosphere, and a long local reputation.",
+  "pros": [
+    "Official site lists reservation link, address, phone, and hours",
+    "Strong regional identity around cuisine from the South-West",
+    "Open Friday lunch and dinner under normal hours, matching Stage 7 day"
+  ],
+  "cons": [
+    "Likely reservation-sensitive during a Tour de France finish in Bordeaux",
+    "Hearty meal may be better for dinner than a hot race-day lunch"
+  ],
+  "logistics": {
+    "opening_hours": "Tuesday-Sunday 12:00-14:00 and 19:00-22:00; Monday evening 19:00-22:00.",
+    "reservation_needed": "Yes, recommended; official site links to reservations.",
+    "takeaway_options": "No obvious takeaway role.",
+    "distance_from_base": "Unknown until lodging is confirmed; near Porte de la Monnaie/Saint-Michel side of central Bordeaux.",
+    "distance_from_viewing_point": "Unknown until Bordeaux viewing/finish plan is finalized.",
+    "transit": "Central Bordeaux; verify tram and pedestrian access under race operations.",
+    "parking": "Unknown; central parking likely constrained on Stage 7.",
+    "road_closure_notes": "No restaurant-specific closure note found; Bordeaux stage-finish closures may affect access."
+  },
+  "timing": {
+    "best_visit_window": "Stage 7 dinner or another Bordeaux night with a reservation.",
+    "race_day_risk": "Medium-high on Friday July 10 because Bordeaux finish crowds and closures may affect arrival."
+  },
+  "tags": ["bordeaux", "destination-meal", "southwest-france", "reservation-needed", "stage-7"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "La Tupina official website",
+      "url": "https://www.latupina.com/",
+      "note": "Supports address, phone, reservation link, hours, founding date, chef, and Southwest cuisine positioning."
+    },
+    {
+      "title": "Decanter Bordeaux food and drink guide",
+      "url": "https://www.decanter.com/wine-travel/bordeaux-travel-where-to-eat-and-drink-like-a-local-in-this-famous-wine-region",
+      "note": "Supports La Tupina as a traditional Bordeaux/Southwest dining recommendation and provides local food context."
+    }
+  ],
+  "open_questions": [
+    "Confirm reservation availability for Friday July 10, 2026.",
+    "Check Bordeaux stage-finish road closures and tram operations before choosing lunch vs dinner."
+  ]
+}

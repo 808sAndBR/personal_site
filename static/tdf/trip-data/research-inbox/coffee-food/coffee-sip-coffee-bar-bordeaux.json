@@ -1,0 +1,54 @@
+{
+  "type": "coffee",
+  "name": "SIP Coffee Bar",
+  "stageId": "trip-jul-10",
+  "tripArea": "Bordeaux",
+  "coordinates": {
+    "lat": 44.8385551,
+    "lng": -0.5786022
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.8385551,-0.5786022",
+  "summary": "Central Bordeaux specialty coffee bar candidate close to civic landmarks and likely finish-day walking routes.",
+  "whyItMatters": "A practical high-quality coffee option for the Stage 7 Bordeaux morning if the group is moving around the city center.",
+  "pros": [
+    "European Coffee Trip lists SIP Coffee Bar in Bordeaux's specialty guide",
+    "OpenStreetMap places it on Rue des Trois Conils in central Bordeaux",
+    "Likely more convenient to central sightseeing/finish-area wandering than outlying cafes"
+  ],
+  "cons": [
+    "Current official opening hours were not found in crawlable sources",
+    "Central race-day access may be constrained"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown; verify before relying on it for Stage 7",
+    "reservation_needed": "No",
+    "distance_from_base": "Central Bordeaux; exact lodging distance unknown",
+    "distance_from_viewing_point": "Potentially close to central finish-area activity, depending on final viewing point",
+    "transit": "Central Bordeaux; verify tram/bus operations on race day",
+    "parking": "Not recommended on Stage 7 finish day",
+    "road_closure_notes": "Bordeaux finish-area closures need separate verification"
+  },
+  "timing": {
+    "best_visit_window": "Morning or early lunch coffee before finish crowds peak",
+    "race_day_risk": "Medium because central Bordeaux will be crowded on finish day"
+  },
+  "tags": ["specialty-coffee", "bordeaux", "needs-hours-verification"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "European Coffee Trip Bordeaux guide",
+      "url": "https://europeancoffeetrip.com/bordeaux/",
+      "note": "Lists SIP Coffee Bar among Bordeaux specialty coffee candidates."
+    },
+    {
+      "title": "OpenStreetMap SIP Coffee Bar",
+      "url": "https://www.openstreetmap.org/search?query=SIP%20Coffee%20Bar%2069%20Rue%20des%20Trois%20Conils%20Bordeaux",
+      "note": "Supports mapped existence and coordinates."
+    }
+  ],
+  "open_questions": [
+    "Confirm current hours and whether service is quick enough for a race-day schedule.",
+    "Check whether Rue des Trois Conils has access restrictions around Stage 7."
+  ]
+}

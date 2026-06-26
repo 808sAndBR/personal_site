@@ -1,0 +1,73 @@
+{
+  "type": "viewing_spot",
+  "id": "stage-6-col-du-tourmalet-summit",
+  "name": "Col du Tourmalet Summit",
+  "stageId": "trip-jul-09",
+  "tripArea": "Col du Tourmalet / Arreau access",
+  "coordinates": {
+    "lat": 42.9083,
+    "lng": 0.1456
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.9083,0.1456",
+  "roadSegment": "D918 Col du Tourmalet - Souvenir Jacques Goddet summit",
+  "estimatedPassageTime": "16:30 / 16:43 / 16:58 local",
+  "elevationMeters": 2115,
+  "summary": "Iconic HC summit candidate with maximum race drama, but access from Arreau is not feasible to assume until official closure and parking rules are published.",
+  "whyItMatters": "The Tour schedule makes the Tourmalet the HC Souvenir Jacques Goddet point, and the viewing guide strongly favors climbs for slower rider passage when logistics are solved.",
+  "access": {
+    "estimated_route_from_base": "From Arreau, likely via D918/Col d'Aspin/Sainte-Marie-de-Campan/La Mongie side in normal road conditions; race-day vehicle feasibility unknown.",
+    "parking_transit_possibilities": "Unknown. Do not assume summit parking, roadside parking, camper parking, or shuttle access.",
+    "walk_bike_approach_notes": "Walking/cycling from lower access points may be required after road closure, but official allowance and distance are unknown.",
+    "road_closure_notes": "Unknown for 2026 Tour stage; mountain roads can close far earlier than rider passage."
+  },
+  "pros": [
+    "Legendary Tour de France HC climb and Souvenir Jacques Goddet summit.",
+    "Slow rider speeds and dense mountain atmosphere.",
+    "Official schedule point gives clear timing for later passage-time work."
+  ],
+  "cons": [
+    "Highest logistical risk of all candidates.",
+    "Crowding, weather exposure, limited toilets/water, and slow descent/exit are likely problems.",
+    "Could be inaccessible by car from Arreau once closures begin."
+  ],
+  "logistics": {
+    "parking": "Unknown; summit/roadside parking cannot be assumed.",
+    "transit": "Unknown; no official Tourmalet race-day shuttle source found.",
+    "walking_time_minutes": null,
+    "arrival_buffer_hours": 8,
+    "road_closure_notes": "Needs Hautes-Pyrenees prefecture/department road order and Tour spectator plan."
+  },
+  "crowdRisk": "very high: iconic HC summit, limited space, and mountain-pass bottlenecks.",
+  "bathroomFoodProximity": "Unknown and likely limited. Any summit restaurants/toilets must be verified as open and reachable after barriers.",
+  "escapeRoute": "Expect a delayed exit. Descend only after police/organizer clearance; likely bottleneck either toward La Mongie/Sainte-Marie-de-Campan or toward Bareges.",
+  "safetyAssessment": "Avoid inside bends, narrow shoulders, drop-offs, and standing where team cars/motos need room. Bring water, layers, food, and offline maps.",
+  "timing": {
+    "best_arrival_window": "Morning at minimum; consider night-before/very early arrival only if official access and parking allow it.",
+    "race_day_risk": "Very high until closure, parking, and pedestrian/cyclist access notices are published."
+  },
+  "tags": ["stage-6", "tourmalet", "hc-climb", "summit", "high-risk-logistics"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Tour de France 2026 Stage 6 official page",
+      "url": "https://www.letour.fr/en/stage-6",
+      "note": "Supports Stage 6 route, timing, Col du Tourmalet schedule point, HC category, 17.1 km climb at 7.3%, and Souvenir Jacques Goddet status."
+    },
+    {
+      "title": "TDF trip data official route note",
+      "url": "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/2",
+      "note": "Official ASO ArcGIS layer referenced by the app for Stage 6 route geometry; coordinate matches the app's selected Tourmalet point."
+    },
+    {
+      "title": "Col du Tourmalet background",
+      "url": "https://en.wikipedia.org/wiki/Col_du_Tourmalet",
+      "note": "Supports elevation, D918 pass context, eastern/western access towns, winter closure pattern, and Tourmalet's Tour history; not a 2026 closure source."
+    }
+  ],
+  "open_questions": [
+    "What time will D918 and approach roads close to vehicles, cyclists, and pedestrians?",
+    "Is any official parking/shuttle/camper plan published for the Tourmalet stage?",
+    "Are summit toilets, food, water, and medical points available to general spectators?"
+  ]
+}

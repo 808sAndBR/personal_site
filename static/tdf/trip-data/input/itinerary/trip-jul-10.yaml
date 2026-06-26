@@ -1,0 +1,50 @@
+id: "trip-jul-10"
+dateLabel: "Fri Jul 10"
+title: "Stage 7 - Hagetmau to Bordeaux"
+routeLabel: "Hagetmau > Bordeaux, 175.1 km"
+base: "Bordeaux"
+raceInfo:
+  startTime: "13:15 neutralised start"
+  endTime: "17:13 expected arrival"
+  officialUrl: "https://www.letour.fr/en/stage-7"
+  routeMap:
+    label: "Official stage map"
+    imageUrl: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tdf26-et07-cartepot-v2/71046/0%3A0%2C1169%3A1654-960-0-90/79a5c"
+    url: "https://www.letour.fr/en/stage-7"
+    note: "Official Tour de France stage page and map"
+  elevationProfile:
+    label: "Official elevation profile"
+    imageUrl: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/7-tdf26-profils-web-fr/70963/0:0,1004:602-960-0-90/5d682"
+    url: "https://www.letour.fr/en/stage-7"
+    note: "Official Tour de France stage profile"
+  officialRoute:
+    source: "arcgis"
+    layerUrl: "https://services9.arcgis.com/euYKeqX7FwwgASW5/arcgis/rest/services/TDF26bis/FeatureServer/2"
+    where: "Etape=7"
+    note: "Official ASO ArcGIS route geometry from the embedded Tour stage map"
+  route:
+    - [43.655,-0.592]
+    - [43.758,-0.572]
+    - [43.891,-0.5]
+    - [44.105,-0.545]
+    - [44.263,-0.522]
+    - [44.326,-0.581]
+    - [44.429,-0.49]
+    - [44.567,-0.415]
+    - [44.636,-0.318]
+    - [44.643,-0.317]
+    - [44.707,-0.393]
+    - [44.786,-0.496]
+    - [44.82,-0.53]
+    - [44.8378,-0.5792]
+summary: "Flat stage from Hagetmau through the Landes and Gironde to a Bordeaux finish."
+dayPlan: "Watch from Bordeaux per the itinerary. Official timing lists expected Bordeaux finish at 17:13, with pace estimates from 17:13 to 17:35."
+resources:
+  -
+    label: "Official Stage 7 page"
+    url: "https://www.letour.fr/en/stage-7"
+    note: "Stage route, timing, map, and profile"
+  -
+    label: "Official Stage 7 map image"
+    url: "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tdf26-et07-cartepot-v2/71046/0%3A0%2C1169%3A1654-960-0-90/79a5c"
+    note: "Official route map image"

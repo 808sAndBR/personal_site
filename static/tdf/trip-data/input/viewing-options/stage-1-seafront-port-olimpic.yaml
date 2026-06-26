@@ -1,0 +1,22 @@
+id: "stage-1-seafront-port-olimpic"
+stageId: "trip-jul-04"
+name: "Seafront / Port Olimpic early-route area"
+status: "candidate"
+priority: "Lower-stress scenic option"
+overview: ""
+lat: 41.3865
+lng: 2.197
+distanceFromBase: "~1.3 mi from Yurbban Passage"
+access: "Walk/taxi-transit depending closures; flatter than Montjuic."
+bikeUsefulness: "Bike only mildly useful if arriving very early; locking/closures still a nuisance."
+publicityCaravan: "Yes - on official route"
+caravanTime: "≈15:40"
+raceTime: "First team ≈17:08; last team ≈18:58"
+viewingQuality: "Good speed spectacle and easier space, but less tactically decisive than final climb."
+crowding: "Moderate-high; likely less compressed than finish/Sagrada Família."
+amenities: "Beachfront restaurants/kiosks; bathrooms around beach/marina but capacity uncertain; sun exposure high."
+roadClosureRisk: "Moderate: early-route roads close but more escape directions than Montjuic."
+exitStrategy: "Exit along seafront or back toward El Born; avoid course crossings."
+luggage: "Hotel base already in Barcelona; no luggage issue."
+notes: "Good fallback if the group wants lower stress, water views, and easier movement."
+sources: []

@@ -1,0 +1,49 @@
+{
+  "type": "food",
+  "name": "Macarons de Saint-Emilion",
+  "stageId": null,
+  "tripArea": "Saint-Emilion",
+  "coordinates": {
+    "lat": 44.8938,
+    "lng": -0.1567
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Macarons%20de%20Saint-Emilion%209%20Rue%20Guadet%20Saint-Emilion",
+  "summary": "An easy Saint-Emilion snack and edible souvenir tied to the village's historic almond macaron tradition.",
+  "whyItMatters": "This is the low-friction food memory for Saint-Emilion: quick, local, portable, and open daily under official hours.",
+  "pros": [
+    "Official site lists daily hours",
+    "Portable and giftable",
+    "Directly tied to Saint-Emilion's historic specialty"
+  ],
+  "cons": [
+    "Snack/souvenir rather than a meal",
+    "Could be busy with village tourism"
+  ],
+  "logistics": {
+    "opening_hours": "Monday-Saturday 8:00-19:00; Sunday 9:00-19:00.",
+    "reservation_needed": "No.",
+    "takeaway_options": "Excellent; shop sells macarons and boxes to carry.",
+    "distance_from_base": "Unknown until lodging/day plan is confirmed; in central Saint-Emilion village.",
+    "distance_from_viewing_point": "Not a race-day viewing food option.",
+    "transit": "Walkable within Saint-Emilion village; verify broader train/taxi plan from Bordeaux.",
+    "parking": "Unknown; village parking may require walking.",
+    "road_closure_notes": "No Tour de France closure relevance found for this non-viewing day candidate."
+  },
+  "timing": {
+    "best_visit_window": "Any Saint-Emilion village walk; buy before leaving town.",
+    "race_day_risk": "Low if not tied to race-day transfer timing."
+  },
+  "tags": ["saint-emilion", "quick-food", "souvenir", "takeaway", "local-specialty"],
+  "status": "candidate",
+  "confidence": "high",
+  "sources": [
+    {
+      "title": "Macarons de Saint-Emilion official website",
+      "url": "https://www.macarons-saint-emilion.fr/",
+      "note": "Supports address, daily hours, takeaway/boutique role, ingredients, and the 1620 recipe/history claim."
+    }
+  ],
+  "open_questions": [
+    "Confirm whether the group wants a small food-souvenir stop built into the Saint-Emilion walk."
+  ]
+}

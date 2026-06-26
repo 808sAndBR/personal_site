@@ -1,0 +1,16 @@
+id: "trip-jul-18"
+dateLabel: "Sat Jul 18"
+title: "Paris Final Full Day"
+routeLabel: "Paris local day"
+base: "Paris"
+summary: "Final full Paris day before the July 19 trip end."
+dayPlan: "Reserve this for the highest-priority remaining Paris activity and a final dinner once the Paris plan is curated."
+resources:
+  -
+    label: "Paris coffee research summary"
+    url: "trip-data/research-inbox/coffee-food/coffee-summary.md"
+    note: "Static research notes for placeholder Paris coffee ideas"
+  -
+    label: "Paris food research summary"
+    url: "trip-data/research-inbox/coffee-food/food-summary.md"
+    note: "Static research notes for placeholder Paris meals"

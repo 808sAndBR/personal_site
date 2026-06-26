@@ -1,0 +1,24 @@
+id: "stage-3-puigcerda-town-n260"
+stageId: "trip-jul-06"
+name: "Puigcerda town"
+status: "fallback"
+priority: "Practical pick"
+overview: |
+  Great option if it is raining or we dont feel up to a ride.
+  Could be fun to have the town energy and very short walk from lodging
+lat: 42.4309
+lng: 1.9294
+distanceFromBase: "~0.3 mi from Hotel Villa Paulita"
+access: "Walk from Hotel Villa Paulita"
+bikeUsefulness: "Bike unnecessary"
+publicityCaravan: "Yes - on official route"
+caravanTime: "≈14:32"
+raceTime: "Riders ≈15:52-16:14"
+viewingQuality: "Good practical viewing: town energy, official route, easy logistics; less mountain drama than Col de Toses."
+crowding: "Moderate-high but manageable for a small town; arrive early."
+amenities: "Best amenities: cafés, shops, hotel access, bathrooms; shade depends block."
+roadClosureRisk: "Low-medium if already in town; high if trying to drive in late."
+exitStrategy: "Walk back to hotel after race; minimal exit friction."
+luggage: "Strongest ability to drop luggage/check in or leave bags at hotel before spectating."
+notes: "Original itinerary says drive very early and spectate in Puigcerda; this option preserves that low-friction plan."
+sources: []

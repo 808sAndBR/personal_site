@@ -1,0 +1,53 @@
+{
+  "type": "cocktails_wine",
+  "name": "Sips",
+  "stageId": "trip-jul-05",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3889,
+    "lng": 2.1588
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sips%20Barcelona%20Carrer%20de%20Muntaner%20108",
+  "summary": "Highly awarded Eixample cocktail bar at Carrer de Muntaner 108, a strong Barcelona destination option.",
+  "whyItMatters": "Sips gives the trip a top-tier cocktail option away from the Gothic/El Born crush and closer to many Eixample lodging patterns.",
+  "pros": [
+    "Condé Nast Traveler identifies Sips at Calle/Carrer Muntaner 108 in Eixample.",
+    "The World's 50 Best Bars history supports its global cocktail reputation."
+  ],
+  "cons": [
+    "Likely high demand; reservations or queue strategy need verification.",
+    "Official site was not reliably fetchable during this pass."
+  ],
+  "logistics": {
+    "opening_hours": "Needs official/social verification.",
+    "reservation_needed": "Likely useful if available; verify current policy.",
+    "distance_from_base": "Unknown until Barcelona lodging is fixed.",
+    "distance_from_viewing_point": "Better as an evening plan than a race-viewing support stop.",
+    "transit": "Eixample location; verify metro/taxi from lodging.",
+    "parking": "Not recommended.",
+    "road_closure_notes": "Verify Barcelona TDF road closures before relying on taxis."
+  },
+  "timing": {
+    "best_visit_window": "Evening in Barcelona, ideally not immediately after a long race-day transfer.",
+    "race_day_risk": "Medium during Barcelona stages because taxis and central streets may be affected."
+  },
+  "tags": ["cocktails", "barcelona", "eixample", "destination-bar", "needs-hours-verification"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Condé Nast Traveler - What's on the Menu at the World's Best Cocktail Bar",
+      "url": "https://www.cntraveler.com/story/sips-barcelona-menu",
+      "note": "Supports address at Carrer/Calle Muntaner 108, Eixample context, founders, and destination cocktail value."
+    },
+    {
+      "title": "The World's 50 Best Bars",
+      "url": "https://www.worlds50bestbars.com/",
+      "note": "Industry recognition source; verify latest Sips ranking and award status before final itinerary promotion."
+    }
+  ],
+  "open_questions": [
+    "Find the current official reservation page or social account before promoting.",
+    "Confirm whether the group is willing to plan around a high-demand cocktail bar."
+  ]
+}

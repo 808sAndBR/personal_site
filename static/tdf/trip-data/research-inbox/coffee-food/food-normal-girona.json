@@ -1,0 +1,55 @@
+{
+  "type": "food",
+  "name": "Restaurant Normal",
+  "stageId": null,
+  "tripArea": "Girona",
+  "coordinates": {
+    "lat": 41.9847,
+    "lng": 2.8241
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Normal%20Placa%20de%20l'Oli%201%20Girona",
+  "summary": "A central Girona destination meal from the Roca team, with a more attainable reservation path than El Celler.",
+  "whyItMatters": "This is the best-fit 'memorable but not absurd' Girona dinner candidate: rooted Catalan cooking, central old-town location, and an official reservation flow.",
+  "pros": [
+    "Official reservation link exists",
+    "Central Placa de l'Oli location is convenient for walking Girona",
+    "Roca-family restaurant with a direct, traditional-cooking brief"
+  ],
+  "cons": [
+    "Official page did not expose current opening hours in browsable text",
+    "Likely needs advance booking in summer"
+  ],
+  "logistics": {
+    "opening_hours": "Unknown from official page text; verify on reservation page before committing.",
+    "reservation_needed": "Yes, recommended; official site links to restaurant reservations.",
+    "takeaway_options": "No obvious takeaway role.",
+    "distance_from_base": "Unknown until lodging is confirmed; central Girona old town.",
+    "distance_from_viewing_point": "Not a race-day viewing food option.",
+    "transit": "Walkable if staying central Girona; otherwise taxi/bike.",
+    "parking": "Unknown; old-town access may be constrained.",
+    "road_closure_notes": "No race-day closure information found for this specific restaurant."
+  },
+  "timing": {
+    "best_visit_window": "Girona dinner on a non-race night.",
+    "race_day_risk": "Medium if the itinerary depends on returning late from a stage; low otherwise."
+  },
+  "tags": ["girona", "destination-meal", "reservation-needed", "central"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Restaurant Normal official website",
+      "url": "https://restaurantnormal.com/",
+      "note": "Supports address, phone, reservation link, Roca-family ownership, and the restaurant's cooking concept."
+    },
+    {
+      "title": "El Celler de Can Roca official universe page",
+      "url": "https://cellercanroca.com/",
+      "note": "Supports Restaurant Normal as part of the Roca family group in Girona."
+    }
+  ],
+  "open_questions": [
+    "Verify July 2026 opening days and meal periods directly on the booking page.",
+    "Confirm whether any Girona race-week events affect old-town access."
+  ]
+}

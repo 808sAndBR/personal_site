@@ -1,0 +1,22 @@
+id: "stage-2-fontaines-montjuic-lower-circuit"
+stageId: "trip-jul-05"
+name: "Fontaines de Montjuic / lower circuit entry"
+status: "fallback"
+priority: "Best practical fallback"
+overview: ""
+lat: 41.3712
+lng: 2.1519
+distanceFromBase: "~2.3 mi from Yurbban Passage"
+access: "Metro/walk to Plaça d'Espanya; easiest Montjuic-adjacent option."
+bikeUsefulness: "Bike not needed; parking/lockup likely not worth it."
+publicityCaravan: "Yes - multiple official passes"
+caravanTime: "≈15:29 and ≈15:43"
+raceTime: "Riders roughly ≈16:51-17:20 on listed passes"
+viewingQuality: "Very good: circuit entry, wider area, likely multiple sightings; less pure climbing drama."
+crowding: "High but more navigable than castle/finish."
+amenities: "Good nearby urban amenities, Magic Fountain/Plaça d'Espanya area; shade mixed."
+roadClosureRisk: "Moderate-high: easiest to reach, but course crossings limited."
+exitStrategy: "Walk/metro from Plaça d'Espanya after crowds thin."
+luggage: "Hotel base already in Barcelona; no luggage issue."
+notes: "Likely the most balanced Stage 2 option if access to the upper climb is too restricted."
+sources: []

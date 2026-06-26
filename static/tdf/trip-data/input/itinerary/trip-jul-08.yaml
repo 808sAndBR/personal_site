@@ -1,0 +1,12 @@
+id: "trip-jul-08"
+dateLabel: "Wed Jul 8"
+title: "Arreau / Pyrenees Prep Day"
+routeLabel: "Arreau local day"
+base: "Arreau"
+summary: "A non-viewing mountain day for recovery, local exploring, and preparation before the Tourmalet stage."
+dayPlan: "Use Arreau as the base for groceries, bike checks, route scouting, and a short Pyrenees outing if weather and energy cooperate."
+resources:
+  -
+    label: "Pyrenees culture research summary"
+    url: "trip-data/research-inbox/culture/summary.md"
+    note: "Static research notes for Pic du Midi, Chateau de Mauvezin, and nearby alternatives"

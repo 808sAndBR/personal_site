@@ -1,0 +1,12 @@
+id: "trip-jul-16"
+dateLabel: "Thu Jul 16"
+title: "Paris Day"
+routeLabel: "Paris local day"
+base: "Paris"
+summary: "Open Paris day; reserve for a day trip, major sight, or flexible city time."
+dayPlan: "Keep this day uncommitted until the Paris wish list is clearer. It can become a day trip, a major ticketed attraction, or a low-pressure city day."
+resources:
+  -
+    label: "Paris culture candidate"
+    url: "trip-data/research-inbox/culture/paris-galerie-vivienne-covered-passages.json"
+    note: "Static research candidate for a flexible Paris walk"

@@ -1,0 +1,53 @@
+{
+  "type": "cocktails_wine",
+  "name": "Paradiso",
+  "stageId": "trip-jul-05",
+  "tripArea": "Barcelona",
+  "coordinates": {
+    "lat": 41.3838,
+    "lng": 2.1837
+  },
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Paradiso%20Barcelona%20Rera%20Palau",
+  "summary": "World-famous Barcelona cocktail bar in El Born, best treated as a destination night rather than a casual drop-in.",
+  "whyItMatters": "Barcelona has a serious cocktail scene; Paradiso is the splashiest pick and pairs naturally with an El Born evening.",
+  "pros": [
+    "Official site confirms Paradiso as a Barcelona cocktail venue.",
+    "The World's 50 Best Bars history places Paradiso among recent global leaders, supporting destination value."
+  ],
+  "cons": [
+    "Likely queues and tourist demand.",
+    "Official page did not expose clean current hours in the fetched HTML; verify before use."
+  ],
+  "logistics": {
+    "opening_hours": "Needs final verification on official site/social channels.",
+    "reservation_needed": "Unknown; verify current queue/reservation policy.",
+    "distance_from_base": "Unknown until Barcelona lodging is fixed.",
+    "distance_from_viewing_point": "Not close to Montjuic; treat as evening plan after race logistics settle.",
+    "transit": "El Born/Gothic Quarter area; verify metro or taxi from lodging.",
+    "parking": "Not recommended.",
+    "road_closure_notes": "Barcelona race days may affect city movement; verify local TDF notices."
+  },
+  "timing": {
+    "best_visit_window": "Late evening on a Barcelona night when no early next-day transfer is planned.",
+    "race_day_risk": "Medium on Jul 4-5, 2026 due to TDF crowds and city-center movement."
+  },
+  "tags": ["cocktails", "barcelona", "destination-bar", "needs-hours-verification"],
+  "status": "candidate",
+  "confidence": "medium",
+  "sources": [
+    {
+      "title": "Paradiso official website",
+      "url": "https://paradiso.cat/en/",
+      "note": "Official source for venue identity and Barcelona cocktail focus."
+    },
+    {
+      "title": "The World's 50 Best Bars",
+      "url": "https://www.worlds50bestbars.com/",
+      "note": "Industry recognition source; use to verify the latest ranking/history before promotion."
+    }
+  ],
+  "open_questions": [
+    "Confirm current July 2026 opening hours and whether reservations are possible.",
+    "Check whether the group wants a high-effort destination bar or lower-friction drinks near lodging."
+  ]
+}
