@@ -32,7 +32,7 @@ trip-jul-02:
     type: shopping
     name: Girona Shopping
     summary: |
-      Toy store
+      La Carpa (toy store) - Carrer de les Hortes 22, Girona
       Eat sleep cycle
       Espresso cups from la fabrica and espresso mafia maybe?
     status: planned
@@ -45,6 +45,18 @@ trip-jul-02:
     status: planned
     startTime: 18:30 (est)
     endTime: 20:00 (est)
+  - id: "trip-jul-02-el-cafe-dinner"
+    type: meal
+    name: El Cafè Dinner
+    summary: Pintxos and tapas bar right beside the Ajuntament — self-service from the bar, pay by counting sticks, open until 23h.
+    status: planned
+    startTime: 20:30 (est)
+    optionIds:
+      - "girona-el-cafe"
+    coordinates:
+      lat: 41.9839
+      lng: 2.8244
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Cafe+Carrer+dels+Ciutadans+1+Girona"
 
 
 trip-jul-03:
@@ -91,6 +103,30 @@ trip-jul-03:
     startTime: 20:00
 
 trip-jul-04:
+  - id: "trip-jul-04-raima"
+    type: shopping
+    name: Raima — Gothic Quarter
+    summary: Art supply and paper store on six floors in the Gothic Quarter with a rooftop vermouth bar; 15-min walk from the hotel.
+    status: planned
+    startTime: Morning
+    optionIds:
+      - "barcelona-raima"
+    coordinates:
+      lat: 41.3855
+      lng: 2.1728
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Raima+Carrer+Comtal+27+Barcelona"
+  - id: "trip-jul-04-fan-park"
+    type: sightseeing
+    name: TDF Fan Park
+    summary: Official fan zone near Sagrada Família with giant screens, cycling activities, and sponsor spaces — good spot to soak up the TTT atmosphere before or during the race.
+    status: needs-details
+    startTime: Afternoon
+    optionIds:
+      - "barcelona-tdf-fan-park"
+    coordinates:
+      lat: 41.3910
+      lng: 2.1807
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Passeig+de+Lluis+Companys+Barcelona"
   - id: "stage-1-race-start"
     type: FYI
     name: Race Start
@@ -105,6 +141,18 @@ trip-jul-04:
     startTime: "19:16 last arrival"
 
 trip-jul-05:
+  - id: "trip-jul-05-fan-park"
+    type: sightseeing
+    name: TDF Fan Park
+    summary: Hit the fan zone before the Stage 2 peloton arrives — screens show the race live from the start in Tarragona.
+    status: needs-details
+    startTime: Morning
+    optionIds:
+      - "barcelona-tdf-fan-park"
+    coordinates:
+      lat: 41.3910
+      lng: 2.1807
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Passeig+de+Lluis+Companys+Barcelona"
   - id: "stage-2-race-start"
     type: FYI
     name: Race Start
