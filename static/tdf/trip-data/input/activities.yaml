@@ -45,6 +45,18 @@ trip-jul-02:
     status: planned
     startTime: 18:30 (est)
     endTime: 20:00 (est)
+  - id: "trip-jul-02-el-cafe-dinner"
+    type: meal
+    name: El Cafè Dinner
+    summary: Pintxos and tapas bar right beside the Ajuntament — self-service from the bar, pay by counting sticks, open until 23h.
+    status: planned
+    startTime: 20:30 (est)
+    optionIds:
+      - "girona-el-cafe"
+    coordinates:
+      lat: 41.9839
+      lng: 2.8244
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Cafe+Carrer+dels+Ciutadans+1+Girona"
 
 
 trip-jul-03:
