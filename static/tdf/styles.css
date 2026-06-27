@@ -1135,6 +1135,15 @@ select {
   flex: 0 0 auto;
 }
 
+.places-controls-row {
+  margin-bottom: 14px;
+}
+
+.places-filter-control {
+  max-width: 280px;
+  flex-basis: 280px;
+}
+
 .activity-option-group {
   display: grid;
   gap: 10px;
@@ -1192,12 +1201,6 @@ select {
 
 .dot-lodging {
   background: var(--violet);
-}
-
-.intake-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  gap: 16px;
 }
 
 pre {
@@ -1262,7 +1265,6 @@ pre {
 
   .card-grid,
   .place-list,
-  .intake-layout,
   .stage-overview-row,
   .day-context-grid,
   .info-facts,

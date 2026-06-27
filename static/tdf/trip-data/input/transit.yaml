@@ -64,7 +64,7 @@ trip-jul-06:
   - id: transit-2026-07-06-barcelona-puigcerda
     name: Barcelona to Puigcerdà
     overview: Drive very early from Barcelona to Puigcerdà to spectate Stage 3, then stay at Hotel Villa Paulita.
-    time: Very early
+    time: 6:00 (est)
     start: "Yurbban Passage Hotel, Barcelona"
     end: "Hotel Villa Paulita, Puigcerdà"
     method: drive

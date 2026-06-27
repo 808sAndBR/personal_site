@@ -322,6 +322,7 @@ const viewingOptionFiles = parseYaml(loadText("./trip-data/input/viewing-options
 const viewingOptionRows = viewingOptionFiles.map((file) => parseYaml(loadText(`./trip-data/input/viewing-options/${file}`))).map((row) => ({
   ...row,
   coordinates: { lat: numberFromCell(row.lat), lng: numberFromCell(row.lng) },
+  coordinateText: { lat: String(row.lat ?? ""), lng: String(row.lng ?? "") },
   sources: Array.isArray(row.sources) ? row.sources : listFromCell(row.sources),
 }));
 
@@ -379,6 +380,7 @@ function placeFromViewingRow(row) {
     status,
     confidence: viewingConfidence(row),
     coordinates: row.coordinates,
+    coordinateText: row.coordinateText,
     estimatedPassageTime: row.raceTime,
     caravanTime: row.caravanTime,
     elevationMeters: null,
@@ -394,6 +396,7 @@ const lodgingRows = loadCsv("./trip-data/input/lodging.csv").map((row) => ({
   stageIds: listFromCell(row.stageIds || row.stageId),
   confirmed: yesNo(row.confirmed),
   coordinates: { lat: numberFromCell(row.lat), lng: numberFromCell(row.lng) },
+  coordinateText: { lat: String(row.lat ?? ""), lng: String(row.lng ?? "") },
   tags: listFromCell(row.tags),
 }));
 
@@ -410,6 +413,7 @@ function placeFromLodgingRow(row) {
     status: "selected",
     confidence: row.mapPrecision.toLowerCase().includes("approximate") ? "medium" : "high",
     coordinates: row.coordinates,
+    coordinateText: row.coordinateText,
     estimatedPassageTime: null,
     caravanTime: null,
     elevationMeters: null,
@@ -452,6 +456,7 @@ const placeRows = loadCsv("./trip-data/input/places.csv").map((row) => ({
   ...row,
   stageIds: listFromCell(row.stageIds || row.stageId),
   coordinates: { lat: numberFromCell(row.lat), lng: numberFromCell(row.lng) },
+  coordinateText: { lat: String(row.lat ?? ""), lng: String(row.lng ?? "") },
   tags: listFromCell(row.tags),
 }));
 
@@ -477,6 +482,7 @@ function placeFromPlaceRow(row) {
     status: row.status || "candidate",
     confidence: row.confidence || "medium",
     coordinates: row.coordinates,
+    coordinateText: row.coordinateText,
     estimatedPassageTime: null,
     caravanTime: null,
     elevationMeters: null,

@@ -7,7 +7,7 @@ trip-jul-01:
     name: Rocambolesc Gelato
     summary: Jordi Roca's gelateria on Carrer de Santa Clara — a good first stop after checking in before bike assembly.
     status: planned
-    startTime: Afternoon
+    startTime: 18:30 (est)
     optionIds:
       - "girona-rocambolesc"
     coordinates:
@@ -115,30 +115,21 @@ trip-jul-03:
     startTime: 20:00
 
 trip-jul-04:
-  - id: "trip-jul-04-raima"
-    type: shopping
-    name: Raima — Gothic Quarter
-    summary: Art supply and paper store on six floors in the Gothic Quarter with a rooftop vermouth bar; 15-min walk from the hotel.
-    status: planned
-    startTime: Morning
-    optionIds:
-      - "barcelona-raima"
-    coordinates:
-      lat: 41.3855
-      lng: 2.1728
-    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Raima+Carrer+Comtal+27+Barcelona"
-  - id: "trip-jul-04-fan-park"
+  - id: "trip-jul-04-barcelona-bike-tour"
     type: sightseeing
-    name: TDF Fan Park
-    summary: Official fan zone near Sagrada Família with giant screens, cycling activities, and sponsor spaces — good spot to soak up the TTT atmosphere before or during the race.
-    status: needs-details
-    startTime: Afternoon
-    optionIds:
-      - "barcelona-tdf-fan-park"
+    name: Barcelona Bike / E-Bike Tour
+    summary: Booked 3-hour Barcelona highlights and hidden gems bike tour from Plaça Reial.
+    overview: |
+      Booked via TripAdvisor for July 4 from 11:00-14:00.
+      Link: https://www.tripadvisor.com/AttractionProductReview-g187497-d16872860-Barcelona_3_hour_Bike_or_E_Bike_Tour_Highlights_and_Hidden_Gems-Barcelona_Cataloni.html
+      Starting spot: Plaça Reial, 08002 Barcelona, Spain.
+    status: confirmed
+    startTime: 11:00
+    endTime: 14:00
     coordinates:
-      lat: 41.3910
-      lng: 2.1807
-    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Passeig+de+Lluis+Companys+Barcelona"
+      lat: 41.3800
+      lng: 2.1752
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Placa+Reial+08002+Barcelona+Spain"
   - id: "stage-1-race-start"
     type: FYI
     name: Race Start
@@ -157,13 +148,23 @@ trip-jul-05:
     type: sightseeing
     name: TDF Fan Park
     summary: Hit the fan zone before the Stage 2 peloton arrives — screens show the race live from the start in Tarragona.
+    overview: |
+      Official page:
+      https://www.letour.barcelona/en/agenda-enjoy-tour-barcelona/fan-park-del-grand-depart-del-tour-de-franca-2026-99400773144
+
+      Timetable:
+      Thursday: 14:30-20:00
+      Friday and Saturday: 10:00-20:00
+      Sunday: 10:00-14:00 and 16:00-18:00
+
+      Free entrance.
     status: needs-details
-    startTime: Morning
+    startTime: 10:30
     optionIds:
       - "barcelona-tdf-fan-park"
     coordinates:
-      lat: 41.3910
-      lng: 2.1807
+      lat: 41.3911
+      lng: 2.1806
     googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Passeig+de+Lluis+Companys+Barcelona"
   - id: "stage-2-race-start"
     type: FYI
@@ -464,6 +465,9 @@ trip-jul-16:
     type: "day-trip"
     name: Versailles Palace
     summary: "Versailles tickets for 11:30am; travel doc notes about 1 hour by train to Versailles."
+    overview: |
+      Ticket link:
+      https://drive.google.com/file/d/1C1TrqZAs-Hh46vewWAwROCs_kJ_VOmmb/view?usp=sharing
     status: planned
     startTime: "11:30"
     endTime: Afternoon

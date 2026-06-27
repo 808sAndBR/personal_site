@@ -1,10 +1,11 @@
 const data = window.TDF_TRIP_DATA;
-const validViews = new Set(["overview", "day", "compare", "lodging", "transit", "activities", "intake"]);
+const validViews = new Set(["overview", "day", "compare", "places", "lodging", "transit", "activities", "intake"]);
 
 const state = {
   selectedStageId: data.itinerary[0].id,
   activeView: "day",
   hideCompareLowPriority: true,
+  placesTypeFilter: "all",
   layers: {
     stageRoute: true,
     ourRoute: true,
@@ -53,6 +54,7 @@ const els = {
   overview: document.querySelector("#overview-view"),
   day: document.querySelector("#day-view"),
   compare: document.querySelector("#compare-view"),
+  places: document.querySelector("#places-view"),
   lodging: document.querySelector("#lodging-view"),
   transit: document.querySelector("#transit-view"),
   activities: document.querySelector("#activities-view"),
@@ -88,6 +90,7 @@ function stateFromUrl() {
     selectedStageId: normalizeStageId(params.get("stage")),
     activeView: normalizeView(params.get("view")),
     hideCompareLowPriority: params.get("compare") !== "all",
+    placesTypeFilter: params.get("placeType") || "all",
   };
 }
 
@@ -96,6 +99,7 @@ function syncUrl({ replace = false } = {}) {
   params.set("view", state.activeView);
   params.set("stage", state.selectedStageId);
   if (!state.hideCompareLowPriority) params.set("compare", "all");
+  if (state.placesTypeFilter !== "all") params.set("placeType", state.placesTypeFilter);
 
   const nextUrl = `${window.location.pathname}?${params.toString()}${window.location.hash}`;
   const historyMethod = replace ? "replaceState" : "pushState";
@@ -107,6 +111,7 @@ function applyUrlState({ replace = false, rerenderMap = true, refreshMap = false
   state.selectedStageId = urlState.selectedStageId;
   state.activeView = urlState.activeView;
   state.hideCompareLowPriority = urlState.hideCompareLowPriority;
+  state.placesTypeFilter = urlState.placesTypeFilter;
   if (els.stageSelect) els.stageSelect.value = state.selectedStageId;
   if (replace) syncUrl({ replace: true });
   renderAll();
@@ -124,6 +129,9 @@ function updateNavigation(nextState = {}, options = {}) {
   }
   if (typeof nextState.hideCompareLowPriority === "boolean") {
     state.hideCompareLowPriority = nextState.hideCompareLowPriority;
+  }
+  if (typeof nextState.placesTypeFilter === "string") {
+    state.placesTypeFilter = nextState.placesTypeFilter || "all";
   }
 
   normalizeStateForActiveView();
@@ -211,9 +219,11 @@ function officialRoute(stage) {
 function stageActivities(stage) {
   const explicitActivities = (data.activities || []).filter((activity) => activity.stageId === stage.id);
   const options = stageOptions(stage.id);
-  const hasOptionActivity = explicitActivities.some((activity) => (activity.optionIds || []).length);
+  const hasExplicitStageViewingActivity = explicitActivities.some(
+    (activity) => activity.type === "stage-viewing" && optionsForActivity(activity).length,
+  );
 
-  if (!options.length || hasOptionActivity) return explicitActivities;
+  if (!options.length || hasExplicitStageViewingActivity) return explicitActivities;
 
   return [
     ...explicitActivities,
@@ -427,6 +437,22 @@ function resourceLinks(item) {
     url: link.url,
     note: link.note,
   }));
+}
+
+function dedupeLinks(links) {
+  const seen = new Set();
+
+  return links.filter((link) => {
+    if (!link?.url) return false;
+    const key = `${link.label || ""}::${link.url}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function mapActionLinks(place) {
+  return dedupeLinks([{ label: "Open in Google Maps", url: googleMapsUrl(place) }, ...resourceLinks(place)]);
 }
 
 function relatedPlaces(option) {
@@ -668,10 +694,7 @@ function renderMap({ fit = true } = {}) {
         <p class="popup-meta">${placeContextLabel(place, { overview: true })}</p>
         <p>${renderRichText(place.summary)}</p>
         ${renderPlaceFacts(place)}
-        ${renderActionLinks([
-          { label: "Open in Google Maps", url: googleMapsUrl(place) },
-          ...resourceLinks(place).slice(0, 2),
-        ])}
+        ${renderActionLinks(mapActionLinks(place).slice(0, 2))}
       `);
       boundsPoints.push(L.latLng(place.coordinates.lat, place.coordinates.lng));
     });
@@ -730,10 +753,7 @@ function renderMap({ fit = true } = {}) {
       <p class="popup-meta">${placeContextLabel(place)}</p>
       <p>${renderRichText(place.summary)}</p>
       ${renderPlaceFacts(place)}
-      ${renderActionLinks([
-        { label: "Open in Google Maps", url: googleMapsUrl(place) },
-        ...resourceLinks(place).slice(0, 2),
-      ])}
+      ${renderActionLinks(mapActionLinks(place).slice(0, 2))}
     `);
     boundsPoints.push(L.latLng(place.coordinates.lat, place.coordinates.lng));
   });
@@ -1131,9 +1151,114 @@ function renderPlaceCard(place) {
       <div class="tag-list">
         ${place.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}
       </div>
-      ${renderActionLinks([{ label: "Open in Google Maps", url: googleMapsUrl(place) }])}
+      ${renderActionLinks(mapActionLinks(place))}
       ${renderSourceList(place)}
     </article>
+  `;
+}
+
+function coordinatePrecision(value) {
+  const stringValue = String(value ?? "");
+  if (!stringValue.includes(".")) return 0;
+  return stringValue.split(".")[1].length;
+}
+
+function placePrecisionLabel(place) {
+  const latPrecision = coordinatePrecision(place.coordinateText?.lat ?? place.coordinates?.lat);
+  const lngPrecision = coordinatePrecision(place.coordinateText?.lng ?? place.coordinates?.lng);
+  const precision = Math.min(latPrecision, lngPrecision);
+
+  if (precision >= 5) return "High";
+  if (precision === 4) return "Good";
+  if (precision === 3) return "Coarse";
+  return "Approx";
+}
+
+function placeTypeLabel(type) {
+  return String(type || "")
+    .split("_")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+function renderPlacesView() {
+  const placeTypes = [...new Set(data.places.map((place) => place.type).filter(Boolean))].sort((a, b) =>
+    a.localeCompare(b),
+  );
+  const filteredPlaces = data.places.filter(
+    (place) => state.placesTypeFilter === "all" || place.type === state.placesTypeFilter,
+  );
+  const places = [...filteredPlaces].sort((a, b) => {
+    const stageDelta = firstStageIndex(a) - firstStageIndex(b);
+    if (stageDelta !== 0) return stageDelta;
+
+    const typeDelta = String(a.type).localeCompare(String(b.type));
+    if (typeDelta !== 0) return typeDelta;
+
+    return String(a.name).localeCompare(String(b.name));
+  });
+
+  els.places.innerHTML = `
+    <div class="section-header">
+      <div>
+        <h2>Places</h2>
+        <p>All mapped places across the trip, including coordinate precision so we can spot entries that may need a tighter pin.</p>
+      </div>
+      <span class="score-pill">${places.length}${places.length === data.places.length ? "" : ` / ${data.places.length}`} places</span>
+    </div>
+    <div class="activity-controls-row places-controls-row">
+      <div class="activity-day-control places-filter-control">
+        <label class="field-label" for="places-type-filter">Type filter</label>
+        <select id="places-type-filter">
+          <option value="all"${state.placesTypeFilter === "all" ? " selected" : ""}>All types</option>
+          ${placeTypes
+            .map((type) => `<option value="${escapeAttribute(type)}"${state.placesTypeFilter === type ? " selected" : ""}>${escapeHtml(placeTypeLabel(type))}</option>`)
+            .join("")}
+        </select>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Place</th>
+            <th>Type</th>
+            <th>Coordinates</th>
+            <th>Precision</th>
+            <th>Status</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${places.map(renderPlacesTableRow).join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function renderPlacesTableRow(place) {
+  const coordinatesLabel = `${place.coordinateText?.lat ?? place.coordinates.lat}, ${place.coordinateText?.lng ?? place.coordinates.lng}`;
+
+  return `
+    <tr>
+      <td>
+        <button class="table-link-button" type="button" data-select-stage="${escapeAttribute(place.stageId)}" data-jump-view="day">
+          ${escapeHtml(stageLabel(place.stageId))}
+        </button>
+      </td>
+      <td>
+        <strong>${escapeHtml(place.name)}</strong>
+        <span>${renderRichText(place.summary || "Place details TBD.")}</span>
+      </td>
+      <td>${escapeHtml(placeTypeLabel(place.type))}</td>
+      <td>${escapeHtml(coordinatesLabel)}</td>
+      <td>${escapeHtml(place.mapPrecision || placePrecisionLabel(place))}</td>
+      <td><span class="table-status">${escapeHtml(place.status || "candidate")}</span></td>
+      <td>${renderActionLinks(mapActionLinks(place).slice(0, 2))}</td>
+    </tr>
   `;
 }
 
@@ -1551,11 +1676,12 @@ function renderView() {
   els.views.forEach((view) => view.classList.remove("active"));
   document.querySelector(`#${state.activeView}-view`).classList.add("active");
   els.workspace.classList.toggle("workspace--day", state.activeView === "day");
-  els.workspace.classList.toggle("workspace--no-map", ["lodging", "transit", "activities", "intake"].includes(state.activeView));
+  els.workspace.classList.toggle("workspace--no-map", ["places", "lodging", "transit", "activities", "intake"].includes(state.activeView));
 
   renderOverview();
   renderDay();
   renderCompare();
+  renderPlacesView();
   renderLodgingView();
   renderTransitView();
   renderActivitiesView();
@@ -1588,6 +1714,11 @@ document.addEventListener("change", (event) => {
 
   if (event.target.id === "compare-hide-low-priority") {
     updateNavigation({ hideCompareLowPriority: event.target.checked });
+    return;
+  }
+
+  if (event.target.id === "places-type-filter") {
+    updateNavigation({ placesTypeFilter: event.target.value }, { replaceUrl: true });
   }
 });
 
