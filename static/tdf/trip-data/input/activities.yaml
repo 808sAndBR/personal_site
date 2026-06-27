@@ -112,9 +112,9 @@ trip-jul-04:
     optionIds:
       - "barcelona-tdf-fan-park"
     coordinates:
-      lat: 41.4036
-      lng: 2.1744
-    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sagrada+Familia+Barcelona"
+      lat: 41.3910
+      lng: 2.1807
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Passeig+de+Lluis+Companys+Barcelona"
   - id: "stage-1-race-start"
     type: FYI
     name: Race Start
@@ -138,9 +138,9 @@ trip-jul-05:
     optionIds:
       - "barcelona-tdf-fan-park"
     coordinates:
-      lat: 41.4036
-      lng: 2.1744
-    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sagrada+Familia+Barcelona"
+      lat: 41.3910
+      lng: 2.1807
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Passeig+de+Lluis+Companys+Barcelona"
   - id: "stage-2-race-start"
     type: FYI
     name: Race Start
