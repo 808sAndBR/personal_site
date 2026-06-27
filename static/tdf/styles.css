@@ -430,9 +430,9 @@ select {
 
 .overview-activity-title {
   display: grid;
-  grid-template-columns: minmax(92px, 0.32fr) minmax(0, 1fr) auto;
+  grid-template-columns: 180px minmax(0, 1fr) auto;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
   padding: 7px 0;
   color: var(--ink);
   font-size: 0.92rem;
