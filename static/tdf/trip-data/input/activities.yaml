@@ -103,6 +103,18 @@ trip-jul-04:
       lat: 41.3855
       lng: 2.1728
     googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Raima+Carrer+Comtal+27+Barcelona"
+  - id: "trip-jul-04-fan-park"
+    type: sightseeing
+    name: TDF Fan Park
+    summary: Official fan zone near Sagrada Família with giant screens, cycling activities, and sponsor spaces — good spot to soak up the TTT atmosphere before or during the race.
+    status: needs-details
+    startTime: Afternoon
+    optionIds:
+      - "barcelona-tdf-fan-park"
+    coordinates:
+      lat: 41.4036
+      lng: 2.1744
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sagrada+Familia+Barcelona"
   - id: "stage-1-race-start"
     type: FYI
     name: Race Start
@@ -117,6 +129,18 @@ trip-jul-04:
     startTime: "19:16 last arrival"
 
 trip-jul-05:
+  - id: "trip-jul-05-fan-park"
+    type: sightseeing
+    name: TDF Fan Park
+    summary: Hit the fan zone before the Stage 2 peloton arrives — screens show the race live from the start in Tarragona.
+    status: needs-details
+    startTime: Morning
+    optionIds:
+      - "barcelona-tdf-fan-park"
+    coordinates:
+      lat: 41.4036
+      lng: 2.1744
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sagrada+Familia+Barcelona"
   - id: "stage-2-race-start"
     type: FYI
     name: Race Start
