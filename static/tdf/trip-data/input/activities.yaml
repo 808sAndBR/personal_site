@@ -2,6 +2,18 @@
 # Each top-level key is a stage id and each entry becomes one activity row in the app.
 
 trip-jul-01:
+  - id: "trip-jul-01-rocambolesc"
+    type: meal
+    name: Rocambolesc Gelato
+    summary: Jordi Roca's gelateria on Carrer de Santa Clara — a good first stop after checking in before bike assembly.
+    status: planned
+    startTime: Afternoon
+    optionIds:
+      - "girona-rocambolesc"
+    coordinates:
+      lat: 41.9826
+      lng: 2.8201
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Rocambolesc+Girona+Carrer+Santa+Clara"
   - id: "trip-jul-01-assemble-bikes"
     type: prep
     name: Assemble Bikes
