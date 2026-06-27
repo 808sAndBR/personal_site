@@ -1,6 +1,7 @@
 ## Basic Configuration
 baseurl = "/"
 languageCode = "en"
+minify = true
 
 title = "Scott Brenstuhl"
 theme = "hyde-hyde"
