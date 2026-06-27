@@ -91,6 +91,18 @@ trip-jul-03:
     startTime: 20:00
 
 trip-jul-04:
+  - id: "trip-jul-04-raima"
+    type: shopping
+    name: Raima — Gothic Quarter
+    summary: Art supply and paper store on six floors in the Gothic Quarter with a rooftop vermouth bar; 15-min walk from the hotel.
+    status: planned
+    startTime: Morning
+    optionIds:
+      - "barcelona-raima"
+    coordinates:
+      lat: 41.3855
+      lng: 2.1728
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Raima+Carrer+Comtal+27+Barcelona"
   - id: "stage-1-race-start"
     type: FYI
     name: Race Start
