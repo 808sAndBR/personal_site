@@ -408,7 +408,7 @@ trip-jul-14:
   - id: "trip-jul-14-opera-ballet"
     type: performance
     name: Paris Opera Ballet
-    summary: "Paris Opera Ballet booking at 2:30pm; confirmation 20502187."
+    summary: "Paris Opera Ballet booking at 2:30pm;."
     status: planned
     startTime: "14:30"
     endTime: Afternoon
